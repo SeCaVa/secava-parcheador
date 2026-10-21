@@ -6,7 +6,7 @@ Entorno: Windows, Node.js 24.19.0. Fecha local: 22 de octubre de 2026. Las prueb
 
 - `npm run typecheck`: correcto.
 - `npm test`: **88 pruebas correctas** en cinco archivos.
-- `npm run build`: correcto. Genera el catálogo validado, cinco parches oficiales habilitados de cuatro proyectos y el bundle estático en `dist/`.
+- `npm run build`: correcto. Genera el catálogo validado, seis parches oficiales habilitados de cinco proyectos y el bundle estático en `dist/`.
 - Playwright: **85 pruebas correctas** entre los cinco perfiles: 68 en la validación de Chrome/WebKit (escritorio y pantallas móviles emuladas), más 17 en la validación posterior de Firefox 157 de escritorio. Incluyen los modos de desarrollo y producción.
 - Axe: sin infracciones detectadas de las reglas WCAG 2 A/AA y 2.1 A/AA seleccionadas para la pantalla inicial y una ficha. Esto es una comprobación automatizada parcial, no una certificación completa de accesibilidad.
 - Diseño: capturas de escritorio y móvil inspeccionadas; sin desbordamiento horizontal.
@@ -29,7 +29,7 @@ El pipeline completo comprueba además el SHA-256 y tamaño del parche descargad
 
 **Fallo inicial de Firefox resuelto con una instalación local.** La copia compartida bajo AppData devolvía «la configuración en paralelo no es correcta» y `spawn UNKNOWN`; el registro SideBySide de Windows señalaba el ensamblado `mozglue`. Reinstalar en esa misma ubicación no resolvió el error. La misma distribución oficial, instalada bajo `.cache/playwright` dentro del proyecto, sí arrancó y superó las 17 pruebas. Esto localiza el problema en el contexto de instalación/arranque de aquella ruta; no demuestra una ausencia del runtime de Visual C++.
 
-`npm run install:firefox` reproduce la instalación local. La configuración de Playwright la usa en Windows cuando su revisión coincide con la del paquete instalado; Linux/CI conserva la selección predeterminada. No se modificaron ejecutables, se retiraron la copia y el manifiesto temporales de diagnóstico y no se cambiaron el navegador predeterminado ni perfiles personales. `npm run typecheck` también pasó después del ajuste. El workflow remoto de Ubuntu todavía no se ha ejecutado.
+`npm run install:firefox` reproduce la instalación local. La configuración de Playwright la usa en Windows cuando su revisión coincide con la del paquete instalado; Linux/CI conserva la selección predeterminada. No se modificaron ejecutables, se retiraron la copia y el manifiesto temporales de diagnóstico y no se cambiaron el navegador predeterminado ni perfiles personales. `npm run typecheck` también pasó después del ajuste. El workflow remoto de Ubuntu ha superado asimismo las 88 pruebas unitarias y las 85 de navegador antes de publicar en Pages.
 
 No se han probado dispositivos móviles físicos ni jugado ROMs reales. Se ha procesado un archivo inventado de 32 MiB en cada perfil; eso no garantiza funcionamiento con el máximo de 64 MiB en cualquier teléfono. El límite de tamaño se comprueba antes de leer el archivo, y en el motor antes de asignar la salida.
 

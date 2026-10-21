@@ -10,12 +10,12 @@ Se descargaron únicamente ocho parches BPS/UPS, se comprobó cada SHA-256 contr
 | Emerald Rogue v1.1 UPS | 1F1C08FB | 16777216 | 793E49AC | 607062F1 | Bloquear |
 | Ghost Grey v1.4 BPS | DD88761C | 16777216 | 3B30647A | 3B30647A | Habilitar |
 | Ghost Grey v1.3 BPS | DD88761C | 16777216 | 8D06BEE3 | 4486BCE4 | Bloquear |
-| Mingzhu v1.6 BPS | F1F794DA | 2097152 | 776014AC | 2E295F5B | Bloquear |
+| Mingzhu v1.6 BPS | F1F794DA | 2097152 | 776014AC | 2E295F5B (anterior) | Habilitar: contrastado localmente |
 | Lazarus v1.8 BPS | 558AE42F | 33554432 | 65C8425C | 65C8425C | Habilitar |
 | Lazarus v1.7 BPS | 558AE42F | 33554432 | EA48319C | EA48319C | Habilitar |
 | Radical Red v0.1 BPS | FBA55DD8 | 33554432 | 0B932196 | 0B932196 | Habilitar |
 
-Mingzhu: el README sí indica `776014AC`, pero las notas de v1.6 anuncian `2E295F5B` y dicen que el asset fue reemplazado. No se ha elegido silenciosamente uno de los dos resultados. El mantenedor debe confirmar qué binario corresponde a la versión y alinear documentación, digest y parche.
+Mingzhu: discrepancia resuelta el 22 de octubre de 2026 al comprobar los archivos locales de SeCaVa. El original de 2097152 bytes tiene CRC32 `F1F794DA`; el resultado final de 4194304 bytes tiene CRC32 `776014AC`, coincidente con el README y el footer del parche publicado. El BPS local final coincide en tamaño y SHA-256 con el asset de v1.6: 333205 bytes y `00e4410c7a99d0705e952970cf172e56b042e68d7c4be8136336809b5f86d348`. Se localizó además un BPS anterior de 331863 bytes cuyo footer declara `2E295F5B`: las notas de la Release conservan ese CRC anterior. El catálogo habilita el parche publicado con los hashes del resultado final; no se ha modificado el parche.
 
 No se han corregido Releases ni README remotos. Para resolver cualquier discrepancia, verificar el binario correcto localmente, actualizar la información oficial y el catálogo y ejecutar de nuevo `npm run build`. Nunca modificar el CRC del parche para forzar su aceptación.
 
@@ -24,6 +24,7 @@ No se han corregido Releases ni README remotos. Para resolver cualquier discrepa
 - Emerald USA/Europe: `f3ae088181bf583e55daf962a92bb46f4f1d07b7`, documentado por [pret/pokeemerald](https://github.com/pret/pokeemerald/blob/master/README.md). El CRC de la base proviene de las Releases de [SeCaVa/EmeraldRogue-Castellano](https://github.com/SeCaVa/EmeraldRogue-Castellano/releases).
 - FireRed USA 1.0: `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`, documentado por [pret/pokefirered](https://github.com/pret/pokefirered/blob/master/README.md). El CRC y revisión están en [GhostGrey-Traduccion](https://github.com/SeCaVa/GhostGrey-Traduccion/releases).
 - Mingzhu original: `1d866a8bcab96c2a957c5ffdc4f4028cbda7827d`, documentado en [el README oficial de la traducción](https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/blob/main/README.md).
+- Mingzhu, contraste local del 22 de octubre de 2026: SHA-256 del original `f994455124219e68c97da20a88e636cd79dc6c49f2f12cb7606c83365b34ce02`. Resultado final: SHA-1 `a270ddfcb364711b7771fa7eaba00b684889688f` y SHA-256 `d35e2799ed3c01b13d3b1bdc65063953b52286901e907f5f11f69efefdaa5ef2`. Se publican únicamente estos hashes, nunca las ROMs.
 - [Radical Red](https://github.com/SeCaVa/RadicalRed-TraduccionCastellano) y [Lazarus](https://github.com/SeCaVa/PokemonLazarus-Traduccion) requieren el hack inglés ya aplicado. Se localizaron sus bases en las carpetas de trabajo de SeCaVa y se calcularon los siguientes hashes localmente, comprobando tamaño de 33554432 bytes y CRC32 contra las Releases. Solo se incorporan los hashes al catálogo, nunca los archivos.
 
 | Base inglesa | SHA-1 | SHA-256 |

@@ -190,9 +190,7 @@
       "status": "active",
       "repository": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano",
       "instructions": "Necesita el original de 2 MiB, sin parches previos. El resultado requiere soporte MBC5 con ROM de 4 MiB.",
-      "pendingReason": "El CRC32 interno del parche (776014AC) difiere del publicado en la Release (2E295F5B). Pendiente de aclarar por el mantenedor.",
-      "releases": [],
-      "pendingReleases": [
+      "releases": [
         {
           "id": "pocket-mingzhu-v1-6",
           "version": "v1.6",
@@ -207,9 +205,10 @@
               "size": 2097152,
               "hashes": {
                 "crc32": "f1f794da",
-                "sha1": "1d866a8bcab96c2a957c5ffdc4f4028cbda7827d"
+                "sha1": "1d866a8bcab96c2a957c5ffdc4f4028cbda7827d",
+                "sha256": "f994455124219e68c97da20a88e636cd79dc6c49f2f12cb7606c83365b34ce02"
               },
-              "evidence": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/blob/main/README.md"
+              "evidence": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/blob/main/README.md ; CRC32, SHA-1 y SHA-256 contrastados con el original local de SeCaVa el 2026-10-22."
             }
           ],
           "patch": {
@@ -222,13 +221,19 @@
             "name": "pocket-mingzhu-es-v1.6.gbc",
             "size": 4194304,
             "hashes": {
-              "crc32": "2e295f5b"
+              "crc32": "776014ac",
+              "sha1": "a270ddfcb364711b7771fa7eaba00b684889688f",
+              "sha256": "d35e2799ed3c01b13d3b1bdc65063953b52286901e907f5f11f69efefdaa5ef2"
             }
           },
           "instructions": "Necesita el original de 2 MiB, sin parches previos. El resultado requiere soporte MBC5 con ROM de 4 MiB.",
-          "blockedReason": "El CRC32 interno del parche (776014AC) difiere del publicado en la Release (2E295F5B). Pendiente de aclarar por el mantenedor."
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
         }
-      ]
+      ],
+      "pendingReleases": []
     },
     {
       "id": "lazarus",
