@@ -36,6 +36,6 @@ No hay proxy público, backend ni service worker. La CSP limita `connect-src`, s
 
 Solo en desarrollo, Vite añade un nonce aleatorio para los estilos que inyecta y permite su WebSocket local en `127.0.0.1`. La compilación de producción conserva la CSP estricta del HTML, sin esta excepción de desarrollo.
 
-Pages tiene límites de tamaño y transferencia ([documentación oficial](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)). La entrega inicial incluye aproximadamente 43 MiB de parches habilitados, por debajo de 1 GiB. Con decenas de versiones hay que retirar assets obsoletos del catálogo o replantear el alojamiento de parches; no descargar toda la historia sin control.
+Pages tiene límites de tamaño y transferencia ([documentación oficial](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)). La entrega incluye aproximadamente 47 MiB de parches habilitados, por debajo de 1 GiB. Con decenas de versiones hay que retirar assets obsoletos del catálogo o replantear el alojamiento de parches; no descargar toda la historia sin control.
 
 La copia local de los parches la solicita el propio mantenedor. El despliegue público requiere revisar los permisos de los componentes ajenos; véase LICENCIAS.md.

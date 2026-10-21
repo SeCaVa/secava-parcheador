@@ -6,7 +6,7 @@ Entorno: Windows, Node.js 24.19.0. Fecha local: 22 de octubre de 2026. Las prueb
 
 - `npm run typecheck`: correcto.
 - `npm test`: **88 pruebas correctas** en cinco archivos.
-- `npm run build`: correcto. Genera el catálogo validado, dos parches oficiales habilitados y el bundle estático en `dist/`.
+- `npm run build`: correcto. Genera el catálogo validado, cinco parches oficiales habilitados de cuatro proyectos y el bundle estático en `dist/`.
 - Playwright: **85 pruebas correctas** entre los cinco perfiles: 68 en la validación de Chrome/WebKit (escritorio y pantallas móviles emuladas), más 17 en la validación posterior de Firefox 157 de escritorio. Incluyen los modos de desarrollo y producción.
 - Axe: sin infracciones detectadas de las reglas WCAG 2 A/AA y 2.1 A/AA seleccionadas para la pantalla inicial y una ficha. Esto es una comprobación automatizada parcial, no una certificación completa de accesibilidad.
 - Diseño: capturas de escritorio y móvil inspeccionadas; sin desbordamiento horizontal.

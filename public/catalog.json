@@ -243,9 +243,7 @@
       "status": "active",
       "repository": "https://github.com/SeCaVa/PokemonLazarus-Traduccion",
       "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
-      "pendingReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación.",
-      "releases": [],
-      "pendingReleases": [
+      "releases": [
         {
           "id": "lazarus-v1-8",
           "version": "v1.8",
@@ -259,15 +257,18 @@
               "revision": "v2",
               "size": 33554432,
               "hashes": {
-                "crc32": "558ae42f"
+                "crc32": "558ae42f",
+                "sha1": "7dcdc7e280bc4631487e13dd37e6e0cea04adea6",
+                "sha256": "d756b2783dede0bb2c534d1f07713bef733cf53500388e3912f14220a7e16e97"
               },
-              "evidence": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/blob/main/README.md"
+              "evidence": "Referencia de la ROM inglesa calculada localmente por SeCaVa el 2026-10-22; tamaño y CRC32 coincidentes con https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.8."
             }
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.8/PokemonLazarus_es.bps",
             "sha256": "c0525228802dff65a35f7d11e0a933cea12b1625252c5d3deaa2782ad3357d1f",
-            "size": 1766378
+            "size": 1766378,
+            "path": "patches/c0525228802dff65a35f7d11e0a933cea12b1625252c5d3deaa2782ad3357d1f.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.8",
           "output": {
@@ -278,7 +279,10 @@
             }
           },
           "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
-          "blockedReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
         },
         {
           "id": "lazarus-v1-7",
@@ -293,15 +297,18 @@
               "revision": "v2",
               "size": 33554432,
               "hashes": {
-                "crc32": "558ae42f"
+                "crc32": "558ae42f",
+                "sha1": "7dcdc7e280bc4631487e13dd37e6e0cea04adea6",
+                "sha256": "d756b2783dede0bb2c534d1f07713bef733cf53500388e3912f14220a7e16e97"
               },
-              "evidence": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/blob/main/README.md"
+              "evidence": "Referencia de la ROM inglesa calculada localmente por SeCaVa el 2026-10-22; tamaño y CRC32 coincidentes con https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.7."
             }
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.7/PokemonLazarus_es.bps",
             "sha256": "f6d69e505462f0ee6c30f03723bcd5afe134c4801a3953ba588fe62f4d08b449",
-            "size": 1766194
+            "size": 1766194,
+            "path": "patches/f6d69e505462f0ee6c30f03723bcd5afe134c4801a3953ba588fe62f4d08b449.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.7",
           "output": {
@@ -312,9 +319,13 @@
             }
           },
           "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
-          "blockedReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
         }
-      ]
+      ],
+      "pendingReleases": []
     },
     {
       "id": "radical-red",
@@ -327,9 +338,7 @@
       "status": "experimental",
       "repository": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano",
       "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Primera beta.",
-      "pendingReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación.",
-      "releases": [],
-      "pendingReleases": [
+      "releases": [
         {
           "id": "radical-red-v0-1",
           "version": "v0.1",
@@ -343,15 +352,18 @@
               "revision": "4.1",
               "size": 33554432,
               "hashes": {
-                "crc32": "fba55dd8"
+                "crc32": "fba55dd8",
+                "sha1": "964f951a0fdaf209e4ea1344883ef0d557bb3a80",
+                "sha256": "679d112cdfe699c2793d82c7e7999ac9dfca9e222ad5a85d4f8f1e457cd0283f"
               },
-              "evidence": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/blob/main/README.md"
+              "evidence": "Referencia de la ROM inglesa calculada localmente por SeCaVa el 2026-10-22; tamaño y CRC32 coincidentes con https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.1."
             }
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.1/RadicalRed_ES_v0.1.bps",
             "sha256": "cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2",
-            "size": 1127804
+            "size": 1127804,
+            "path": "patches/cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.1",
           "output": {
@@ -362,9 +374,13 @@
             }
           },
           "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Primera beta.",
-          "blockedReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
         }
-      ]
+      ],
+      "pendingReleases": []
     }
   ]
 }
