@@ -11,6 +11,7 @@ Entorno: Windows, Node.js 24.19.0. Fecha local: 22 de octubre de 2026. Las prueb
 - Axe: sin infracciones detectadas de las reglas WCAG 2 A/AA y 2.1 A/AA seleccionadas para la pantalla inicial y una ficha. Esto es una comprobación automatizada parcial, no una certificación completa de accesibilidad.
 - Diseño: capturas de escritorio y móvil inspeccionadas; sin desbordamiento horizontal.
 - Sitio servido bajo `/secava-parcheador/`: Worker, catálogo, archivo ficticio, parche UPS y validación final funcionan bajo ese prefijo en los cinco perfiles disponibles.
+- Actualización del catálogo: se reprodujo una respuesta HTTP antigua con una hora de caché; tras corregir la revalidación, una recarga obtiene los cambios en los cinco perfiles. Los archivos de parche conservan sus rutas por hash.
 - Descarga real del resultado BPS/UPS: comparada byte a byte con el resultado esperado de los fixtures.
 - Privacidad: durante los flujos de prueba las peticiones son GET del mismo origen y no tienen cuerpo; no se transmiten nombres, hashes ni contenido de ROMs.
 - Ocho parches oficiales: SHA-256 del asset y CRC del parche verificados; cabeceras/footer contrastados con los datos publicados. Véase AUDITORIA-CATALOGO.md.

@@ -176,7 +176,7 @@ window.addEventListener('pagehide', () => { clearDownload(); worker?.terminate()
 async function init() {
   try {
     if (!window.Worker || !crypto.subtle) throw new Error('Necesitas un navegador moderno con HTTPS (o localhost), Web Workers y WebCrypto.');
-    const response = await fetch(new URL('catalog.json', base), { credentials: 'omit' });
+    const response = await fetch(new URL('catalog.json', base), { credentials: 'omit', cache: 'no-cache' });
     if (!response.ok) throw new Error(`No se pudo leer el catálogo (HTTP ${response.status}).`);
     catalog = catalogSchema.parse(await response.json()); bootWorker(); renderProjects();
   } catch (error) { phase('CATÁLOGO NO DISPONIBLE'); announce(error instanceof Error ? error.message : 'Catálogo inválido.', true); $<HTMLButtonElement>('#choose').disabled = true; $<HTMLButtonElement>('#demo').disabled = true; }
