@@ -1,0 +1,13 @@
+import { it, expect } from 'vitest';
+import { readFile } from 'node:fs/promises';
+import { catalogSchema } from '../../src/core/catalog';
+import { validateManifest, type GitHubRelease } from '../../src/core/release-import';
+const c=catalogSchema.parse(JSON.parse(await readFile('catalog/projects.json','utf8'))), p=c.projects[0], r=p.releases[0];
+const manifest={schemaVersion:1,projectId:p.id,release:r};
+const published:GitHubRelease={html_url:r.releaseUrl,tag_name:r.version,published_at:r.publishedAt+'T10:00:00Z',draft:false,prerelease:false,assets:[{name:'patch.'+r.format,browser_download_url:r.patch.url,size:r.patch.size,digest:'sha256:'+r.patch.sha256}]};
+it('importa compatibilidad explícita sin asumir latest',()=>expect(validateManifest(manifest,p,published)).toEqual(r));
+it('rechaza manifiesto para otro proyecto',()=>expect(()=>validateManifest({...manifest,projectId:'other'},p,published)).toThrow(/corresponde/));
+it('rechaza digest de asset cambiado',()=>expect(()=>validateManifest(manifest,p,{...published,assets:[{...published.assets[0],digest:'sha256:'+'0'.repeat(64)}]})).toThrow(/SHA-256/));
+it('rechaza URL de parche que no pertenece a la release',()=>expect(()=>validateManifest(manifest,p,{...published,assets:[]})).toThrow(/archivo/));
+it('rechaza nueva versión sin hashes fuertes propios',()=>{const bad=structuredClone(manifest);bad.release.bases[0].hashes={crc32:'12345678'};expect(()=>validateManifest(bad,p,published)).toThrow(/SHA/);});
+it('no importa prerelease como estable',()=>expect(()=>validateManifest(manifest,p,{...published,prerelease:true})).toThrow(/prerelease/));

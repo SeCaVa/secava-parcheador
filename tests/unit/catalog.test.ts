@@ -1,0 +1,30 @@
+import { describe, it, expect } from 'vitest';
+import { readFile } from 'node:fs/promises';
+import { catalogSchema, identify, matches, type Catalog } from '../../src/core/catalog';
+import { fingerprint, digest } from '../../src/core/hash';
+import { translate } from '../../src/core/pipeline';
+import { bps, demoSource, demoTarget } from '../../scripts/fixtures';
+const demo = catalogSchema.parse(JSON.parse(await readFile('public/demo/catalog.json', 'utf8')));
+const release = demo.projects[0].releases[0];
+describe('catálogo e identificación', () => {
+  it('identifica sin usar nombre de archivo', async () => { const found = identify(await fingerprint(demoSource), demo); expect(found).toHaveLength(2); expect(found[0].project.id).toBe('demo'); });
+  it('no inventa identificación desconocida', async () => expect(identify(await fingerprint(new Uint8Array(3)), demo)).toEqual([]));
+  it('comprueba todos los hashes disponibles', async () => { const hash = await fingerprint(demoSource); expect(matches({ ...hash, sha1: '0'.repeat(40) }, release.bases[0])).toBe(false); expect(matches({ ...hash, sha256: '0'.repeat(64) }, release.bases[0])).toBe(false); });
+  it('comprueba tamaño incluso con hashes iguales', async () => { const hash = await fingerprint(demoSource); expect(matches({ ...hash, size: hash.size + 1 }, release.bases[0])).toBe(false); });
+  it('admite varias ROMs base explícitas', async () => { const other = Uint8Array.of(4,5,6), hash = await fingerprint(other), c = structuredClone(demo); c.projects[0].releases[0].bases.push({ ...release.bases[0], id: 'other', size: 3, hashes: hash }); expect(identify(hash,c)).toHaveLength(1); });
+  it('rechaza JSON incompleto y hashes inválidos', () => { expect(() => catalogSchema.parse({ schemaVersion: 1, projects: [{}] })).toThrow(); const c = structuredClone(demo); c.projects[0].releases[0].patch.sha256 = 'xyz'; expect(() => catalogSchema.parse(c)).toThrow(); });
+  it('rechaza bases con solo CRC32 en versiones habilitadas', () => { const c = structuredClone(demo); c.projects[0].releases[0].bases[0].hashes = { crc32: '12345678' }; expect(() => catalogSchema.parse(c)).toThrow(/SHA/); });
+  it('rechaza parches de repositorios ajenos', () => { const c = structuredClone(demo); c.projects[0].releases[0].patch.url = 'https://github.com/otro/repo/releases/download/x/p.bps'; expect(() => catalogSchema.parse(c)).toThrow(); });
+  it('rechaza rutas con traversal y proyectos duplicados', () => { const c = structuredClone(demo); c.projects[0].releases[0].patch.path = '../secret'; expect(() => catalogSchema.parse(c)).toThrow(); c.projects.push(c.projects[0]); expect(() => catalogSchema.parse(c)).toThrow(); });
+  it('valida el catálogo oficial y las cuarentenas', async () => { const c = catalogSchema.parse(JSON.parse(await readFile('catalog/projects.json','utf8'))); expect(c.projects.length).toBeGreaterThanOrEqual(5); expect(c.projects.reduce((n,p) => n+p.releases.length,0)).toBeGreaterThanOrEqual(2); for (const p of c.projects) for (const r of p.pendingReleases ?? []) expect(r.blockedReason).toBeTruthy(); });
+});
+describe('flujo completo: idéntico para selección manual y automática', () => {
+  const patch = bps(demoSource,demoTarget);
+  it('verifica origen, parche y resultado', async () => { const { result } = await translate(demoSource,patch,release); expect(result).toEqual(demoTarget); });
+  it('rechaza una ROM incompatible aunque el nombre sea correcto', async () => { await expect(translate(new Uint8Array(demoSource.length),patch,release)).rejects.toThrow(/compatible/); });
+  it('rechaza SHA-256 de parche incorrecto', async () => { await expect(translate(demoSource,patch,{ ...release, patch: { ...release.patch, sha256: '0'.repeat(64) } })).rejects.toThrow(/SHA-256/); });
+  it('rechaza tamaño de parche incorrecto', async () => { await expect(translate(demoSource,patch,{ ...release, patch: { ...release.patch, size: patch.length+1 } })).rejects.toThrow(/SHA-256/); });
+  it('rechaza hash esperado del resultado incorrecto', async () => { await expect(translate(demoSource,patch,{ ...release, output: { ...release.output, hashes: { crc32: '00000000' } } })).rejects.toThrow(/resultado/); });
+  it('rechaza resultado más grande del declarado antes de aplicar', async () => { await expect(translate(demoSource,patch,{ ...release, output: { ...release.output, size: 1 } })).rejects.toThrow(/tamaño/); });
+  it('valida SHA-256 de salida cuando existe', async () => { expect(release.output.hashes.sha256).toBe(await digest(demoTarget,'SHA-256')); });
+});

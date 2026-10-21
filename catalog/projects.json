@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "emerald-rogue",
+      "number": 1,
+      "name": "Pokémon Emerald Rogue EX",
+      "description": "Una aventura roguelite: cada expedición es un nuevo comienzo.",
+      "author": "Pokabbie y colaboradores",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "active",
+      "repository": "https://github.com/SeCaVa/EmeraldRogue-Castellano",
+      "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+      "releases": [
+        {
+          "id": "emerald-rogue-v1-2",
+          "version": "v1.2",
+          "publishedAt": "2026-10-20",
+          "format": "ups",
+          "bases": [
+            {
+              "id": "emerald-rogue-base",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v1.2/emeraldrogue_ex_es.ups",
+            "sha256": "d166dd2bdb4cb488b550302a597fb3b2a9bd6cd6f99ddb067a218ed84b500590",
+            "size": 32601276
+          },
+          "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v1.2",
+          "output": {
+            "name": "emerald-rogue-es-v1.2.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "c04c1abb"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        }
+      ],
+      "pendingReleases": [
+        {
+          "id": "emerald-rogue-v1-1",
+          "version": "v1.1",
+          "publishedAt": "2026-10-13",
+          "format": "ups",
+          "bases": [
+            {
+              "id": "emerald-rogue-base",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v1.1/emeraldrogue_ex_es.ups",
+            "sha256": "5f92d35bfc5dfc2f6b667a3fb3ba7c32bfa158537e17c7816fccddcba4370927",
+            "size": 32598956
+          },
+          "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v1.1",
+          "output": {
+            "name": "emerald-rogue-es-v1.1.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "607062f1"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+          "blockedReason": "El CRC32 interno del parche (793E49AC) difiere del publicado en la Release (607062F1). Pendiente de aclarar por el mantenedor."
+        }
+      ]
+    },
+    {
+      "id": "ghost-grey",
+      "number": 2,
+      "name": "Pokémon Ghost Grey",
+      "description": "Kanto, 2049. Una historia de supervivencia entre fantasmas.",
+      "author": "Joey Zeed",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "active",
+      "repository": "https://github.com/SeCaVa/GhostGrey-Traduccion",
+      "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+      "releases": [
+        {
+          "id": "ghost-grey-v1-4",
+          "version": "v1.4",
+          "publishedAt": "2026-10-20",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.4/GhostGrey_ES.bps",
+            "sha256": "ed4a4380eec75780bd4859c8a23431e906a5de745a79e9144fa90f1628faa321",
+            "size": 11766882
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.4",
+          "output": {
+            "name": "ghost-grey-es-v1.4.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "3b30647a"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        }
+      ],
+      "pendingReleases": [
+        {
+          "id": "ghost-grey-v1-3",
+          "version": "v1.3",
+          "publishedAt": "2026-10-11",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.3/GhostGrey_ES.bps",
+            "sha256": "739099364d9c6f92433d41889736e0ed5512f50e619382b137d3b02beb355592",
+            "size": 11766886
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3",
+          "output": {
+            "name": "ghost-grey-es-v1.3.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "4486bce4"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "blockedReason": "El CRC32 interno del parche (8D06BEE3) difiere del publicado en la Release (4486BCE4). Pendiente de aclarar por el mantenedor."
+        }
+      ]
+    },
+    {
+      "id": "pocket-mingzhu",
+      "number": 3,
+      "name": "Pokémon Pocket Mingzhu II",
+      "description": "Traducción del juego chino Mingzhu Koudai Guaishou 2, también conocido como Digimon D-4.",
+      "author": "Mingzhu",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBC",
+      "status": "active",
+      "repository": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano",
+      "instructions": "Necesita el original de 2 MiB, sin parches previos. El resultado requiere soporte MBC5 con ROM de 4 MiB.",
+      "releases": [],
+      "pendingReleases": [
+        {
+          "id": "pocket-mingzhu-v1-6",
+          "version": "v1.6",
+          "publishedAt": "2026-10-13",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pocket-mingzhu-base",
+              "name": "Mingzhu Koudai Guaishou 2 (CBA060) [Fixed-2]",
+              "region": "China · Chino tradicional",
+              "revision": "Fixed-2",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "f1f794da",
+                "sha1": "1d866a8bcab96c2a957c5ffdc4f4028cbda7827d"
+              },
+              "evidence": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/blob/main/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/download/v1.6/Mingzhu-Koudai-Guaishou-2-Castellano.bps",
+            "sha256": "00e4410c7a99d0705e952970cf172e56b042e68d7c4be8136336809b5f86d348",
+            "size": 333205
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "output": {
+            "name": "pocket-mingzhu-es-v1.6.gbc",
+            "size": 4194304,
+            "hashes": {
+              "crc32": "2e295f5b"
+            }
+          },
+          "instructions": "Necesita el original de 2 MiB, sin parches previos. El resultado requiere soporte MBC5 con ROM de 4 MiB.",
+          "blockedReason": "El CRC32 interno del parche (776014AC) difiere del publicado en la Release (2E295F5B). Pendiente de aclarar por el mantenedor."
+        }
+      ],
+      "pendingReason": "El CRC32 interno del parche (776014AC) difiere del publicado en la Release (2E295F5B). Pendiente de aclarar por el mantenedor."
+    },
+    {
+      "id": "lazarus",
+      "number": 4,
+      "name": "Pokémon Lazarus",
+      "description": "Descubre la región de Ilios con diálogos y menús en castellano.",
+      "author": "Nemo622 y colaboradores",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "active",
+      "repository": "https://github.com/SeCaVa/PokemonLazarus-Traduccion",
+      "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
+      "releases": [],
+      "pendingReleases": [
+        {
+          "id": "lazarus-v1-8",
+          "version": "v1.8",
+          "publishedAt": "2026-10-20",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-base",
+              "name": "Pokémon Lazarus v2",
+              "region": "Inglés · Región no indicada",
+              "revision": "v2",
+              "size": 33554432,
+              "hashes": {
+                "crc32": "558ae42f"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/blob/main/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.8/PokemonLazarus_es.bps",
+            "sha256": "c0525228802dff65a35f7d11e0a933cea12b1625252c5d3deaa2782ad3357d1f",
+            "size": 1766378
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.8",
+          "output": {
+            "name": "lazarus-es-v1.8.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "65c8425c"
+            }
+          },
+          "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
+          "blockedReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+        },
+        {
+          "id": "lazarus-v1-7",
+          "version": "v1.7",
+          "publishedAt": "2026-10-18",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-base",
+              "name": "Pokémon Lazarus v2",
+              "region": "Inglés · Región no indicada",
+              "revision": "v2",
+              "size": 33554432,
+              "hashes": {
+                "crc32": "558ae42f"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/blob/main/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.7/PokemonLazarus_es.bps",
+            "sha256": "f6d69e505462f0ee6c30f03723bcd5afe134c4801a3953ba588fe62f4d08b449",
+            "size": 1766194
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.7",
+          "output": {
+            "name": "lazarus-es-v1.7.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "ea48319c"
+            }
+          },
+          "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
+          "blockedReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+        }
+      ],
+      "pendingReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+    },
+    {
+      "id": "radical-red",
+      "number": 5,
+      "name": "Pokémon Radical Red",
+      "description": "El desafío de Kanto, con mecánicas modernas y traducción al castellano.",
+      "author": "soupercell y colaboradores",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano",
+      "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Primera beta.",
+      "releases": [],
+      "pendingReleases": [
+        {
+          "id": "radical-red-v0-1",
+          "version": "v0.1",
+          "publishedAt": "2026-10-20",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-base",
+              "name": "Pokémon Radical Red 4.1",
+              "region": "Inglés · Región no indicada",
+              "revision": "4.1",
+              "size": 33554432,
+              "hashes": {
+                "crc32": "fba55dd8"
+              },
+              "evidence": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/blob/main/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.1/RadicalRed_ES_v0.1.bps",
+            "sha256": "cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2",
+            "size": 1127804
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.1",
+          "output": {
+            "name": "radical-red-es-v0.1.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "0b932196"
+            }
+          },
+          "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Primera beta.",
+          "blockedReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+        }
+      ],
+      "pendingReason": "La documentación publica CRC32, pero falta SHA-1 o SHA-256 de la ROM base. Se necesita este dato para habilitar la identificación."
+    }
+  ]
+}

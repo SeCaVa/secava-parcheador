@@ -1,0 +1,289 @@
+{
+  "checkedOn": "2026-10-22",
+  "sources": [
+    {
+      "repository": "https://github.com/SeCaVa/EmeraldRogue-Castellano",
+      "releases": [
+        {
+          "tag": "v1.2",
+          "date": "2026-10-20T22:51:28Z",
+          "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v1.2",
+          "notes": "# Emerald Rogue EX v2.2.1a — Traducción al castellano v1.2\n\nTraducción no oficial al castellano de España de **Emerald Rogue EX v2.2.1a**, de [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue).\n\n## Cómo usarlo\n\n1. Necesitas tu propia ROM de **Pokémon Emerald (USA, Europe)** (CRC32 `1F1C08FB`).\n2. Aplica `emeraldrogue_ex_es.ups` con [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) u otro programa compatible con parches UPS.\n3. La ROM resultante tiene el CRC32 `C04C1ABB`. Las partidas de versiones anteriores siguen valiendo.\n\n## Novedades\n\n- La flecha de «pasar texto» ya no se corta en combate: las frases de los entrenadores al perder se reparten para dejarle sitio.\n- Corregido un mensaje de combate que se salía con movimientos de nombre largo («…no puede usar X, que está sellado!»).\n\nComentarios y avisos de errores en el [hilo de Whack a Hack!](https://whackahack.com/foro/threads/emerald-rogue-ex-v2-2-1a-traduccion-al-castellano.69359/) o en las *issues* de este repositorio.\n\n☕ Si quieres apoyar mi trabajo: [Ko-fi](https://ko-fi.com/secava), [Patreon](https://www.patreon.com/secava) o [GitHub Sponsors](https://github.com/sponsors/SeCaVa). Es totalmente voluntario.\n\nNo se incluye ninguna ROM.\n",
+          "assets": [
+            {
+              "name": "emeraldrogue_ex_es.ups",
+              "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v1.2/emeraldrogue_ex_es.ups",
+              "size": 32601276,
+              "sha256": "d166dd2bdb4cb488b550302a597fb3b2a9bd6cd6f99ddb067a218ed84b500590"
+            }
+          ]
+        },
+        {
+          "tag": "v1.1",
+          "date": "2026-10-13T02:15:30Z",
+          "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v1.1",
+          "notes": "# Emerald Rogue EX v2.2.1a — Traducción al castellano v1.1\n\nTraducción no oficial al castellano de España de **Emerald Rogue EX v2.2.1a**, de [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue).\n\n## Cómo usarlo\n\n1. Necesitas tu propia ROM de **Pokémon Emerald (USA, Europe)** (CRC32 `1F1C08FB`).\n2. Aplica `emeraldrogue_ex_es.ups` con [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) u otro programa compatible con parches UPS.\n3. La ROM resultante tiene el CRC32 `607062F1`. Las partidas de la v1.0 siguen valiendo.\n\n## Novedades\n\n- Iconos de estado en combate en castellano (ENV, PAR, DOR, CON, QUE), en tus Pokémon y en los rivales y salvajes.\n- Ficha de entrenador traducida: «FICHA ENTR.», «MEDALLAS» y «ENTRENADOR:» en el reverso, con los gráficos de Rojo Fuego en castellano.\n- Las casillas de medallas de la Élite usan la «A» de Alto Mando.\n\nComentarios y avisos de errores en el [hilo de Whack a Hack!](https://whackahack.com/foro/threads/emerald-rogue-ex-v2-2-1a-traduccion-al-castellano.69359/) o en las *issues* de este repositorio.\n\nNo se incluye ninguna ROM.\n",
+          "assets": [
+            {
+              "name": "emeraldrogue_ex_es.ups",
+              "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v1.1/emeraldrogue_ex_es.ups",
+              "size": 32598956,
+              "sha256": "5f92d35bfc5dfc2f6b667a3fb3ba7c32bfa158537e17c7816fccddcba4370927"
+            }
+          ]
+        },
+        {
+          "tag": "v1.0",
+          "date": "2026-10-08T16:18:47Z",
+          "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v1.0",
+          "notes": "Traducci├│n no oficial al castellano de Espa├▒a de **Emerald Rogue EX v2.2.1a**, de [Pokabbie](https://github.com/Pokabbie/pokeemerald-rogue).\r\n\r\n## C├│mo usarlo\r\n\r\n1. Necesitas tu propia ROM de **Pok├®mon Emerald (USA, Europe)** (CRC32 `1F1C08FB`).\r\n2. Aplica `emeraldrogue_ex_es.ups` con [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) u otro programa compatible con parches UPS.\r\n\r\n## Correcciones recientes\r\n\r\n- Selector de ropa: el aviso de falta de sprite trasero ya no se corta.\r\n- Armadura Maldita: corregido el nombre recortado.\r\n\r\nComentarios y avisos de errores en el [hilo de Whack a Hack!](https://whackahack.com/foro/threads/emerald-rogue-ex-v2-2-1a-traduccion-al-castellano.69359/) o en las *issues* de este repositorio.\r\n\r\nNo se incluye ninguna ROM.\r\n\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v1.1",
+          "assets": []
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/SeCaVa/GhostGrey-Traduccion",
+      "releases": [
+        {
+          "tag": "v1.4",
+          "date": "2026-10-20T22:52:20Z",
+          "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.4",
+          "notes": "Parche de traducción al castellano de **Pokémon Ghost Grey (versión 04 del hack)**.\r\n\r\n## Novedades de la v1.4\r\n\r\n- La flecha de «pasar frase» ya no sale cortada al final de los cuadros de diálogo. Las líneas que la llevan dejan ahora sitio para ella, igual que en el Rojo Fuego español.\r\n- Se han vuelto a repartir las líneas de unos 650 cuadros, sin cambiar ni una palabra. El resto de diálogos se queda exactamente igual.\r\n\r\n## Cómo aplicar el parche\r\n\r\nAplica **GhostGrey_ES.bps** directamente a **Pokémon FireRed (USA), revisión 1.0**, con CRC32 **`DD88761C`**. No hace falta aplicar antes el hack en inglés.\r\n\r\nEl resultado es una ROM de **32 MB**, con CRC32 **`3B30647A`**.\r\n\r\nLas partidas guardadas de versiones anteriores siguen sirviendo.\r\n\r\n## Apoyo\r\n\r\n☕ Si quieres apoyar mi trabajo como traductor, puedes hacerlo en [Ko-fi](https://ko-fi.com/secava), [Patreon](https://www.patreon.com/secava) o [GitHub Sponsors](https://github.com/sponsors/SeCaVa). Es totalmente voluntario: la traducción es y seguirá siendo gratis.\r\n",
+          "assets": [
+            {
+              "name": "GhostGrey_ES.bps",
+              "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.4/GhostGrey_ES.bps",
+              "size": 11766882,
+              "sha256": "ed4a4380eec75780bd4859c8a23431e906a5de745a79e9144fa90f1628faa321"
+            }
+          ]
+        },
+        {
+          "tag": "v1.3",
+          "date": "2026-10-11T23:29:28Z",
+          "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3",
+          "notes": "Parche de traducción al castellano de **Pokémon Ghost Grey (versión 04 del hack)**.\n\n## Novedades de la v1.3\n\n- Corregidos los nombres de los protagonistas en los retratos de antiguos campeones y en sus diálogos.\n- Más nombres de entrenadores adaptados a sus nombres oficiales en español.\n- Traducidos varios textos que seguían en inglés en menús, tarjetas y el tutorial.\n- **Celidon** pasa a llamarse **Azulonia**. Se conserva **Azulona** cuando se menciona el antiguo nombre de la ciudad.\n- Adaptados los tres anagramas al castellano, conservando exactamente todas las letras y las tildes.\n\n## Cómo aplicar el parche\n\nAplica **GhostGrey_ES.bps** directamente a **Pokémon FireRed (USA), revisión 1.0**, con CRC32 **`DD88761C`**. No hace falta aplicar antes el hack en inglés.\n\nEl resultado es una ROM de **32 MB**, con CRC32 **`4486BCE4`**.",
+          "assets": [
+            {
+              "name": "GhostGrey_ES.bps",
+              "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.3/GhostGrey_ES.bps",
+              "size": 11766886,
+              "sha256": "739099364d9c6f92433d41889736e0ed5512f50e619382b137d3b02beb355592"
+            }
+          ]
+        },
+        {
+          "tag": "v1.2",
+          "date": "2026-10-08T23:11:36Z",
+          "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.2",
+          "notes": "Parche de traducci├│n al castellano de Pok├®mon Ghost Grey (versi├│n 04 del hack). Aplicar a **Pok├®mon FireRed (USA) 1.0**. La ROM resultante tiene CRC32 `D9679998`.\n\n**Novedades**\n- Traducidos 40 mensajes de combate que segu├¡an en ingl├®s (Autoestima, Colector, Pararrayos, Baba, Trampa Rocas, P├║as T├│xicas, Red Viscosa, Danza Lunar, Rompemoldes, Turbollama, Terravoltaje, subidas y bajadas de estad├¡sticas por habilidad, da├▒o por P├║as...).\n- Corregido el mensaje del Chaleco Asalto, que en el original no terminaba bien.\n- Con la protagonista chica, los participios tras ┬½haber┬╗ ya no cambian de g├®nero (┬½┬┐Te he asustado?┬╗).\n\n*Spanish translation patch. Translated 40 battle messages that were still in English and fixed some gender agreement errors. Apply to FireRed (USA) 1.0.*\n\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3\n\n**This version is no longer available for download.** Get the latest version: https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3",
+          "assets": []
+        },
+        {
+          "tag": "v1.1",
+          "date": "2026-10-07T10:58:21Z",
+          "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.1",
+          "notes": "Parche de traducci├│n al castellano de Pok├®mon Ghost Grey, actualizado a la **versi├│n 04** del hack. Aplicar a **Pok├®mon FireRed (USA) 1.0**\r\n\r\n**Novedades**\r\n- Basado en la versi├│n 04 de Ghost Grey (colisiones, jefes del postgame, movimientos de Wailord y Banette, habilidades y decorado de Pueblo ├ôpalo corregidos por su autor).\r\n- Traducidos los textos nuevos de lore.\r\n\r\n*Spanish translation patch, updated to version 04 of the hack. Apply to FireRed (USA) 1.0.*\r\n\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3\n\n**This version is no longer available for download.** Get the latest version: https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3",
+          "assets": []
+        },
+        {
+          "tag": "v1.0",
+          "date": "2026-10-06T00:12:53Z",
+          "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.0",
+          "notes": "Parche de traducci├│n al castellano de Pok├®mon Ghost Grey. Aplicar a **Pok├®mon FireRed (USA) 1.0**.\n\n*Spanish translation patch. Apply to FireRed (USA) 1.0.*\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3\n\n**This version is no longer available for download.** Get the latest version: https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.3",
+          "assets": []
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano",
+      "releases": [
+        {
+          "tag": "v1.6",
+          "date": "2026-10-13T04:12:54Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "notes": "Los diálogos ahora se escriben letra a letra en castellano, en lugar de aparecer en bloques de varios caracteres.\r\n\r\n- Cada letra aparece completa, incluso si atraviesa el límite de un bloque de 16 píxeles.\r\n- Conserva la fuente, los acentos y la distribución de las frases.\r\n- Ritmo comparable al observado en Pokémon Cristal en castellano.\r\n- A durante la escritura completa la página; otra pulsación permite avanzar.\r\n- Corrección de sincronización del dibujado para evitar los retrasos de interrupciones que podían provocar parpadeos en el escenario durante el texto.\r\n- «FIN DEL JUEGO» permanece unos 10 segundos antes del fundido a negro y el reinicio.\r\n- El gráfico chino de derrota ahora dice «DERROTA», centrado en la misma posición que «VICTORIA».\r\n\r\nVerificado en PyBoy: letras completas en cada fotograma del diálogo de prueba, acentos y ñ/ü, diez páginas posteriores idénticas a la versión anterior, avance con A, ausencia de los retrasos anómalos de dibujado detectados en la versión inicial, rótulo de derrota traducido y espera de 10 segundos seguida de fundido y regreso al título.\r\nAplica el BPS a la ROM original, sin parches previos.\r\n\r\n- CRC32 de la ROM original: `F1F794DA`.\r\n- CRC32 de la ROM resultante: `2E295F5B`.\r\n\r\nActualización del 13 de octubre de 2026: se ha reemplazado el BPS de esta misma release para incorporar estas correcciones. Si ya descargaste la v1.6, descarga de nuevo el parche y aplícalo a la ROM original. Inicia la ROM nueva sin cargar un estado guardado de la versión anterior.\r\n",
+          "assets": [
+            {
+              "name": "Mingzhu-Koudai-Guaishou-2-Castellano.bps",
+              "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/download/v1.6/Mingzhu-Koudai-Guaishou-2-Castellano.bps",
+              "size": 333205,
+              "sha256": "00e4410c7a99d0705e952970cf172e56b042e68d7c4be8136336809b5f86d348"
+            }
+          ]
+        },
+        {
+          "tag": "v1.5",
+          "date": "2026-10-13T03:40:35Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.5",
+          "notes": "Corrige el bloqueo de la pantalla de Game Over, causado por un bucle infinito que ya estaba en la ROM original.\n\n- ┬½FIN DEL JUEGO┬╗ permanece visible unos 3 segundos.\n- La pantalla hace un fundido a negro de aproximadamente medio segundo.\n- El juego reinicia y vuelve a la pantalla de t├¡tulo tras la secuencia de inicio.\n\nVerificado en PyBoy forzando la entrada a la rutina de Game Over: espera, disminuci├│n progresiva del brillo hasta negro, reinicio y regreso al t├¡tulo.\n\nAplica el archivo BPS a la ROM original, sin parches previos.\n\n- CRC32 de la ROM original: `F1F794DA`.\n- CRC32 de la ROM resultante: `B4C1A04B`.\n\nIncluye la traducci├│n y las mejoras de la v1.4.\n\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "assets": []
+        },
+        {
+          "tag": "v1.4",
+          "date": "2026-10-08T21:22:04Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.4",
+          "notes": "8-oct-2026: pantalla de traducci├│n tras el logo de SPEED con su sinton├¡a (A, B o START la saltan); ┬½GAME OVER┬╗ pasa a ┬½FIN DEL JUEGO┬╗; nombres de quien habla alineados con el texto; ┬½S┬╗ de PS m├ís legible; varias frases m├ís naturales. Aplica el .bps a la ROM original (CRC32 F1F794DA); resultado CRC32 A7DDB7D5.\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "assets": []
+        },
+        {
+          "tag": "v1.3",
+          "date": "2026-10-07T19:26:11Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.3",
+          "notes": "- T├¡tulo del juego: ┬½POCKET MINGZHU II┬╗, fiel al original µÿÄþÅáÕÅúÞóïµÇ¬Õà¢II (antes ┬½DIGIMON D-4┬╗, que no aparece en el juego).\n- Incluye todos los cambios de la v1.2.\n\nAplica el .bps a la ROM original (CRC32 F1F794DA); resultado CRC32 72781F22.\n\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "assets": []
+        },
+        {
+          "tag": "v1.2",
+          "date": "2026-10-07T17:57:48Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.2",
+          "notes": "Ataques Pok├®mon con su nombre oficial en espa├▒ol: Cuchillada, Niebla, Rayo Burbuja, Confusi├│n, Clavo Ca├▒├│n, Bomba Lodo, Chupavidas, Doble Patada y Derribo.\n\nAtaques Digimon corregidos seg├║n el ataque oficial: Hiperca├▒├│n (Tankmon), Fuego M├ígico (Biyomon), Chispa Martillo (Zudomon), Granada DST (Guardromon) y Tijera Ejecutora (Ganimon).\n\nAplica el .bps a la ROM original (CRC32 F1F794DA); resultado CRC32 025E219B.\n\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "assets": []
+        },
+        {
+          "tag": "v1.1",
+          "date": "2026-10-07T13:41:20Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.1",
+          "notes": "Revisi├│n de la traducci├│n al castellano.\n\n- Di├ílogos de las bayas con los mismos nombres que los objetos (Baya Roja, Azul, Lima, Plata y Oro) y concordancia de g├®nero corregida.\n- Frases corregidas o m├ís naturales en varios di├ílogos, incluida una variante neutra para las protagonistas.\n- DemiDevimon y Pumpkinmon con el nombre usado en Espa├▒a.\n- Coherencia entre combate, objetos y di├ílogos: Tajo Ala Sombra, Arm. Prot., Montes File.\n- Gr├ífico de victoria: ┬½VICTORIA┬╗ en una sola l├¡nea y centrado.\n- ├Ültima frase del final m├ís fiel al original.\n\nAplica el parche a la ROM original (CRC32 F1F794DA, 2 MB). Resultado: ROM de 4 MB con CRC32 F9132EC7. No se incluye ninguna ROM.\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "assets": []
+        },
+        {
+          "tag": "v1.0",
+          "date": "2026-10-06T02:02:27Z",
+          "url": "https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.0",
+          "notes": "Parche BPS de la traducci├│n al castellano.\n\n**Necesitas la ROM original** (CRC32 `F1F794DA`, 2 MB). Aplica `Mingzhu-Koudai-Guaishou-2-Castellano.bps` con Floating IPS o RomPatcher.js. La ROM resultante es de 4 MB, CRC32 `62F0A6A4`.\n\nIncluye: men├║s, historia, di├ílogos, batalla, objetos, ataques, evoluci├│n y logo del t├¡tulo. Pendiente de revisar: final, cr├®ditos y algunos nombres de Digimon.\n\nSi ves texto raro o s├¡mbolos extra├▒os, abre un issue con captura.\n\n---\n**Esta versión ya no tiene descarga.** Descarga la última versión: https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v1.6",
+          "assets": []
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/SeCaVa/PokemonLazarus-Traduccion",
+      "releases": [
+        {
+          "tag": "v1.8",
+          "date": "2026-10-20T22:16:21Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.8",
+          "notes": "- Traducidas las 13 habilidades propias o renombradas que seguían en inglés, incluida «Capa Aislante».\r\n- Corregido el mensaje de aprendizaje recortado: el nombre del ataque aparece en una línea separada.\r\n\r\nIncluye las correcciones anteriores. Compatible con partidas guardadas.\r\n\r\nAplica el BPS sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). ROM traducida: CRC32 `65C8425C`.\r\n",
+          "assets": [
+            {
+              "name": "PokemonLazarus_es.bps",
+              "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.8/PokemonLazarus_es.bps",
+              "size": 1766378,
+              "sha256": "c0525228802dff65a35f7d11e0a933cea12b1625252c5d3deaa2782ad3357d1f"
+            }
+          ]
+        },
+        {
+          "tag": "v1.7",
+          "date": "2026-10-18T08:33:21Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.7",
+          "notes": "- Corregidos los gráficos y bloqueos de la tienda de decoraciones.\r\n- Corregidas las referencias de las decoraciones del camarote, incluido el póster de la Escama Corazón.\r\n- Nombres de adornos traducidos y letrero «SALIDA» centrado sobre su puerta.\r\n- Corregidas las frases de tipos de movimiento usadas en combate.\r\n\r\nIncluye todas las correcciones de v1.6. Compatible con partidas guardadas.\r\n\r\nAplica el BPS sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). ROM traducida: CRC32 `EA48319C`.\r\n",
+          "assets": [
+            {
+              "name": "PokemonLazarus_es.bps",
+              "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.7/PokemonLazarus_es.bps",
+              "size": 1766194,
+              "sha256": "f6d69e505462f0ee6c30f03723bcd5afe134c4801a3953ba588fe62f4d08b449"
+            }
+          ]
+        },
+        {
+          "tag": "v1.6",
+          "date": "2026-10-17T19:07:09Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.6",
+          "notes": "- Traducidos 46 nombres de objetos, incluidos Silbato Espathra, objetos de Hisui y megapiedras. Corregidos Crabominablita y Cyclizita E/P.\r\n- Corregidos Semilladora y las descripciones de las 60 MT y 8 MO activas.\r\n- Nombres de las cajas del PC con espacio: «Caja 1», «Caja 2»… también en partidas anteriores.\r\n- Inscripción y dibujos Unown de Montes Acrisia en castellano, incluso al continuar una partida guardada dentro de la sala.\r\n- Corregidos «atenazó», las iniciales de los equipos en Conjuro y otros mensajes, y el trazo que faltaba en PS.\r\n- Indicadores MT/MO en castellano y con el aspecto ajustado al juego original.\r\n\r\nCompatible con partidas guardadas.",
+          "assets": [
+            {
+              "name": "PokemonLazarus_es.bps",
+              "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.6/PokemonLazarus_es.bps",
+              "size": 1763853,
+              "sha256": "e4f8e59b3770dca70e2a6ad7fc9279e6a896edc357fbc9af6ad2803e643a9ce1"
+            }
+          ]
+        },
+        {
+          "tag": "v1.4.1",
+          "date": "2026-10-16T09:08:30Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.4.1",
+          "notes": "- Ajustado el cartel GIM de Jusmail para separar las letras del dibujo superior y del borde inferior.\r\n\r\nIncluye las correcciones de la v1.4.\r\n\r\nVersión anterior. [Descargar la versión más reciente](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/latest).\r\n\r\nEl parche se aplica sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). CRC32 de la ROM traducida de esta versión: `267D428D`.\r\n",
+          "assets": [
+            {
+              "name": "PokemonLazarus_es.bps",
+              "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.4.1/PokemonLazarus_es.bps",
+              "size": 1754892,
+              "sha256": "8bed274f1e66627b1dd1dcc07f485ccbf5f1036e7ea11b148935a23052bbe0e2"
+            }
+          ]
+        },
+        {
+          "tag": "v1.4",
+          "date": "2026-10-16T09:04:55Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.4",
+          "notes": "- Traducidos la cabecera y los controles de la Caja Atuendos.\r\n- Corregidas las mayúsculas de «Precisión» y «Evasión» en combate.\r\n- Ajustados el peso en kg y la letra S de DATOS en la Pokédex.\r\n- Cartel «GIM» en el gimnasio de Jusmail.\r\n\r\nVersión anterior. [Descargar la versión más reciente](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/latest).\r\n\r\nEl parche se aplica sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). CRC32 de la ROM traducida de esta versión: `01AB59F3`.\r\n",
+          "assets": [
+            {
+              "name": "PokemonLazarus_es.bps",
+              "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.4/PokemonLazarus_es.bps",
+              "size": 1755812,
+              "sha256": "cc8987ab02e0b805f139f5d884f38dc32730c815dd440c826a66be8f5ced5cc7"
+            }
+          ]
+        },
+        {
+          "tag": "v1.3",
+          "date": "2026-10-15T22:15:27Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.3",
+          "notes": "- Iconos de estado en combate en castellano.\r\n- Indicador de página del teclado corregido.\r\n- Naturaleza «Fuerte» y rótulo «PS» en el menú del equipo.\r\n- Ajustes de texto en el editor de características.\r\n\r\nVersión anterior. [Descargar la versión más reciente](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/latest).\r\n\r\nEl parche se aplica sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). CRC32 de la ROM traducida de esta versión: `D46E114E`.\r\n",
+          "assets": [
+            {
+              "name": "PokemonLazarus_es.bps",
+              "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.3/PokemonLazarus_es.bps",
+              "size": 1758275,
+              "sha256": "2100304be1fb516884f3189188709aaf056e7989a494dcac1c93c909f9655ace"
+            }
+          ]
+        },
+        {
+          "tag": "v1.2",
+          "date": "2026-10-14T23:34:43Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.2",
+          "notes": "- Corregidos el signo «¿» y la cabecera del teclado del mote.\r\n- Gráfica de condiciones en castellano y ajustes en las pestañas de concursos.\r\n- Corregidos textos del editor de características y del menú del acompañante.\r\n- Revisado el saludo del Rotomóvil.\r\n\r\nVersión anterior. [Descargar la versión más reciente](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/latest).\r\n\r\nEsta versión ya no dispone de un archivo de descarga.\r\n\r\nEl parche se aplica sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). CRC32 de la ROM traducida de esta versión: `51C3BB84`.\r\n",
+          "assets": []
+        },
+        {
+          "tag": "v1.1",
+          "date": "2026-10-13T09:50:57Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.1",
+          "notes": "- Teclado con ñ y tildes, y mejoras en la pantalla del mote.\r\n- Revisados el género de los personajes, sus nombres y los plurales de objetos.\r\n- Corregidos textos cortados en la ficha del Pokémon y textos de la tienda.\r\n- Reloj de 24 horas y ajustes en menús y signos de apertura.\r\n\r\nVersión anterior. [Descargar la versión más reciente](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/latest).\r\n\r\nEsta versión ya no dispone de un archivo de descarga.\r\n\r\nEl parche se aplica sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). CRC32 de la ROM traducida de esta versión: `56CE8BD1`.\r\n",
+          "assets": []
+        },
+        {
+          "tag": "v1.0",
+          "date": "2026-10-13T03:47:54Z",
+          "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.0",
+          "notes": "Primera versión de la traducción al castellano de Pokémon Lazarus.\r\n\r\n- Diálogos, menús y mensajes de combate en castellano.\r\n- Nombres oficiales y descripciones de Pokémon, movimientos, habilidades y objetos.\r\n- Pokédex con unidades métricas y traducción de gráficos con texto.\r\n\r\nVersión anterior. [Descargar la versión más reciente](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/latest).\r\n\r\nEsta versión ya no dispone de un archivo de descarga.\r\n\r\nEl parche se aplica sobre Pokémon Lazarus v2 en inglés (CRC32 `558AE42F`). CRC32 de la ROM traducida de esta versión: `22C5FF87`.\r\n",
+          "assets": []
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano",
+      "releases": [
+        {
+          "tag": "v0.1",
+          "date": "2026-10-20T18:44:32Z",
+          "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.1",
+          "notes": "Primera beta de la traducción al castellano de **Pokémon Radical Red 4.1**.\n\n**Qué incluye**\n- Diálogos de todos los mapas, menús, combate y opciones propias del hack.\n- Nombres oficiales en español de Pokémon, movimientos, habilidades, objetos, tipos y lugares.\n- Descripciones de movimientos, habilidades y objetos, y entradas de la Pokédex.\n- Protagonista chico o chica con diálogos que concuerdan en género.\n- Pokédex en metros y kilos; teclado de nombres con tildes y ñ.\n- Gráficos: pantalla de título, ficha del Pokémon, barras de PS, iconos de tipo y cartel del equipo rival.\n\nEs la primera versión: si ves algo en inglés, un texto cortado o una errata, abre una *issue* con una captura.\n\n**Cómo parchear**\n1. Pokémon - FireRed Version (USA) 1.0 — CRC32 `DD88761C`.\n2. Parche oficial de Radical Red 4.1 → ROM en inglés — CRC32 `FBA55DD8`.\n3. Aplica `RadicalRed_ES_v0.1.bps` con Rom Patcher JS o Floating IPS → CRC32 `0B932196`.\n\nSHA-256 de `RadicalRed_ES_v0.1.bps`: `cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2`\n\nNo se distribuye ninguna ROM.\n\n☕ Apoyo voluntario: [Ko-fi](https://ko-fi.com/secava) · [Patreon](https://www.patreon.com/secava) · [GitHub Sponsors](https://github.com/sponsors/SeCaVa)\n",
+          "assets": [
+            {
+              "name": "RadicalRed_ES_v0.1.bps",
+              "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.1/RadicalRed_ES_v0.1.bps",
+              "size": 1127804,
+              "sha256": "cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

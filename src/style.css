@@ -1,0 +1,19 @@
+@import url('./theme.css');
+/* Contrast and small-print sizing keep the retro panels readable. */
+.device{background:#a93832}
+.device-model,.screen-label>span,.device-foot,.steps{color:#fff6e2}
+.mini-cartridge{color:#4b6243}
+.count{color:#536748}
+.catalog-filter b{color:#375832}
+.project-meta{color:#5b6854;font-size:9px;letter-spacing:.3px}
+.project-status{color:#616e53}
+.screen-label h2{font-size:11px;letter-spacing:1px}
+.screen-label>span,.device-model,.device-foot,.catalog-filter,.catalog-heading .eyebrow{font-size:9px;letter-spacing:.4px}
+.device-foot span:last-child{color:#6c2a25}
+.operation-title{font-size:10px;letter-spacing:.5px}
+.drop-zone>small{font-size:9px;letter-spacing:.2px}
+.project-meta i{margin:0 1px}
+.selection .credit,.selection>small{color:#5f664f}
+.project-art img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
+.identity{font-size:11px;line-height:1.7;background:#dce6c8;border-left:3px solid #6b8960;padding:9px 11px;margin:0 0 14px;color:#3d5b3b}
+@media(max-width:380px){.screen-label{flex-wrap:wrap;gap:4px}.device-model{font-size:8px}.steps{gap:5px;font-size:8px}}

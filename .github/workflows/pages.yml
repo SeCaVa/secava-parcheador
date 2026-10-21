@@ -1,0 +1,79 @@
+name: Verificar y publicar en GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types: [translation-release]
+  schedule:
+    - cron: '23 8 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.decision.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: patches-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: patches-${{ runner.os }}-
+      - name: Detectar manifiestos de compatibilidad
+        id: releases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run check:releases -- --import
+      - name: Evitar despliegues programados sin cambios
+        id: decision
+        env:
+          EVENT: ${{ github.event_name }}
+          CHANGED: ${{ steps.releases.outputs.changed }}
+        run: |
+          if [ "$EVENT" != "schedule" ] || [ "$CHANGED" = "true" ]; then
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          fi
+      - run: npm run demo
+        if: steps.decision.outputs.deploy == 'true'
+      - run: npm test
+        if: steps.decision.outputs.deploy == 'true'
+      - run: npm run build
+        if: steps.decision.outputs.deploy == 'true'
+        # Relative URLs support both repository Pages and custom domains.
+      - run: npx playwright install --with-deps chromium firefox webkit
+        if: steps.decision.outputs.deploy == 'true'
+      - run: npm run test:browser
+        if: steps.decision.outputs.deploy == 'true'
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: browser-diagnostics
+          path: test-results/
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.decision.outputs.deploy == 'true'
+        with:
+          path: dist
+  deploy:
+    if: needs.build.outputs.deploy == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar el artefacto verificado
+        id: deployment
+        uses: actions/deploy-pages@v4

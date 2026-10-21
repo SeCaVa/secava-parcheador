@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "demo",
+      "number": 99,
+      "name": "Laboratorio SeCaVa",
+      "description": "DEMOSTRACIÓN · Prueba real con 256 bytes inventados.",
+      "author": "SeCaVa",
+      "credits": "Datos sintéticos del parcheador",
+      "platform": "BIN",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/Laboratorio",
+      "instructions": "Esta ficha es una demostración local; los enlaces GitHub no se utilizan.",
+      "releases": [
+        {
+          "id": "demo-bps",
+          "version": "Prueba BPS",
+          "publishedAt": "2026-10-22",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "demo-source",
+              "name": "Archivo ficticio SeCaVa",
+              "region": "Laboratorio",
+              "revision": "256 bytes inventados",
+              "size": 256,
+              "hashes": {
+                "size": 256,
+                "crc32": "29058c73",
+                "sha1": "4916d6bdb7f78e6803698cab32d1586ea457dfc8",
+                "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+              },
+              "evidence": "scripts/fixtures.ts"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Laboratorio/releases/download/demo/sample.bps",
+            "sha256": "8c4b9ffaadd5e685b766a7606c25766923dda3f4132b954e3f4058f111a7c833",
+            "size": 279,
+            "path": "demo/sample.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Laboratorio/releases/tag/demo",
+          "output": {
+            "name": "secava-prueba.bin",
+            "size": 256,
+            "hashes": {
+              "size": 256,
+              "crc32": "052af3c5",
+              "sha1": "c052f9a4d4f80da83c06051fb2551963c643319f",
+              "sha256": "8fdceb26b5a7160c934922e434a252392e7a95361dabdb22222fca4df2e3e363"
+            }
+          },
+          "instructions": "Archivo de prueba sin contenido de videojuegos. No es una traducción publicada.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Bytes inventados incluidos en el código MIT de este proyecto."
+          }
+        },
+        {
+          "id": "demo-ups",
+          "version": "Prueba UPS",
+          "publishedAt": "2026-10-22",
+          "format": "ups",
+          "bases": [
+            {
+              "id": "demo-source",
+              "name": "Archivo ficticio SeCaVa",
+              "region": "Laboratorio",
+              "revision": "256 bytes inventados",
+              "size": 256,
+              "hashes": {
+                "size": 256,
+                "crc32": "29058c73",
+                "sha1": "4916d6bdb7f78e6803698cab32d1586ea457dfc8",
+                "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880"
+              },
+              "evidence": "scripts/fixtures.ts"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Laboratorio/releases/download/demo/sample.ups",
+            "sha256": "2224f01bb61a7be234d614ac72686af45ff20178311b3e8140bff077b836e66a",
+            "size": 45,
+            "path": "demo/sample.ups"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Laboratorio/releases/tag/demo",
+          "output": {
+            "name": "secava-prueba.bin",
+            "size": 256,
+            "hashes": {
+              "size": 256,
+              "crc32": "052af3c5",
+              "sha1": "c052f9a4d4f80da83c06051fb2551963c643319f",
+              "sha256": "8fdceb26b5a7160c934922e434a252392e7a95361dabdb22222fca4df2e3e363"
+            }
+          },
+          "instructions": "Archivo de prueba sin contenido de videojuegos. No es una traducción publicada.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Bytes inventados incluidos en el código MIT de este proyecto."
+          }
+        }
+      ],
+      "demo": true
+    }
+  ]
+}
