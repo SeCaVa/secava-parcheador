@@ -43,7 +43,7 @@ Para no modificar el código ni el catálogo central con cada publicación, adju
 }
 ```
 
-El bloque anterior es ilustrativo, no es un manifiesto válido para copiar tal cual. `catalog/release-manifest.example.json` contiene un objeto completo con los datos reales de Ghost Grey v1.4 como referencia. Cambia todos los valores correspondientes a tu nueva versión; no reutilices hashes de otra base.
+El bloque anterior es ilustrativo, no es un manifiesto válido para copiar tal cual. `catalog/release-manifest.example.json` contiene un objeto completo con los datos reales de Ghost Grey v0.5 como referencia. Cambia todos los valores correspondientes a tu nueva versión; no reutilices hashes de otra base.
 
 ```sh
 npm run check:releases

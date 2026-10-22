@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "projectId": "ghost-grey",
   "release": {
-    "id": "ghost-grey-v1-4",
-    "version": "v1.4",
+    "id": "ghost-grey-v0-5",
+    "version": "v0.5",
     "publishedAt": "2026-10-20",
     "format": "bps",
     "bases": [
@@ -21,13 +21,13 @@
       }
     ],
     "patch": {
-      "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.4/GhostGrey_ES.bps",
+      "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.5/GhostGrey_ES.bps",
       "sha256": "ed4a4380eec75780bd4859c8a23431e906a5de745a79e9144fa90f1628faa321",
       "size": 11766882
     },
-    "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.4",
+    "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.5",
     "output": {
-      "name": "ghost-grey-es-v1.4.gba",
+      "name": "ghost-grey-es-v0.5.gba",
       "size": 33554432,
       "hashes": {
         "crc32": "3b30647a"

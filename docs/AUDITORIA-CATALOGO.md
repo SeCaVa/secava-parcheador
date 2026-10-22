@@ -6,16 +6,16 @@ Se descargaron únicamente ocho parches BPS/UPS, se comprobó cada SHA-256 contr
 
 | Parche | CRC32 original interno | Tamaño original | CRC32 salida interno | CRC32 salida en Release | Decisión |
 |---|---|---:|---|---|---|
-| Emerald Rogue v1.2 UPS | 1F1C08FB | 16777216 | C04C1ABB | C04C1ABB | Habilitar |
-| Emerald Rogue v1.1 UPS | 1F1C08FB | 16777216 | 793E49AC | 607062F1 | Bloquear |
-| Ghost Grey v1.4 BPS | DD88761C | 16777216 | 3B30647A | 3B30647A | Habilitar |
-| Ghost Grey v1.3 BPS | DD88761C | 16777216 | 8D06BEE3 | 4486BCE4 | Bloquear |
-| Mingzhu v1.6 BPS | F1F794DA | 2097152 | 776014AC | 2E295F5B (anterior) | Habilitar: contrastado localmente |
-| Lazarus v1.8 BPS | 558AE42F | 33554432 | 65C8425C | 65C8425C | Habilitar |
-| Lazarus v1.7 BPS | 558AE42F | 33554432 | EA48319C | EA48319C | Habilitar |
+| Emerald Rogue v0.3 UPS | 1F1C08FB | 16777216 | C04C1ABB | C04C1ABB | Habilitar |
+| Emerald Rogue v0.2 UPS | 1F1C08FB | 16777216 | 793E49AC | 607062F1 | Bloquear |
+| Ghost Grey v0.5 BPS | DD88761C | 16777216 | 3B30647A | 3B30647A | Habilitar |
+| Ghost Grey v0.4 BPS | DD88761C | 16777216 | 8D06BEE3 | 4486BCE4 | Bloquear |
+| Mingzhu v0.7 BPS | F1F794DA | 2097152 | 776014AC | 2E295F5B (anterior) | Habilitar: contrastado localmente |
+| Lazarus v0.9 BPS | 558AE42F | 33554432 | 65C8425C | 65C8425C | Habilitar |
+| Lazarus v0.8 BPS | 558AE42F | 33554432 | EA48319C | EA48319C | Habilitar |
 | Radical Red v0.1 BPS | FBA55DD8 | 33554432 | 0B932196 | 0B932196 | Habilitar |
 
-Mingzhu: discrepancia resuelta el 22 de octubre de 2026 al comprobar los archivos locales de SeCaVa. El original de 2097152 bytes tiene CRC32 `F1F794DA`; el resultado final de 4194304 bytes tiene CRC32 `776014AC`, coincidente con el README y el footer del parche publicado. El BPS local final coincide en tamaño y SHA-256 con el asset de v1.6: 333205 bytes y `00e4410c7a99d0705e952970cf172e56b042e68d7c4be8136336809b5f86d348`. Se localizó además un BPS anterior de 331863 bytes cuyo footer declara `2E295F5B`: las notas de la Release conservan ese CRC anterior. El catálogo habilita el parche publicado con los hashes del resultado final; no se ha modificado el parche.
+Mingzhu: discrepancia resuelta el 22 de octubre de 2026 al comprobar los archivos locales de SeCaVa. El original de 2097152 bytes tiene CRC32 `F1F794DA`; el resultado final de 4194304 bytes tiene CRC32 `776014AC`, coincidente con el README y el footer del parche publicado. El BPS local final coincide en tamaño y SHA-256 con el asset de v0.7: 333205 bytes y `00e4410c7a99d0705e952970cf172e56b042e68d7c4be8136336809b5f86d348`. Se localizó además un BPS anterior de 331863 bytes cuyo footer declara `2E295F5B`: las notas de la Release conservan ese CRC anterior. El catálogo habilita el parche publicado con los hashes del resultado final; no se ha modificado el parche.
 
 No se han corregido Releases ni README remotos. Para resolver cualquier discrepancia, verificar el binario correcto localmente, actualizar la información oficial y el catálogo y ejecutar de nuevo `npm run build`. Nunca modificar el CRC del parche para forzar su aceptación.
 
