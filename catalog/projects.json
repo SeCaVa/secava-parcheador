@@ -481,17 +481,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.4/RadicalRed_ES_v0.4.bps",
-            "sha256": "3073c5cda77a69c8d45c86927cbf147028c72d85a267db56982d59bd65c4ba8e",
-            "size": 1139390
+            "sha256": "0572fbafe8c179ef4fbae6190ad11d9b11bafe70c46d73990c9cbdb3012a6a03",
+            "size": 1144221
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.4",
           "output": {
             "name": "radical-red-es-v0.4.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "7a8aba1b",
-              "sha1": "7008fa1981640a7047f12d81edb6164e32c060f9",
-              "sha256": "5c027d13e5a3bb428ff595d34cb36c823de97529e765ffd4873ae5eca0bd890a"
+              "crc32": "ffed3c3b",
+              "sha1": "162f9bd4aa9e9bb26536fbd1999c14cb50e7bcaa",
+              "sha256": "a6debb119375e87a9e53df0add8e67b7438baa4927250ed459719e6ead5a1515"
             }
           },
           "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Beta.",
