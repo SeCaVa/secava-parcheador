@@ -382,6 +382,47 @@
       "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Beta.",
       "releases": [
         {
+          "id": "radical-red-v0-4",
+          "version": "v0.4",
+          "publishedAt": "2026-10-22",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-base",
+              "name": "Pokémon Radical Red 4.1",
+              "region": "Inglés · Región no indicada",
+              "revision": "4.1",
+              "size": 33554432,
+              "hashes": {
+                "crc32": "fba55dd8",
+                "sha1": "964f951a0fdaf209e4ea1344883ef0d557bb3a80",
+                "sha256": "679d112cdfe699c2793d82c7e7999ac9dfca9e222ad5a85d4f8f1e457cd0283f"
+              },
+              "evidence": "Referencia de la ROM inglesa calculada localmente por SeCaVa el 2026-10-22; tamaño y CRC32 coincidentes con https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.4."
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.4/RadicalRed_ES_v0.4.bps",
+            "sha256": "9840493f1b0f6b289c8a630c461555968c5e42c9aab9d67c52ba24bc95606b18",
+            "size": 1136979
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.4",
+          "output": {
+            "name": "radical-red-es-v0.4.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "df956e97",
+              "sha1": "efdecda5fae901ad8e07e07e7439a3dc518cdd0c",
+              "sha256": "bd01a61e494a58d3c176ff27e27fd93342b43c626838d17f3893f17f554f6d69"
+            }
+          },
+          "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "radical-red-v0-3",
           "version": "v0.3",
           "publishedAt": "2026-10-22",
