@@ -143,6 +143,45 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v0-6",
+          "version": "v0.6",
+          "publishedAt": "2026-10-22",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.6/GhostGrey_ES.bps",
+            "sha256": "e4059fa3981976528e5a4ee0b5c1ab42fdf53727b242f699d4ae8deae30eba9f",
+            "size": 11775566,
+            "path": "patches/e4059fa3981976528e5a4ee0b5c1ab42fdf53727b242f699d4ae8deae30eba9f.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.6",
+          "output": {
+            "name": "ghost-grey-es-v0.6.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "794be3ed"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "ghost-grey-v0-5",
           "version": "v0.5",
           "publishedAt": "2026-10-20",
