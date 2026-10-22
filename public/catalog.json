@@ -34,16 +34,16 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.3/emeraldrogue_ex_es.ups",
-            "sha256": "d166dd2bdb4cb488b550302a597fb3b2a9bd6cd6f99ddb067a218ed84b500590",
-            "size": 32601276,
-            "path": "patches/d166dd2bdb4cb488b550302a597fb3b2a9bd6cd6f99ddb067a218ed84b500590.ups"
+            "sha256": "a0cc5c71302baba1aa8f50583fed46473fcfd9b2f66e9bf2de3f1b32c3245fcf",
+            "size": 32601278,
+            "path": "patches/a0cc5c71302baba1aa8f50583fed46473fcfd9b2f66e9bf2de3f1b32c3245fcf.ups"
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.3",
           "output": {
             "name": "emerald-rogue-es-v0.3.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "c04c1abb"
+              "crc32": "5e28e453"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
