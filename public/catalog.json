@@ -251,6 +251,48 @@
       "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
       "releases": [
         {
+          "id": "lazarus-v0-10",
+          "version": "v0.10",
+          "publishedAt": "2026-10-22",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-base",
+              "name": "Pokémon Lazarus v2",
+              "region": "Inglés · Región no indicada",
+              "revision": "v2",
+              "size": 33554432,
+              "hashes": {
+                "crc32": "558ae42f",
+                "sha1": "7dcdc7e280bc4631487e13dd37e6e0cea04adea6",
+                "sha256": "d756b2783dede0bb2c534d1f07713bef733cf53500388e3912f14220a7e16e97"
+              },
+              "evidence": "Referencia de la ROM inglesa calculada localmente por SeCaVa el 2026-10-22; tamaño y CRC32 coincidentes con https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.10."
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.10/PokemonLazarus_es.bps",
+            "sha256": "75c34c23a7712c324fad4ad5178a58414cf6fd1856a61debd27f772353849a1a",
+            "size": 1774537,
+            "path": "patches/75c34c23a7712c324fad4ad5178a58414cf6fd1856a61debd27f772353849a1a.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.10",
+          "output": {
+            "name": "lazarus-es-v0.10.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "47ae33d2",
+              "sha1": "f5b0f35c3a1d7557bc88b632f125a8fcc5fa3c54",
+              "sha256": "80324705b11aab34af2b178097f7641c8bbb3def75f94f060a03b19b5bc497d6"
+            }
+          },
+          "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "lazarus-v0-9",
           "version": "v0.9",
           "publishedAt": "2026-10-20",
