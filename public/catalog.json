@@ -409,18 +409,18 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.3/RadicalRed_ES_v0.3.bps",
-            "sha256": "e3fdcf63c9edd96620c1db8f8da36e79dbbb5ec5e4ccd7006e3ccc0221198b6d",
-            "size": 1135649,
-            "path": "patches/e3fdcf63c9edd96620c1db8f8da36e79dbbb5ec5e4ccd7006e3ccc0221198b6d.bps"
+            "sha256": "f328dbe6f59b884091d1dcb74ebab27392715e7eb36f9a11351551177df3e86c",
+            "size": 1135656,
+            "path": "patches/f328dbe6f59b884091d1dcb74ebab27392715e7eb36f9a11351551177df3e86c.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.3",
           "output": {
             "name": "radical-red-es-v0.3.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "7f7ab8fa",
-              "sha1": "7a67d02c34bc2c1a9e78e30f0ef27f59522a2f69",
-              "sha256": "289afdeae21edec314de0c2bd3b82725a27415b9b07aeff9b52fb9b7f8b8146f"
+              "crc32": "7b7ddd1b",
+              "sha1": "c5a9ad22eab35d182757e2946b5800558d39d328",
+              "sha256": "5b2a5ecde1147340d9c9a36fea7267b0c3c45fba53018840169dc0bea7c26b0f"
             }
           },
           "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Beta.",
