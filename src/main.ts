@@ -11,7 +11,6 @@ let catalog: Catalog = { schemaVersion: 1, projects: [] };
 let selectedProject = '', selectedRelease = '', hashes: Fingerprint | undefined;
 let fileName = '', busy = false, downloadUrl = '', sound = false;
 let request: AbortController | undefined;
-let demoLoaded = false;
 let worker: Worker;
 let audio: AudioContext | undefined;
 const base = new URL(import.meta.env.BASE_URL, location.href).href;
@@ -40,7 +39,6 @@ root.innerHTML = `
     <p class="catalog-sub">Explora el catálogo o deja que tu ROM elija por ti.</p><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar una traducción…" aria-label="Buscar traducciones"><kbd aria-hidden="true">/</kbd></label>
     <div class="catalog-filter"><span id="catalog-mode">TODOS LOS PROYECTOS</span><span>CASTELLANO <b>ES</b></span></div><div id="project-list" class="project-list"></div>
     <p class="catalog-caption"><span class="green-dot"></span> <span id="catalog-summary">Consultando catálogo…</span></p>
-    <div class="lab"><span aria-hidden="true">⌘</span><div><b>¿Solo quieres probar?</b><p>Usa un archivo ficticio, sin aportar una ROM.</p><button id="demo" class="text-button">Abrir laboratorio de prueba →</button></div></div>
   </aside></div>
   <section class="promises" aria-label="Características"><div><span aria-hidden="true">▣</span><b>100 % en tu dispositivo</b><p>Ni tu ROM ni sus hashes salen del navegador.</p></div><div><span aria-hidden="true">✓</span><b>Cada byte, comprobado</b><p>ROM, parche y resultado verificados.</p></div><div><span aria-hidden="true">↯</span><b>Sin instalaciones</b><p>Abre, arrastra y juega en tu idioma.</p></div></section>
   <section id="ayuda" class="help"><div><p class="eyebrow">MANUAL DE CAMPO</p><h2>Un momento para traducir.<br>Horas para explorar.</h2></div><div class="faq"><details><summary>¿Qué archivo necesito?</summary><p>Una copia propia de la ROM base exacta indicada en la ficha del proyecto, sin comprimir. El nombre no determina la compatibilidad: comprobamos tamaño, CRC32 y los hashes fuertes registrados. Radical Red y Lazarus requieren previamente sus hacks en inglés.</p></details><details><summary>¿Cómo funciona la identificación?</summary><p>Calculamos CRC32, SHA-1 y SHA-256 en un Web Worker local. Comparamos todos los valores registrados. Solo ofrecemos parches compatibles y verificamos además el SHA-256 del parche, sus tres CRC internos y el resultado.</p></details><details><summary>¿Qué ocurre con mi ROM y mi privacidad?</summary><p>Tu archivo solo se lee en memoria. No se suben ROMs, nombres ni hashes; no hay analítica ni servidores de procesamiento. La web descarga su catálogo y los parches declarados. Reiniciar libera los datos de la operación. No alojamos ni enlazamos ROMs comerciales.</p></details><details><summary>¿Por qué alguna versión está pendiente?</summary><p>Si faltan hashes de referencia o los datos publicados no coinciden con el parche, la descarga queda bloqueada. La ficha indica exactamente qué dato falta o discrepa. Una versión nueva nunca hereda automáticamente la compatibilidad de otra.</p></details><details><summary>¿Funciona en el móvil?</summary><p>Sí, en navegadores modernos con HTTPS, Web Workers y WebCrypto. Admitimos originales y resultados de hasta 64 MiB y parches de hasta 40 MiB. El navegador necesita memoria adicional; cierra otras pestañas si no puede completar la operación. No es una garantía para todos los dispositivos.</p></details></div></section>
@@ -53,7 +51,7 @@ function beep() {
 }
 function announce(message: string, error = false) { $('#live').textContent = message; $('#live').classList.toggle('error', error); }
 function phase(text: string, n: number | null = 0) { $('#phase-label').textContent = text; $('#percent').textContent = n === null ? '…' : `${n} %`; const p = $<HTMLProgressElement>('#progress'); if (n === null) p.removeAttribute('value'); else p.value = n; }
-function setBusy(value: boolean) { busy = value; $('#cancel').hidden = !value; $<HTMLButtonElement>('#choose').disabled = value; $<HTMLInputElement>('#rom-file').disabled = value; $<HTMLButtonElement>('#demo').disabled = value; $<HTMLButtonElement>('#reset').disabled = value; renderProjects(); renderSelection(); }
+function setBusy(value: boolean) { busy = value; $('#cancel').hidden = !value; $<HTMLButtonElement>('#choose').disabled = value; $<HTMLInputElement>('#rom-file').disabled = value; $<HTMLButtonElement>('#reset').disabled = value; renderProjects(); renderSelection(); }
 function clearDownload() { if (downloadUrl) URL.revokeObjectURL(downloadUrl); downloadUrl = ''; }
 function bootWorker() {
   worker?.terminate(); worker = new Worker(new URL('./worker.ts', import.meta.url), { type: 'module' });
@@ -161,17 +159,6 @@ function reset() {
 $('#cancel').addEventListener('click', () => { reset(); announce('Operación cancelada. Se han liberado sus datos.'); });
 $('#reset').addEventListener('click', reset);
 $('#sound').addEventListener('click', () => { sound = !sound; $('#sound').setAttribute('aria-pressed', String(sound)); $('#sound span').textContent = `Sonido: ${sound ? 'sí' : 'no'}`; beep(); });
-$('#demo').addEventListener('click', async () => {
-  try {
-    if (!demoLoaded) {
-      const response = await fetch(new URL('demo/catalog.json', base)); if (!response.ok) throw new Error('No se pudo cargar la demostración.');
-      const demo = catalogSchema.parse(await response.json()); catalog.projects.push(...demo.projects); demoLoaded = true;
-    }
-    selectedProject = 'demo'; selectedRelease = 'demo-bps';
-    const response = await fetch(new URL('demo/source.bin', base)); if (!response.ok) throw new Error('No se pudo cargar el archivo ficticio.');
-    await loadFile(new File([await response.arrayBuffer()], 'secava-prueba-original.bin'));
-  } catch (error) { announce(error instanceof Error ? error.message : 'Error al cargar la prueba.', true); }
-});
 window.addEventListener('pagehide', () => { clearDownload(); worker?.terminate(); request?.abort(); });
 async function init() {
   try {
@@ -179,6 +166,6 @@ async function init() {
     const response = await fetch(new URL('catalog.json', base), { credentials: 'omit', cache: 'no-cache' });
     if (!response.ok) throw new Error(`No se pudo leer el catálogo (HTTP ${response.status}).`);
     catalog = catalogSchema.parse(await response.json()); bootWorker(); renderProjects();
-  } catch (error) { phase('CATÁLOGO NO DISPONIBLE'); announce(error instanceof Error ? error.message : 'Catálogo inválido.', true); $<HTMLButtonElement>('#choose').disabled = true; $<HTMLButtonElement>('#demo').disabled = true; }
+  } catch (error) { phase('CATÁLOGO NO DISPONIBLE'); announce(error instanceof Error ? error.message : 'Catálogo inválido.', true); $<HTMLButtonElement>('#choose').disabled = true; }
 }
 void init();

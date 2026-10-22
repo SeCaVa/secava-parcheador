@@ -4,7 +4,7 @@ import { catalogSchema, identify, matches, type Catalog } from '../../src/core/c
 import { fingerprint, digest } from '../../src/core/hash';
 import { translate } from '../../src/core/pipeline';
 import { bps, demoSource, demoTarget } from '../../scripts/fixtures';
-const demo = catalogSchema.parse(JSON.parse(await readFile('public/demo/catalog.json', 'utf8')));
+const demo = catalogSchema.parse(JSON.parse(await readFile('tests/fixtures/demo/catalog.json', 'utf8')));
 const release = demo.projects[0].releases[0];
 describe('catálogo e identificación', () => {
   it('identifica sin usar nombre de archivo', async () => { const found = identify(await fingerprint(demoSource), demo); expect(found).toHaveLength(2); expect(found[0].project.id).toBe('demo'); });

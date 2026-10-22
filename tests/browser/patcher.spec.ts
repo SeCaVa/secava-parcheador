@@ -2,17 +2,13 @@ import { test, expect } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
 import { demoSource, demoTarget } from '../../scripts/fixtures';
 import AxeBuilder from '@axe-core/playwright';
-const official = JSON.parse(await readFile('public/catalog.json', 'utf8'));
-const demo = JSON.parse(await readFile('public/demo/catalog.json', 'utf8'));
+import { demo, serveDemo } from './demo';
 // A controlled blocked fixture keeps tests independent of future catalog corrections.
 const blocked = { ...demo.projects[0], id:'blocked-test', number:98, name:'Prueba pendiente', releases:[],
   pendingReason:'Prueba: CRC32 interno 776014AC difiere del documentado.',
   pendingReleases:[{...demo.projects[0].releases[0],blockedReason:'Prueba: CRC32 interno 776014AC difiere del documentado.'}] };
 test.beforeEach(async ({ page }) => {
-  await page.route('**/catalog.json', async route => {
-    if (new URL(route.request().url()).pathname.endsWith('/demo/catalog.json')) return route.continue();
-    await route.fulfill({ json: { schemaVersion: 1, projects: [...official.projects, ...demo.projects, blocked] } });
-  });
+  await serveDemo(page, [blocked]);
   await page.goto('/');
   await expect(page.getByText(/proyectos habilitados/)).toBeVisible();
 });
@@ -63,19 +59,6 @@ test('arrastrar un archivo identifica la ROM sin elegir proyecto', async ({page}
   await expect(page.getByRole('status')).toContainText('compatible');
   await expect(page.locator('#selection')).toContainText('Laboratorio SeCaVa');
 });
-test('laboratorio público carga un fichero sintético y permite traducirlo',async({page})=>{
-  // Remove the injected demo fixture before exercising the actual public button.
-  await page.route('**/catalog.json', async route=>{
-    if(new URL(route.request().url()).pathname.endsWith('/demo/catalog.json')) return route.continue();
-    await route.fulfill({json:official});
-  });
-  await page.reload();
-  await page.getByRole('button',{name:/Abrir laboratorio/}).click();
-  await expect(page.locator('#selection')).toContainText('DEMOSTRACIÓN');
-  await expect(page.getByRole('button',{name:/Aplicar traducción/})).toBeEnabled();
-  await page.getByRole('button',{name:/Aplicar traducción/}).click();
-  await expect(page.getByRole('status')).toContainText('Resultado verificado');
-});
 test('ROM desconocida e incompatible nunca habilita parche', async ({ page }) => {
   await page.getByRole('button',{name:/N.º 002/}).click();
   await page.locator('#rom-file').setInputFiles({name:'PokemonFireRed.gba',mimeType:'application/octet-stream',buffer:Buffer.from([1,2,3])});
@@ -97,7 +80,7 @@ test('descarga HTTP fallida permite reintentar', async ({ page }) => {
 test('parche corrupto no produce descarga', async ({ page }) => {
   await page.locator('#rom-file').setInputFiles({name:'demo.bin',mimeType:'application/octet-stream',buffer:Buffer.from(demoSource)});
   await expect(page.getByRole('status')).toContainText('compatible');
-  const corrupt = await readFile('public/demo/sample.bps'); corrupt[20] ^= 1;
+  const corrupt = await readFile('tests/fixtures/demo/sample.bps'); corrupt[20] ^= 1;
   await page.route('**/demo/sample.bps', route => route.fulfill({body:corrupt,contentType:'application/octet-stream'}));
   await page.getByRole('button',{name:/Aplicar traducción/}).click();
   await expect(page.getByRole('status')).toContainText('SHA-256 del parche incorrecto');

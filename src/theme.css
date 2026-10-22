@@ -746,25 +746,6 @@ progress:not([value]) {
   width:5px;
   height:5px
 }
-.lab {
-  border-top:1px dashed #c6cdb9;
-  padding-top:18px;
-  display:flex;
-  gap:13px;
-  color:#6a7863
-}
-.lab>span {
-  font-size:23px;
-  color:#95a18b
-}
-.lab b {
-  font-size:11px;
-  color:#4e654f
-}
-.lab p {
-  margin:2px 0 4px;
-  font-size:11px
-}
 .text-button {
   font:10px ui-monospace,monospace;
   color:var(--green);
@@ -1250,9 +1231,6 @@ footer>a:last-child {
   }
   .catalog-caption {
     font-size:9px
-  }
-  .lab p,.lab b {
-    font-size:12px
   }
   .promises {
     grid-template-columns:1fr;
