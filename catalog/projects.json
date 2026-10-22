@@ -14,6 +14,44 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
       "releases": [
         {
+          "id": "emerald-rogue-v0-4",
+          "version": "v0.4",
+          "publishedAt": "2026-10-22",
+          "format": "ups",
+          "bases": [
+            {
+              "id": "emerald-rogue-base",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.4/emeraldrogue_ex_es.ups",
+            "sha256": "acbc3b0ad825358fa35cb29e2cd31ac873ca6c534496e69bd03adb4f88ce7529",
+            "size": 32600898
+          },
+          "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.4",
+          "output": {
+            "name": "emerald-rogue-es-v0.4.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "c651d609"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "emerald-rogue-v0-3",
           "version": "v0.3",
           "publishedAt": "2026-10-20",
