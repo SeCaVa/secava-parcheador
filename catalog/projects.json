@@ -824,6 +824,61 @@
         }
       ],
       "pendingReleases": []
+    },
+    {
+      "id": "unbound",
+      "number": 6,
+      "name": "Pokémon Unbound",
+      "description": "La región de Borrius, con su propia historia y mecánicas modernas, traducida al castellano.",
+      "author": "Skeli Games",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/Unbound-TraduccionCastellano",
+      "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
+      "releases": [
+        {
+          "id": "unbound-v0-6",
+          "version": "v0.6",
+          "publishedAt": "2026-10-23",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.6/Unbound_ES_v0.6.bps",
+            "sha256": "1b4bbf49ae6782de29efb8530cd65e707a50fb169763083fa43483e29aa4e498",
+            "size": 24182015
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.6",
+          "output": {
+            "name": "unbound-es-v0.6.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "be23dc44",
+              "sha1": "a088a6c89fe04c45392ba20ca1628fc47e56257c",
+              "sha256": "0d9534dd70df9c77c3cb5af1e19ca92fe28e679ccf3d1fb40d93fd66a6c2ec0c"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        }
+      ],
+      "pendingReleases": []
     }
   ]
 }
