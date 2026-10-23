@@ -326,8 +326,49 @@
       "platform": "GBA",
       "status": "active",
       "repository": "https://github.com/SeCaVa/PokemonLazarus-Traduccion",
-      "instructions": "Primero aplica el parche oficial de Lazarus v2 a tu Emerald. Esta traducción requiere el hack en inglés (CRC32 558AE42F), no Emerald original.",
+      "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
+        {
+          "id": "lazarus-v1-2",
+          "version": "v1.2",
+          "publishedAt": "2026-10-23",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.2/PokemonLazarus_es.bps",
+            "sha256": "c6c41b19e991183a5556725572d3cc6f32cb4f59618a6216f0a59fe30a59d396",
+            "size": 19959119,
+            "path": "patches/c6c41b19e991183a5556725572d3cc6f32cb4f59618a6216f0a59fe30a59d396.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.2",
+          "output": {
+            "name": "lazarus-es-v1.2.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "48733257",
+              "sha1": "ad1371b80e3a098fe90d36344e257556b8c185e1",
+              "sha256": "9fe75f5d67439193d3d751e6bbb177c94abb841f0d311ae88c82baf6ff9ff183"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "lazarus-v1-1",
           "version": "v1.1",
@@ -465,8 +506,49 @@
       "platform": "GBA",
       "status": "experimental",
       "repository": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano",
-      "instructions": "Primero aplica el parche oficial de Radical Red 4.1 a tu FireRed USA 1.0. Carga después el hack en inglés (CRC32 FBA55DD8). Beta.",
+      "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
       "releases": [
+        {
+          "id": "radical-red-v0-6",
+          "version": "v0.6",
+          "publishedAt": "2026-10-23",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.6/RadicalRed_ES_v0.6.bps",
+            "sha256": "5f2d0e225b975dd30fcf29c44c53ad3e7dbd86ffa8ce34ed1a160d47c08fafcf",
+            "size": 17802185,
+            "path": "patches/5f2d0e225b975dd30fcf29c44c53ad3e7dbd86ffa8ce34ed1a160d47c08fafcf.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.6",
+          "output": {
+            "name": "radical-red-es-v0.6.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "ffed3c3b",
+              "sha1": "162f9bd4aa9e9bb26536fbd1999c14cb50e7bcaa",
+              "sha256": "a6debb119375e87a9e53df0add8e67b7438baa4927250ed459719e6ead5a1515"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "radical-red-v0-5",
           "version": "v0.5",
