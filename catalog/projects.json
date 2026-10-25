@@ -1038,6 +1038,46 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
       "releases": [
         {
+          "id": "unbound-v0-9",
+          "version": "v0.9",
+          "publishedAt": "2026-10-25",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.9/Unbound_ES_v0.9.bps",
+            "sha256": "1e209ea1499a462d3853c6e8d7e54931d0d3c917256cacdabc6d8e9100aaa4ce",
+            "size": 24150903
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.9",
+          "output": {
+            "name": "unbound-es-v0.9.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "4194ab6c",
+              "sha1": "54eb63da66efef48e18fbbba9346942e43405cf5",
+              "sha256": "1dc2c5668c6a95917536df5ab6b863e93a510589bcf41b3c4187600d2a32e73e"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v0-8",
           "version": "v0.8",
           "publishedAt": "2026-10-24",
