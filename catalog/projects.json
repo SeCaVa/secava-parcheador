@@ -620,6 +620,46 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
       "releases": [
         {
+          "id": "radical-red-v0-92",
+          "version": "v0.92",
+          "publishedAt": "2026-10-25",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.92/RadicalRed_ES_v0.92.bps",
+            "sha256": "12973bf75ef6640a1d6bb1e6dbd454e1f0826316a8373a8e8ead9e054499d392",
+            "size": 17814685
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.92",
+          "output": {
+            "name": "radical-red-es-v0.92.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "bfce7ced",
+              "sha1": "9a65d210b4089054038dc84f31e6eac39c72e0f7",
+              "sha256": "66499ae98a1e9343e9e6f14a2e71b6a0043862bef34f73fb5ca422df002f6899"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "radical-red-v0-91",
           "version": "v0.91",
           "publishedAt": "2026-10-24",
