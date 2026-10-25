@@ -182,6 +182,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v0-91",
+          "version": "v0.91",
+          "publishedAt": "2026-10-25",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.91/GhostGrey_ES.bps",
+            "sha256": "e8ce89cabc4d3b4147258bc50ae12168a66c404eef66c14ee4c6df6cf61437bd",
+            "size": 11835266,
+            "path": "patches/e8ce89cabc4d3b4147258bc50ae12168a66c404eef66c14ee4c6df6cf61437bd.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.91",
+          "output": {
+            "name": "ghost-grey-es-v0.91.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "d9b7a63b",
+              "sha1": "ea39699adbae04eca5e71a516a70cf390d5a759c",
+              "sha256": "8bc29918b8826b98a03cb2c84dd97896ee22f7525359d28c58558c564fcf0041"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "ghost-grey-v0-9",
           "version": "v0.9",
           "publishedAt": "2026-10-25",
