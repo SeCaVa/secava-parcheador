@@ -182,6 +182,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v0-8",
+          "version": "v0.8",
+          "publishedAt": "2026-10-25",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.8/GhostGrey_ES.bps",
+            "sha256": "af0c6c0586e89ef35695f5385ad5e46c101f588cdaad1d40ac1ee947f66c02ae",
+            "size": 11835273,
+            "path": "patches/af0c6c0586e89ef35695f5385ad5e46c101f588cdaad1d40ac1ee947f66c02ae.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.8",
+          "output": {
+            "name": "ghost-grey-es-v0.8.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "a7b575d8",
+              "sha1": "8f9c6a3dae88361391c753a3ea794a29b0e59464",
+              "sha256": "672cfb9a697e15fc8410ca27761883390020dda1283fb2654bd9ad26fcd109b7"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "ghost-grey-v0-7",
           "version": "v0.7",
           "publishedAt": "2026-10-24",
