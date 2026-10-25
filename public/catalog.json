@@ -1304,6 +1304,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
       "releases": [
         {
+          "id": "unbound-v0-93",
+          "version": "v0.93",
+          "publishedAt": "2026-10-25",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.93/Unbound_ES_v0.93.bps",
+            "sha256": "920fee2b4e4e8cf2a225dc60466194515b10f3474ce4102a044bb0e778523a01",
+            "size": 24167950,
+            "path": "patches/920fee2b4e4e8cf2a225dc60466194515b10f3474ce4102a044bb0e778523a01.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.93",
+          "output": {
+            "name": "unbound-es-v0.93.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "93079fbe",
+              "sha1": "23bd9ff5e85a732ee2c29543d39e14bafcc25a23",
+              "sha256": "e0fe68db6baf780e5d503c6dc96c481943d7960ac8791b7061300a9201d800e0"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v0-92",
           "version": "v0.92",
           "publishedAt": "2026-10-25",
