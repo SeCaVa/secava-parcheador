@@ -17,7 +17,7 @@
           "id": "emerald-rogue-v0-5",
           "version": "v0.5",
           "publishedAt": "2026-10-25",
-          "format": "ups",
+          "format": "bps",
           "bases": [
             {
               "id": "emerald-rogue-base",
@@ -33,9 +33,9 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.5/emeraldrogue_ex_es.ups",
-            "sha256": "e164953eeba86f2a13768852c754aecd0732f5c578cf95b868830c2a09ea5129",
-            "size": 32597854
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.5/emeraldrogue_ex_es.bps",
+            "sha256": "3072ea4abb2cec5bcdb70dce0b74ba0e7b04a021a68462c4a988146deb4b1d34",
+            "size": 27003052
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.5",
           "output": {
