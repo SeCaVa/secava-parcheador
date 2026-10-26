@@ -43,9 +43,7 @@
             "name": "emerald-rogue-es-v0.6.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "0229524b",
-              "sha1": "e6b3249aba881b333eb60fcdff3b05a8cd9542df",
-              "sha256": "05d69c7a29a57c2fb76085632419343be145cd2dca57d31453de4eb9c9358720"
+              "crc32": "0229524b"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
@@ -58,7 +56,7 @@
           "id": "emerald-rogue-v0-5",
           "version": "v0.5",
           "publishedAt": "2026-10-25",
-          "format": "ups",
+          "format": "bps",
           "bases": [
             {
               "id": "emerald-rogue-base",
@@ -74,10 +72,10 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.5/emeraldrogue_ex_es.ups",
-            "sha256": "e164953eeba86f2a13768852c754aecd0732f5c578cf95b868830c2a09ea5129",
-            "size": 32597854,
-            "path": "patches/e164953eeba86f2a13768852c754aecd0732f5c578cf95b868830c2a09ea5129.ups"
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.5/emeraldrogue_ex_es.bps",
+            "sha256": "3072ea4abb2cec5bcdb70dce0b74ba0e7b04a021a68462c4a988146deb4b1d34",
+            "size": 27003052,
+            "path": "patches/3072ea4abb2cec5bcdb70dce0b74ba0e7b04a021a68462c4a988146deb4b1d34.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.5",
           "output": {
@@ -613,6 +611,47 @@
       "repository": "https://github.com/SeCaVa/PokemonLazarus-Traduccion",
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
+        {
+          "id": "lazarus-v1-51",
+          "version": "v1.51",
+          "publishedAt": "2026-10-26",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.51/PokemonLazarus_es.bps",
+            "sha256": "95f6277994b806e8f4ac74e8c571d25e92ece07a3e27a46c16a0de067ec1b762",
+            "size": 14840254,
+            "path": "patches/95f6277994b806e8f4ac74e8c571d25e92ece07a3e27a46c16a0de067ec1b762.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.51",
+          "output": {
+            "name": "lazarus-es-v1.51.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "1b111cdf",
+              "sha1": "f88c6fea50ee0b5310e31973aa8f4e0c16422838",
+              "sha256": "d172d324e69929f93afd06704e207ef2bde8a7a0f8d7841b352ccba9327412dc"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "lazarus-v1-5",
           "version": "v1.5",
