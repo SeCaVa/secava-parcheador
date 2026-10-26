@@ -640,6 +640,46 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
+          "id": "lazarus-v1-53",
+          "version": "v1.53",
+          "publishedAt": "2026-10-26",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.53/PokemonLazarus_es.bps",
+            "sha256": "83276b5a08849fd51291e0041b74c57796259831e68211c91dc335b9a596faf4",
+            "size": 14840184
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.53",
+          "output": {
+            "name": "lazarus-es-v1.53.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "2f9db626",
+              "sha1": "45f86d0ff7c8760765251b3bce080f22312d17e4",
+              "sha256": "e64ff763317939caf4bffcacd93c865b6da607d27f268bc1d7442160e4fb2412"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "lazarus-v1-51",
           "version": "v1.51",
           "publishedAt": "2026-10-26",
