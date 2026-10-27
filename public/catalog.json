@@ -1918,6 +1918,103 @@
         }
       ],
       "pendingReleases": []
+    },
+    {
+      "id": "soulgold",
+      "number": 7,
+      "name": "Pokémon SoulGold",
+      "description": "Johto al estilo de Oro HeartGold y Plata SoulSilver, ampliado y traducido al castellano.",
+      "author": "Eemeliri y colaboradores",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano",
+      "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+      "releases": [
+        {
+          "id": "soulgold-v0-71",
+          "version": "v0.71",
+          "publishedAt": "2026-10-27",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.71/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "d368b626b77c9e7477e994951200d61cf563fc16760f6b471399eb3a754b26a9",
+            "size": 23774655,
+            "path": "patches/d368b626b77c9e7477e994951200d61cf563fc16760f6b471399eb3a754b26a9.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.71",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.71.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "b7cacf20",
+              "sha1": "ef741a28d22d254b9efce615faece61525093060",
+              "sha256": "32e83c14350c4731344e372123582749c1386e3c29efdbee4097c33126364ad3"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "soulgold-v0-7",
+          "version": "v0.7",
+          "publishedAt": "2026-10-26",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.7/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "7d51b057fc19ad8de34af22e7b4350f2bc7d459481ee857e7f21aee4bdcc50aa",
+            "size": 23774662,
+            "path": "patches/7d51b057fc19ad8de34af22e7b4350f2bc7d459481ee857e7f21aee4bdcc50aa.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.7",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.7.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "8c9566f7",
+              "sha1": "493ccd322c372f4d3fac257b95bb994acb563f40",
+              "sha256": "ae801a1fbdd5a9a7621a224c5746bb00ad222c2e4fdf3a5e0b74984cfa587835"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        }
+      ],
+      "pendingReleases": []
     }
   ]
 }
