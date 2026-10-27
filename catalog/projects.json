@@ -14,6 +14,44 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
       "releases": [
         {
+          "id": "emerald-rogue-v0-62",
+          "version": "v0.62",
+          "publishedAt": "2026-10-27",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "emerald-rogue-base",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.62/emeraldrogue_ex_es.bps",
+            "sha256": "cf946dac8eb0c82365b2fc846c4642ee79a5086354c4fe1f336107670950c202",
+            "size": 22405410
+          },
+          "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.62",
+          "output": {
+            "name": "emerald-rogue-es-v0.62.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "91c4b0fa"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "emerald-rogue-v0-61",
           "version": "v0.61",
           "publishedAt": "2026-10-27",
