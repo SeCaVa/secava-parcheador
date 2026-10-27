@@ -8,4 +8,4 @@
 | [Pokémon Lazarus](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases) | v0.99, v0.98, v0.97, v0.96, v0.95, v0.94, v0.93, v0.92, v0.91 y v0.9 | BPS | Disponible |
 | [Pokémon Radical Red](https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.97) | v0.97, v0.96, v0.95, v0.94, v0.93, v0.92, v0.91, v0.9, v0.8, v0.7, v0.6, v0.5, v0.4, v0.3, v0.2 y v0.1 | BPS | Disponible · Beta |
 | [Pokémon Unbound](https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.97) | v0.97, v0.96, v0.95, v0.94, v0.93, v0.92, v0.91, v0.9, v0.8, v0.7 y v0.6 | BPS | Disponible · Beta |
-| [Pokémon SoulGold](https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.71) | v0.71 y v0.7 | BPS | Disponible · Versión de prueba |
+| [Pokémon SoulGold](https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.72) | v0.72, v0.71 y v0.7 | BPS | Disponible · Versión de prueba |
