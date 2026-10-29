@@ -2831,6 +2831,144 @@
         }
       ],
       "pendingReleases": []
+    },
+    {
+      "id": "odyssey",
+      "number": 8,
+      "name": "Pokémon Odyssey",
+      "description": "Baja Estrato a Estrato por el Laberinto del Yggdrasil, al estilo de Etrian Odyssey, traducido al castellano.",
+      "author": "PacoScarso (Yggdrasil Project)",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano",
+      "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche de Odyssey en inglés. Versión de prueba, sobre la 4.1.1 del hack. Empieza partida nueva.",
+      "releases": [
+        {
+          "id": "odyssey-v0-12",
+          "version": "v0.12",
+          "publishedAt": "2026-10-29",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.12/Odyssey_ES.bps",
+            "sha256": "ce236ec293c02aa0b3103ed5d253641ff53757d7bf98160874b44ce158028696",
+            "size": 8047940,
+            "path": "patches/ce236ec293c02aa0b3103ed5d253641ff53757d7bf98160874b44ce158028696.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.12",
+          "output": {
+            "name": "odyssey-es-v0.12.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "87318605",
+              "sha1": "decec56042d7cc8b6eb92c52671724425ddbc97b",
+              "sha256": "4f64a802a79778a2eb0099825cdecfb5832e60a538277390bf8398978e093cda"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche de Odyssey en inglés. Versión de prueba, sobre la 4.1.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "odyssey-v0-11",
+          "version": "v0.11",
+          "publishedAt": "2026-10-29",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.11/Odyssey_ES.bps",
+            "sha256": "e5cedacac3c3d522d055a6a348b68f75d2e87b0c075d5451c47de05f2ea80805",
+            "size": 8047926,
+            "path": "patches/e5cedacac3c3d522d055a6a348b68f75d2e87b0c075d5451c47de05f2ea80805.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.11",
+          "output": {
+            "name": "odyssey-es-v0.11.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "57a452ad",
+              "sha1": "061b91f9617d2620477b66af3f00201621f69750",
+              "sha256": "7f03c4622d48dc10f060d5a6e386c9f73f1d2dd78d840cdd0a4d35c674de1e64"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche de Odyssey en inglés. Versión de prueba, sobre la 4.1.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "odyssey-v0-1",
+          "version": "v0.1",
+          "publishedAt": "2026-10-28",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.1/Odyssey_ES.bps",
+            "sha256": "7632811e290e2cdcad051651cd430446c6c6e675c189bb4ca50fac2b5de1653d",
+            "size": 8044878,
+            "path": "patches/7632811e290e2cdcad051651cd430446c6c6e675c189bb4ca50fac2b5de1653d.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.1",
+          "output": {
+            "name": "odyssey-es-v0.1.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "19d2bf1d",
+              "sha1": "e73023e9edbaa5670f6552b729ad8d8b6452e669",
+              "sha256": "fe29f4164cf5779f877d934adfcc657a8d46498b542b7fe92faab6f0c6fa23ea"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche de Odyssey en inglés. Versión de prueba, sobre la 4.1.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        }
+      ],
+      "pendingReleases": []
     }
   ]
 }
