@@ -813,6 +813,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
+          "id": "lazarus-v0-992",
+          "version": "v0.992",
+          "publishedAt": "2026-10-29",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.992/PokemonLazarus_es.bps",
+            "sha256": "d068b1f7870c0bb43644d65f7eebfb890623aa102643a72605a65730944c099a",
+            "size": 14844926,
+            "path": "patches/d068b1f7870c0bb43644d65f7eebfb890623aa102643a72605a65730944c099a.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.992",
+          "output": {
+            "name": "lazarus-es-v0.992.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "64777e77",
+              "sha1": "42608f37fa19296857ee5cd5847067091460bd4b",
+              "sha256": "7865eaf164550b3f6fd6c599066eabe029aab2c849d830a9fca40d583eb415dd"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "lazarus-v0-991",
           "version": "v0.991",
           "publishedAt": "2026-10-27",
