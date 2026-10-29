@@ -2845,6 +2845,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche de Odyssey en inglés. Versión de prueba, sobre la 4.1.1 del hack. Empieza partida nueva.",
       "releases": [
         {
+          "id": "odyssey-v0-13",
+          "version": "v0.13",
+          "publishedAt": "2026-10-29",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.13/Odyssey_ES.bps",
+            "sha256": "b386f56c6039e4bb964881a8ba496decb15ab0d40b9c8b95f1e2119e63232e60",
+            "size": 8047915,
+            "path": "patches/b386f56c6039e4bb964881a8ba496decb15ab0d40b9c8b95f1e2119e63232e60.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.13",
+          "output": {
+            "name": "odyssey-es-v0.13.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "c940695f",
+              "sha1": "3f9a53e888e47b6af5083f0857fd6b23cb899a15",
+              "sha256": "27956b5252769c6a25b6299690d8dd232ba5e9a5623439745c364b115b49573a"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche de Odyssey en inglés. Versión de prueba, sobre la 4.1.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "odyssey-v0-12",
           "version": "v0.12",
           "publishedAt": "2026-10-29",
