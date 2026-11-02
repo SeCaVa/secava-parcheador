@@ -353,7 +353,7 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.98/GhostGrey_ES.bps",
-            "sha256": "400875f8a34dba0149353e453175ae34c9d1b0a3246a4ca32b98435b2a82435b",
+            "sha256": "63854a71e7e8f95fa4bd8d5749869beb3e5da459c374bc340392da31799ffe1d",
             "size": 11536338
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.98",
@@ -361,9 +361,9 @@
             "name": "ghost-grey-es-v0.98.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "aea7f8fb",
-              "sha1": "22202b2dfe7a50a371bd91eb3fbf8aa2cd9cf2fd",
-              "sha256": "92a4c5d001a7df58397810a3793edbc091856677ceaff1684e68e9c028b06a0d"
+              "crc32": "c8920ade",
+              "sha1": "cf457200ff590624578d7fa0a8f9e72b88f4ff66",
+              "sha256": "053c989aa78e9da4b0704f2e7b78605d723b62723fc39e50cd0cf5a6dc2bdb37"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
