@@ -14,6 +14,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
       "releases": [
         {
+          "id": "emerald-rogue-v0-65",
+          "version": "v0.65",
+          "publishedAt": "2026-11-02",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "emerald-rogue-base",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.65/emeraldrogue_ex_es.bps",
+            "sha256": "2074cb3bba6bd115987298a9ff48725f3471d04dc96bebf12e3230692638ea4d",
+            "size": 22410355,
+            "path": "patches/2074cb3bba6bd115987298a9ff48725f3471d04dc96bebf12e3230692638ea4d.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.65",
+          "output": {
+            "name": "emerald-rogue-es-v0.65.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "4c58887e",
+              "sha1": "7cb7d3e2efb5c1c7b26ca93adff803c4ab6c80c1",
+              "sha256": "16389fbed849614cc6a9c99498ffa183fc985eb8ae7aaa4f529ccd4cbbe27493"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "emerald-rogue-v0-64",
           "version": "v0.64",
           "publishedAt": "2026-11-02",
