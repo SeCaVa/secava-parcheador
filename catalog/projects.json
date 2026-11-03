@@ -3261,7 +3261,7 @@
         },
         {
           "id": "odyssey-v0-16",
-          "version": "v0.16 (BPS actualizado a v0.17)",
+          "version": "v0.16",
           "publishedAt": "2026-11-02",
           "format": "bps",
           "bases": [
@@ -3280,17 +3280,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.16/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.16",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
@@ -3301,7 +3301,7 @@
         },
         {
           "id": "odyssey-v0-15",
-          "version": "v0.15 (BPS actualizado a v0.17)",
+          "version": "v0.15 (BPS actualizado a v0.16)",
           "publishedAt": "2026-11-01",
           "format": "bps",
           "bases": [
@@ -3320,17 +3320,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.15/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.15",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar. Esta publicación histórica también descarga el BPS actual v0.16.",
@@ -3341,7 +3341,7 @@
         },
         {
           "id": "odyssey-v0-14",
-          "version": "v0.14 (BPS actualizado a v0.17)",
+          "version": "v0.14 (BPS actualizado a v0.16)",
           "publishedAt": "2026-10-30",
           "format": "bps",
           "bases": [
@@ -3360,17 +3360,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.14/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.14",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar. Esta publicación histórica también descarga el BPS actual v0.16.",
@@ -3381,7 +3381,7 @@
         },
         {
           "id": "odyssey-v0-13",
-          "version": "v0.13 (BPS actualizado a v0.17)",
+          "version": "v0.13 (BPS actualizado a v0.16)",
           "publishedAt": "2026-10-29",
           "format": "bps",
           "bases": [
@@ -3400,17 +3400,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.13/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.13",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar. Esta publicación histórica también descarga el BPS actual v0.16.",
@@ -3421,7 +3421,7 @@
         },
         {
           "id": "odyssey-v0-12",
-          "version": "v0.12 (BPS actualizado a v0.17)",
+          "version": "v0.12 (BPS actualizado a v0.16)",
           "publishedAt": "2026-10-29",
           "format": "bps",
           "bases": [
@@ -3440,17 +3440,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.12/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.12",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar. Esta publicación histórica también descarga el BPS actual v0.16.",
@@ -3461,7 +3461,7 @@
         },
         {
           "id": "odyssey-v0-11",
-          "version": "v0.11 (BPS actualizado a v0.17)",
+          "version": "v0.11 (BPS actualizado a v0.16)",
           "publishedAt": "2026-10-29",
           "format": "bps",
           "bases": [
@@ -3480,17 +3480,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.11/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.11",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar. Esta publicación histórica también descarga el BPS actual v0.16.",
@@ -3501,7 +3501,7 @@
         },
         {
           "id": "odyssey-v0-1",
-          "version": "v0.1 (BPS actualizado a v0.17)",
+          "version": "v0.1 (BPS actualizado a v0.16)",
           "publishedAt": "2026-10-28",
           "format": "bps",
           "bases": [
@@ -3520,17 +3520,17 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.1/Odyssey_ES.bps",
-            "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726
+            "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.1",
           "output": {
             "name": "odyssey-es-v0.16.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "60e69cb1",
-              "sha1": "b49d66f4ec3a22dda7f0320d9dfcd8676a49d072",
-              "sha256": "8bb56cfb799c3b1c9d1eb47559c3a5de30209341e30b8eb52b1177f2a4544a3d"
+              "crc32": "cf3965be",
+              "sha1": "787e9278912416fa4135d06a79ec868ebd86b448",
+              "sha256": "9b9bb95670c3455cee9b73f8e4585c61b66ea2b2111a0cc3c8601be80090954f"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar. Esta publicación histórica también descarga el BPS actual v0.16.",
