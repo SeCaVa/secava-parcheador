@@ -2830,6 +2830,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
+          "id": "soulgold-v0-74",
+          "version": "v0.74",
+          "publishedAt": "2026-11-03",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.74/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "411d73c268005a05275852061a8646fd7fd76d3dbd2acd423eb2359bc0967de6",
+            "size": 23767917,
+            "path": "patches/411d73c268005a05275852061a8646fd7fd76d3dbd2acd423eb2359bc0967de6.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.74",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.74.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "a5f848c2",
+              "sha1": "d7b45d9e4a0a5052f626013a06b1fa2eea86401e",
+              "sha256": "58785a0bb0f22963d789d4567495bf056b20dbeec7c757ebc737c76103039139"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "soulgold-v0-73",
           "version": "v0.73",
           "publishedAt": "2026-10-29",
