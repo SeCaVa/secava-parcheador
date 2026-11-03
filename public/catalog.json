@@ -44,8 +44,8 @@
             "size": 33554432,
             "hashes": {
               "crc32": "4c58887e",
-              "sha1": "7cb7d3e2efb5c1c7b26ca93adff803c4ab6c80c1",
-              "sha256": "16389fbed849614cc6a9c99498ffa183fc985eb8ae7aaa4f529ccd4cbbe27493"
+              "sha1": "72a88634881e413a5d279d625f70b4ec67c03dba",
+              "sha256": "5e9d87ce23da3a3c21a5121b9e92bc4c002d35cc5777a253bb024f4732c0a724"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
@@ -85,8 +85,8 @@
             "size": 33554432,
             "hashes": {
               "crc32": "eefccc39",
-              "sha1": "adf11e474c5fd3635f8aa24d524f378c328fd989",
-              "sha256": "55ff2e307bfa331923820c8fe714ce9a72e4c872c65e3692fa20eb0d4f67cd3c"
+              "sha1": "72a88634881e413a5d279d625f70b4ec67c03dba",
+              "sha256": "5e9d87ce23da3a3c21a5121b9e92bc4c002d35cc5777a253bb024f4732c0a724"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
@@ -421,6 +421,47 @@
       "repository": "https://github.com/SeCaVa/GhostGrey-Traduccion",
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
+        {
+          "id": "ghost-grey-v0-99",
+          "version": "v0.99",
+          "publishedAt": "2026-11-03",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.99/GhostGrey_ES.bps",
+            "sha256": "bdd2083ed0a0bc3f093625dfadc9c86d05ba654e851b6b82003627f00ae8a4e8",
+            "size": 11536829,
+            "path": "patches/bdd2083ed0a0bc3f093625dfadc9c86d05ba654e851b6b82003627f00ae8a4e8.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.99",
+          "output": {
+            "name": "ghost-grey-es-v0.99.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "9902d3ad",
+              "sha1": "18a8a4bcaa130fbb5ea05508863e4c929e714796",
+              "sha256": "6a84db48afda8619082f7df35c5ce5cf2b2e7ff2b30712a617a8881b5881d363"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche de traducción publicado por SeCaVa; integración en su parcheador autorizada por el propio traductor."
+          }
+        },
         {
           "id": "ghost-grey-v0-98",
           "version": "v0.98",
@@ -2344,7 +2385,8 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.991/Unbound_ES_v0.991.bps",
             "sha256": "a8caf5e814a00ff58302fb045159a713b1a1b4bc78d339711791965b8b482713",
-            "size": 23779076
+            "size": 23779076,
+            "path": "patches/a8caf5e814a00ff58302fb045159a713b1a1b4bc78d339711791965b8b482713.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.991",
           "output": {
