@@ -1059,6 +1059,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
+          "id": "lazarus-v0-994",
+          "version": "v0.994",
+          "publishedAt": "2026-11-03",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.994/PokemonLazarus_es.bps",
+            "sha256": "0ec990dee4b0ee721143543b4df04f687f5498b788bbe644ee033eaa98a1550e",
+            "size": 14847538,
+            "path": "patches/0ec990dee4b0ee721143543b4df04f687f5498b788bbe644ee033eaa98a1550e.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.994",
+          "output": {
+            "name": "lazarus-es-v0.994.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "429e3152",
+              "sha1": "4457d5e9f0c490effdae1960d33a9e19e318562e",
+              "sha256": "ffcddbbd9a7bfebd898c3425e18d3b31b7c0138448196840ed0b066820622008"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "lazarus-v0-993",
           "version": "v0.993",
           "publishedAt": "2026-11-02",
@@ -2385,7 +2426,8 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.992/Unbound_ES_v0.992.bps",
             "sha256": "2d84db5cbcd2fb38bc61f5f07b17356b05549f56c10fa96c087f2309afcca74a",
-            "size": 23779070
+            "size": 23779070,
+            "path": "patches/2d84db5cbcd2fb38bc61f5f07b17356b05549f56c10fa96c087f2309afcca74a.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.992",
           "output": {
