@@ -11,8 +11,9 @@
     "test:browser": "playwright test",
     "install:firefox": "tsx scripts/install-firefox.ts",
     "catalog": "tsx scripts/sync-catalog.ts",
+    "downloads": "tsx scripts/sync-downloads.ts",
     "demo": "tsx scripts/generate-demo.ts",
-    "build": "npm run typecheck && npm run catalog && vite build",
+    "build": "npm run typecheck && npm run catalog && npm run downloads && vite build",
     "hash": "tsx scripts/hash-file.ts",
     "check:releases": "tsx scripts/check-releases.ts"
   },

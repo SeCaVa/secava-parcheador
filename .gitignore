@@ -5,3 +5,4 @@ playwright-report/
 public/patches/
 .cache/
 *.local
+public/descargas.json

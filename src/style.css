@@ -17,3 +17,22 @@
 .project-art img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
 .identity{font-size:11px;line-height:1.7;background:#dce6c8;border-left:3px solid #6b8960;padding:9px 11px;margin:0 0 14px;color:#3d5b3b}
 @media(max-width:380px){.screen-label{flex-wrap:wrap;gap:4px}.device-model{font-size:8px}.steps{gap:5px;font-size:8px}}
+/* Contador de aventuras traducidas: pantalla LCD grande con la misma paleta del dispositivo. */
+.tally{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;background:#a93832;border-radius:14px 14px 36px 14px;padding:16px;margin:0 0 34px;box-shadow:0 7px 0 #7f2a25}
+.tally[hidden]{display:none}
+.tally-screen{background:#e8ecd4;border:7px solid #324a43;border-radius:6px;padding:18px 20px 16px;box-shadow:inset 0 0 22px #425d3920;position:relative;overflow:hidden}
+.tally-screen:after{content:"";pointer-events:none;position:absolute;inset:0;background:repeating-linear-gradient(#0000 0 2px,#273d360a 2px 3px)}
+.tally .eyebrow{color:#324a43;margin-bottom:6px}
+.tally-number{position:relative;margin:0;font:800 clamp(56px,11vw,128px)/1 ui-monospace,"Cascadia Mono",Consolas,monospace;letter-spacing:-.04em;color:#273d36;text-shadow:3px 3px 0 #bdc8a6;font-variant-numeric:tabular-nums}
+.tally-legend{display:flex;flex-wrap:wrap;gap:4px 18px;margin:10px 0 0;font:11px ui-monospace,Consolas,monospace;color:#4e6254}
+.tally-legend b{color:var(--red);font-size:13px}
+.tally-games{list-style:none;margin:0;padding:6px 4px;display:grid;align-content:center;gap:7px;font:11px ui-monospace,Consolas,monospace;color:#fff6e2}
+.tally-games li{display:grid;grid-template-columns:minmax(0,11.5em) 1fr auto;align-items:center;gap:8px}
+.tally-games span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tally-games i{height:9px;background:#7f2a25;position:relative}
+.tally-games i:before{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:#e8ecd4}
+.tally-games b{font-variant-numeric:tabular-nums;min-width:3.5em;text-align:right}
+.version-count{font:11px ui-monospace,Consolas,monospace;color:#5f664f;margin:6px 0 0}
+.version-count b{color:var(--red)}
+@media(max-width:850px){.tally{grid-template-columns:1fr}}
+@media(max-width:650px){.tally{padding:10px;margin-bottom:24px}.tally-screen{padding:14px 12px 12px;border-width:5px}.tally-number{font-size:clamp(48px,17vw,84px)}}

@@ -22,6 +22,10 @@ root.innerHTML = `
     <button class="sound" id="sound" aria-pressed="false" title="Activar sonidos">♪ <span>Sonido: no</span></button>
   </header>
   <main><section class="intro"><div><p class="eyebrow"><span class="green-dot"></span> TERMINAL DE TRADUCCIÓN · ES-ES</p><h1>Tus aventuras.<br>Ahora, <em>en castellano.</em></h1><p>Tu ROM, el parche correcto y un nuevo idioma.<br class="desktop"> Todo desde el navegador. Así de sencillo.</p></div><div class="intro-note"><span class="mini-cartridge" aria-hidden="true">ES</span><span>Hecho con paciencia.<br><b>Para jugar en tu idioma.</b></span></div></section>
+  <section class="tally" id="tally" aria-labelledby="tally-title" hidden><div class="tally-screen"><p class="eyebrow" id="tally-title"><span class="green-dot"></span> CONTADOR DE AVENTURAS TRADUCIDAS</p>
+    <p class="tally-number"><span id="tally-total">0</span></p>
+    <p class="tally-legend"><span><b id="tally-github">—</b> descargas del parche en GitHub</span><span id="tally-web-line" hidden><b id="tally-web">0</b> parcheos en esta web</span></p></div>
+    <ol class="tally-games" id="tally-games" aria-label="Por juego"></ol></section>
   <div class="workspace"><section id="terminal" class="device" aria-labelledby="terminal-title"><div class="device-top"><span class="lens" aria-hidden="true"></span><span class="led red" aria-hidden="true"></span><span class="led yellow" aria-hidden="true"></span><span class="led green" aria-hidden="true"></span><span class="device-model">SCV / TRANSLATION SYSTEM</span></div>
     <div class="device-body"><div class="screen-label"><h2 id="terminal-title">01 / CARGA TU ROM</h2><span>PROCESAMIENTO LOCAL</span></div>
     <div class="screen"><div class="screen-top"><span><i aria-hidden="true"></i> <span id="screen-state">LISTO PARA CONECTAR</span></span><span aria-hidden="true">▮▮▮</span></div>
@@ -69,6 +73,7 @@ function bootWorker() {
       phase('TRADUCCIÓN COMPLETADA', 100); $('#screen-state').textContent = 'AVENTURA LISTA';
       announce(`Resultado verificado. CRC32 ${data.hashes.crc32.toUpperCase()}. Ya puedes descargarlo.`);
       $('#step-3').classList.add('current'); setBusy(false); beep(); $('#download')?.focus();
+      if (selectedProject && !selected().project?.demo) countPatch(selectedProject);
     } else if (data.type === 'error') { setBusy(false); phase('OPERACIÓN DETENIDA'); announce(data.message, true); }
   };
   worker.onerror = () => { hashes = undefined; setBusy(false); renderFile(); bootWorker(); phase('OPERACIÓN DETENIDA'); announce('El Worker no pudo completar la operación. Puede faltar memoria. Vuelve a cargar el archivo o prueba en otro dispositivo.', true); };
@@ -106,6 +111,7 @@ function renderSelection() {
   const compatible = !!(r && hashes && r.bases.some(b => matches(hashes!, b)));
   area.innerHTML = `<p class="eyebrow">02 / TU TRADUCCIÓN ${p.demo ? '· DEMOSTRACIÓN' : ''}</p><h3>${esc(p.name)}</h3><p>${esc(p.description)}</p><p class="credit">Juego: ${esc(p.author ?? 'Autor pendiente de documentar')}<br>${esc(p.credits)}</p>
     ${p.releases.length ? `<label class="version-label" for="version">Versión de la traducción</label><select id="version" ${busy ? 'disabled' : ''}>${p.releases.map(r => `<option value="${esc(r.id)}" ${r.id === selectedRelease ? 'selected' : ''}>${esc(r.version)} · ${r.format.toUpperCase()} · ${esc(r.publishedAt)}${r.patch.path ? '' : ' · solo en GitHub'}</option>`).join('')}</select>` : `<p class="notice">${esc(p.pendingReason ?? 'Faltan los datos de compatibilidad.')}</p>`}
+    ${r && downloads?.releases[r.id] !== undefined ? `<p class="version-count"><b>${fmt(downloads.releases[r.id])}</b> descargas de ${esc(r.version)} en GitHub</p>` : ''}
     <p class="instructions">${esc(r?.instructions ?? p.instructions)}</p>
     ${r ? `<details class="base-details"><summary>ROM base y datos de verificación</summary>${r.bases.map(b => `<h4>${esc(b.name)}</h4><p>${esc(b.region)} · Revisión ${esc(b.revision)}</p>${hashDetails(b.hashes, b.size)}`).join('')}<h4>Parche ${esc(r.format.toUpperCase())}</h4>${hashDetails({ crc32: '', sha256: r.patch.sha256 }, r.patch.size)}<h4>Resultado: ${esc(r.output.name)}</h4>${hashDetails(r.output.hashes, r.output.size)}</details>` : ''}
     ${hashes && r && !compatible ? '<p class="notice">Tu archivo no coincide con la ROM base de esta versión. Revisa los hashes y la revisión indicados.</p>' : ''}
@@ -161,12 +167,51 @@ $('#cancel').addEventListener('click', () => { reset(); announce('Operación can
 $('#reset').addEventListener('click', reset);
 $('#sound').addEventListener('click', () => { sound = !sound; $('#sound').setAttribute('aria-pressed', String(sound)); $('#sound span').textContent = `Sonido: ${sound ? 'sí' : 'no'}`; beep(); });
 window.addEventListener('pagehide', () => { clearDownload(); worker?.terminate(); request?.abort(); });
+type Downloads = { updatedAt: string; total: number; projects: Record<string, number>; releases: Record<string, number> };
+const COUNTER = 'https://traducciones.secava.eu/api/article';
+let downloads: Downloads | undefined;
+let webCounts: Record<string, number> | undefined;
+const counterPath = (projectId: string) => `/parcheador/${projectId}`;
+const numberFormat = new Intl.NumberFormat('es-ES', { useGrouping: 'always' } as unknown as Intl.NumberFormatOptions);
+const fmt = (n: number) => numberFormat.format(n);
+async function loadCounters() {
+  try {
+    const response = await fetch(new URL('descargas.json', base), { credentials: 'omit', cache: 'no-cache' });
+    if (response.ok) downloads = await response.json() as Downloads;
+  } catch { /* El contador es opcional. */ }
+  try {
+    const ids = catalog.projects.filter(p => !p.demo).map(p => p.id);
+    const response = await fetch(`${COUNTER}?${new URLSearchParams({ path: ids.map(counterPath).join(',') })}`, { credentials: 'omit', signal: AbortSignal.timeout(8000) });
+    const result = await response.json();
+    if (response.ok && !result.errno) { const data = (result.data ?? result) as { time?: number }[]; webCounts = Object.fromEntries(ids.map((id, i) => [id, Math.max(0, Number(data[i]?.time) || 0)])); }
+  } catch { /* Sin servidor, solo se muestra el histórico de GitHub. */ }
+  renderTally(); renderProjects();
+}
+function countFor(projectId: string) { return (downloads?.projects[projectId] ?? 0) + (webCounts?.[projectId] ?? 0); }
+function renderTally() {
+  if (!downloads && !webCounts) return;
+  const github = downloads?.total ?? 0, web = Object.values(webCounts ?? {}).reduce((a, b) => a + b, 0), total = github + web;
+  const digits = fmt(total);
+  $('#tally').hidden = false;
+  $('#tally-total').textContent = digits;
+  $('#tally-github').textContent = downloads ? fmt(github) : '—';
+  $('#tally-web').textContent = fmt(web); $('#tally-web-line').hidden = !webCounts;
+  const games = catalog.projects.filter(p => !p.demo).map(p => ({ p, n: countFor(p.id) })).sort((a, b) => b.n - a.n);
+  const max = Math.max(1, ...games.map(g => g.n));
+  $('#tally-games').innerHTML = games.map(({ p, n }) => `<li><span>${esc(p.name.replace(/^Pokémon /, ''))}</span><i data-w="${Math.round(n / max * 100)}"></i><b>${fmt(n)}</b></li>`).join('');
+  for (const bar of document.querySelectorAll<HTMLElement>('#tally-games i')) bar.style.setProperty('--w', `${bar.dataset.w}%`);
+  $('#tally').setAttribute('aria-label', `${digits} aventuras traducidas`);
+}
+function countPatch(projectId: string) {
+  void fetch(COUNTER, { method: 'POST', credentials: 'omit', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ path: counterPath(projectId) }), signal: AbortSignal.timeout(8000) })
+    .then(r => { if (r.ok && webCounts) { webCounts[projectId] = (webCounts[projectId] ?? 0) + 1; renderTally(); } }).catch(() => {});
+}
 async function init() {
   try {
     if (!window.Worker || !crypto.subtle) throw new Error('Necesitas un navegador moderno con HTTPS (o localhost), Web Workers y WebCrypto.');
     const response = await fetch(new URL('catalog.json', base), { credentials: 'omit', cache: 'no-cache' });
     if (!response.ok) throw new Error(`No se pudo leer el catálogo (HTTP ${response.status}).`);
-    catalog = catalogSchema.parse(await response.json()); bootWorker(); renderProjects();
+    catalog = catalogSchema.parse(await response.json()); bootWorker(); renderProjects(); void loadCounters();
   } catch (error) { phase('CATÁLOGO NO DISPONIBLE'); announce(error instanceof Error ? error.message : 'Catálogo inválido.', true); $<HTMLButtonElement>('#choose').disabled = true; }
 }
 void init();
