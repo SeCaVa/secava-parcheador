@@ -24,7 +24,7 @@ root.innerHTML = `
   <main><section class="intro"><div><p class="eyebrow"><span class="green-dot"></span> TERMINAL DE TRADUCCIÓN · ES-ES</p><h1>Tus aventuras.<br>Ahora, <em>en castellano.</em></h1><p>Tu ROM, el parche correcto y un nuevo idioma.<br class="desktop"> Todo desde el navegador. Así de sencillo.</p></div><div class="intro-note"><span class="mini-cartridge" aria-hidden="true">ES</span><span>Hecho con paciencia.<br><b>Para jugar en tu idioma.</b></span></div></section>
   <section class="tally" id="tally" aria-labelledby="tally-title" hidden><div class="tally-screen"><p class="eyebrow" id="tally-title"><span class="green-dot"></span> CONTADOR DE AVENTURAS TRADUCIDAS</p>
     <p class="tally-number"><span id="tally-total">0</span></p>
-    <p class="tally-legend"><span><b id="tally-github">—</b> descargas del parche en GitHub</span><span id="tally-web-line" hidden><b id="tally-web">0</b> parcheos en esta web</span></p></div>
+    <p class="tally-legend"><span><b id="tally-sum">0</b> parcheos en total</span></p></div>
     <ol class="tally-games" id="tally-games" aria-label="Por juego"></ol></section>
   <div class="workspace"><section id="terminal" class="device" aria-labelledby="terminal-title"><div class="device-top"><span class="lens" aria-hidden="true"></span><span class="led red" aria-hidden="true"></span><span class="led yellow" aria-hidden="true"></span><span class="led green" aria-hidden="true"></span><span class="device-model">SCV / TRANSLATION SYSTEM</span></div>
     <div class="device-body"><div class="screen-label"><h2 id="terminal-title">01 / CARGA TU ROM</h2><span>PROCESAMIENTO LOCAL</span></div>
@@ -111,7 +111,7 @@ function renderSelection() {
   const compatible = !!(r && hashes && r.bases.some(b => matches(hashes!, b)));
   area.innerHTML = `<p class="eyebrow">02 / TU TRADUCCIÓN ${p.demo ? '· DEMOSTRACIÓN' : ''}</p><h3>${esc(p.name)}</h3><p>${esc(p.description)}</p><p class="credit">Juego: ${esc(p.author ?? 'Autor pendiente de documentar')}<br>${esc(p.credits)}</p>
     ${p.releases.length ? `<label class="version-label" for="version">Versión de la traducción</label><select id="version" ${busy ? 'disabled' : ''}>${p.releases.map(r => `<option value="${esc(r.id)}" ${r.id === selectedRelease ? 'selected' : ''}>${esc(r.version)} · ${r.format.toUpperCase()} · ${esc(r.publishedAt)}${r.patch.path ? '' : ' · solo en GitHub'}</option>`).join('')}</select>` : `<p class="notice">${esc(p.pendingReason ?? 'Faltan los datos de compatibilidad.')}</p>`}
-    ${r && downloads?.releases[r.id] !== undefined ? `<p class="version-count"><b>${fmt(downloads.releases[r.id])}</b> descargas de ${esc(r.version)} en GitHub</p>` : ''}
+    ${r && downloads?.releases[r.id] !== undefined ? `<p class="version-count"><b>${fmt(downloads.releases[r.id])}</b> parcheos de ${esc(r.version)}</p>` : ''}
     <p class="instructions">${esc(r?.instructions ?? p.instructions)}</p>
     ${r ? `<details class="base-details"><summary>ROM base y datos de verificación</summary>${r.bases.map(b => `<h4>${esc(b.name)}</h4><p>${esc(b.region)} · Revisión ${esc(b.revision)}</p>${hashDetails(b.hashes, b.size)}`).join('')}<h4>Parche ${esc(r.format.toUpperCase())}</h4>${hashDetails({ crc32: '', sha256: r.patch.sha256 }, r.patch.size)}<h4>Resultado: ${esc(r.output.name)}</h4>${hashDetails(r.output.hashes, r.output.size)}</details>` : ''}
     ${hashes && r && !compatible ? '<p class="notice">Tu archivo no coincide con la ROM base de esta versión. Revisa los hashes y la revisión indicados.</p>' : ''}
@@ -190,17 +190,16 @@ async function loadCounters() {
 function countFor(projectId: string) { return (downloads?.projects[projectId] ?? 0) + (webCounts?.[projectId] ?? 0); }
 function renderTally() {
   if (!downloads && !webCounts) return;
-  const github = downloads?.total ?? 0, web = Object.values(webCounts ?? {}).reduce((a, b) => a + b, 0), total = github + web;
+  const total = (downloads?.total ?? 0) + Object.values(webCounts ?? {}).reduce((a, b) => a + b, 0);
   const digits = fmt(total);
   $('#tally').hidden = false;
   $('#tally-total').textContent = digits;
-  $('#tally-github').textContent = downloads ? fmt(github) : '—';
-  $('#tally-web').textContent = fmt(web); $('#tally-web-line').hidden = !webCounts;
+  $('#tally-sum').textContent = digits;
   const games = catalog.projects.filter(p => !p.demo).map(p => ({ p, n: countFor(p.id) })).sort((a, b) => b.n - a.n);
   const max = Math.max(1, ...games.map(g => g.n));
   $('#tally-games').innerHTML = games.map(({ p, n }) => `<li><span>${esc(p.name.replace(/^Pokémon /, ''))}</span><i data-w="${Math.round(n / max * 100)}"></i><b>${fmt(n)}</b></li>`).join('');
   for (const bar of document.querySelectorAll<HTMLElement>('#tally-games i')) bar.style.setProperty('--w', `${bar.dataset.w}%`);
-  $('#tally').setAttribute('aria-label', `${digits} aventuras traducidas`);
+  $('#tally').setAttribute('aria-label', `${digits} parcheos en total`);
 }
 function countPatch(projectId: string) {
   void fetch(COUNTER, { method: 'POST', credentials: 'omit', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ path: counterPath(projectId) }), signal: AbortSignal.timeout(8000) })
