@@ -1116,6 +1116,46 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
+          "id": "lazarus-v0-995",
+          "version": "v0.995",
+          "publishedAt": "2026-11-04",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.995/PokemonLazarus_es.bps",
+            "sha256": "b20a237b879704761880c298f133bd56113e0ce566410e290d46a26366ec610e",
+            "size": 14847666
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.995",
+          "output": {
+            "name": "lazarus-es-v0.995.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "75873183",
+              "sha1": "87716b88ab351f80f0fda32c5bff66896dffd518",
+              "sha256": "0db2a4b133fa90e76b1309a5c6dd64af8f6d4d9949d4f3ee3841fd7e8810871b"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "lazarus-v0-994",
           "version": "v0.994",
           "publishedAt": "2026-11-03",
