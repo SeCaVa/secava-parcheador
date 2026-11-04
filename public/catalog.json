@@ -463,6 +463,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v0-993",
+          "version": "v0.993",
+          "publishedAt": "2026-11-04",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.993/GhostGrey_ES.bps",
+            "sha256": "2c6e0c5e6c35410bc2a4fe57eb8f97f636901dfff8a99a9b61d91edb908badf6",
+            "size": 11536842,
+            "path": "patches/2c6e0c5e6c35410bc2a4fe57eb8f97f636901dfff8a99a9b61d91edb908badf6.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.993",
+          "output": {
+            "name": "ghost-grey-es-v0.993.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "60a1f86a",
+              "sha1": "142192081dccaccebbef178578673adb5e5dca57",
+              "sha256": "e866e456d59bfe33bb2c38c246fe2f43e9400a239e2464e1e4f4bcaa8d8cf863"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche de traducción publicado por SeCaVa; integración en su parcheador autorizada por el propio traductor."
+          }
+        },
+        {
           "id": "ghost-grey-v0-992",
           "version": "v0.992",
           "publishedAt": "2026-11-04",
