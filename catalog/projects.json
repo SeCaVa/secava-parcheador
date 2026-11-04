@@ -3700,6 +3700,46 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
       "releases": [
         {
+          "id": "odyssey-v0-18",
+          "version": "v0.18",
+          "publishedAt": "2026-11-04",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.18/Odyssey_ES.bps",
+            "sha256": "a3d516cdf894ddaea581644399233c59183fee5ec2f719c15c17d0632f47d34d",
+            "size": 8050803
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.18",
+          "output": {
+            "name": "odyssey-es-v0.18.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "784171e0",
+              "sha1": "6262cf0bd42012321ecc6ebda849c9a7d93958b7",
+              "sha256": "902369c2384f176998cce0ad2b83f2d14fbffdfd897f190a27919204329ec839"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "odyssey-v0-17",
           "version": "v0.17",
           "publishedAt": "2026-11-03",
