@@ -158,8 +158,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.63/emeraldrogue_ex_es.bps",
             "sha256": "05e39838bde76e2174868900da0b95d80376ef87622ba48c84af98efd3503850",
-            "size": 22409422,
-            "path": "patches/05e39838bde76e2174868900da0b95d80376ef87622ba48c84af98efd3503850.bps"
+            "size": 22409422
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.63",
           "output": {
@@ -199,8 +198,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.62/emeraldrogue_ex_es.bps",
             "sha256": "cf946dac8eb0c82365b2fc846c4642ee79a5086354c4fe1f336107670950c202",
-            "size": 22405410,
-            "path": "patches/cf946dac8eb0c82365b2fc846c4642ee79a5086354c4fe1f336107670950c202.bps"
+            "size": 22405410
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.62",
           "output": {
@@ -238,8 +236,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.61/emeraldrogue_ex_es.bps",
             "sha256": "a4710f0d6ff812add475e4fcada1ed58d12f960d54ee837d3ab43949ccc463a6",
-            "size": 22402895,
-            "path": "patches/a4710f0d6ff812add475e4fcada1ed58d12f960d54ee837d3ab43949ccc463a6.bps"
+            "size": 22402895
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.61",
           "output": {
@@ -277,8 +274,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.6/emeraldrogue_ex_es.bps",
             "sha256": "b63bf5a29edc20f407b7d56250cb92fb37f254d7fc6b01aa2a26997e730b7e93",
-            "size": 22402872,
-            "path": "patches/b63bf5a29edc20f407b7d56250cb92fb37f254d7fc6b01aa2a26997e730b7e93.bps"
+            "size": 22402872
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.6",
           "output": {
@@ -316,8 +312,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.5/emeraldrogue_ex_es.bps",
             "sha256": "3072ea4abb2cec5bcdb70dce0b74ba0e7b04a021a68462c4a988146deb4b1d34",
-            "size": 27003052,
-            "path": "patches/3072ea4abb2cec5bcdb70dce0b74ba0e7b04a021a68462c4a988146deb4b1d34.bps"
+            "size": 27003052
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.5",
           "output": {
@@ -355,8 +350,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.4/emeraldrogue_ex_es.ups",
             "sha256": "acbc3b0ad825358fa35cb29e2cd31ac873ca6c534496e69bd03adb4f88ce7529",
-            "size": 32600898,
-            "path": "patches/acbc3b0ad825358fa35cb29e2cd31ac873ca6c534496e69bd03adb4f88ce7529.ups"
+            "size": 32600898
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.4",
           "output": {
@@ -394,8 +388,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.3/emeraldrogue_ex_es.ups",
             "sha256": "a0cc5c71302baba1aa8f50583fed46473fcfd9b2f66e9bf2de3f1b32c3245fcf",
-            "size": 32601278,
-            "path": "patches/a0cc5c71302baba1aa8f50583fed46473fcfd9b2f66e9bf2de3f1b32c3245fcf.ups"
+            "size": 32601278
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.3",
           "output": {
@@ -607,8 +600,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.99/GhostGrey_ES.bps",
             "sha256": "bdd2083ed0a0bc3f093625dfadc9c86d05ba654e851b6b82003627f00ae8a4e8",
-            "size": 11536829,
-            "path": "patches/bdd2083ed0a0bc3f093625dfadc9c86d05ba654e851b6b82003627f00ae8a4e8.bps"
+            "size": 11536829
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.99",
           "output": {
@@ -648,8 +640,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.98/GhostGrey_ES.bps",
             "sha256": "63854a71e7e8f95fa4bd8d5749869beb3e5da459c374bc340392da31799ffe1d",
-            "size": 11536338,
-            "path": "patches/63854a71e7e8f95fa4bd8d5749869beb3e5da459c374bc340392da31799ffe1d.bps"
+            "size": 11536338
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.98",
           "output": {
@@ -689,8 +680,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.97/GhostGrey_ES.bps",
             "sha256": "c0ffae0c749ddbdf67e708367e387ed53381e59ae95ed0ce1715f8d2ba0b53cc",
-            "size": 11533570,
-            "path": "patches/c0ffae0c749ddbdf67e708367e387ed53381e59ae95ed0ce1715f8d2ba0b53cc.bps"
+            "size": 11533570
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.97",
           "output": {
@@ -730,8 +720,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.95/GhostGrey_ES.bps",
             "sha256": "89789b5f1e9373adf33e049cd3b991d1480c491a8ee15f5049e7321fb0a09ef8",
-            "size": 11533660,
-            "path": "patches/89789b5f1e9373adf33e049cd3b991d1480c491a8ee15f5049e7321fb0a09ef8.bps"
+            "size": 11533660
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.95",
           "output": {
@@ -771,8 +760,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.94/GhostGrey_ES.bps",
             "sha256": "af6c99e89031ce7b9f5a0dfe7ecdcc891b337302dea76afe5b22c59bcd7f925d",
-            "size": 11533646,
-            "path": "patches/af6c99e89031ce7b9f5a0dfe7ecdcc891b337302dea76afe5b22c59bcd7f925d.bps"
+            "size": 11533646
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.94",
           "output": {
@@ -812,8 +800,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.93/GhostGrey_ES.bps",
             "sha256": "91cd75b68499a560d0e6d1e06c1dd161f1693fec90aa9960293e638cd7c3a38c",
-            "size": 11533470,
-            "path": "patches/91cd75b68499a560d0e6d1e06c1dd161f1693fec90aa9960293e638cd7c3a38c.bps"
+            "size": 11533470
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.93",
           "output": {
@@ -853,8 +840,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.92/GhostGrey_ES.bps",
             "sha256": "ff234711ac8b8323e0691ca35240aa45d65ef30c7609e4a6419eae7665a79dd4",
-            "size": 11532525,
-            "path": "patches/ff234711ac8b8323e0691ca35240aa45d65ef30c7609e4a6419eae7665a79dd4.bps"
+            "size": 11532525
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.92",
           "output": {
@@ -894,8 +880,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.91/GhostGrey_ES.bps",
             "sha256": "e8ce89cabc4d3b4147258bc50ae12168a66c404eef66c14ee4c6df6cf61437bd",
-            "size": 11835266,
-            "path": "patches/e8ce89cabc4d3b4147258bc50ae12168a66c404eef66c14ee4c6df6cf61437bd.bps"
+            "size": 11835266
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.91",
           "output": {
@@ -935,8 +920,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.9/GhostGrey_ES.bps",
             "sha256": "109a6052063235edbfda3406a4580d06d081a23f206807478c488916219daa51",
-            "size": 11835273,
-            "path": "patches/109a6052063235edbfda3406a4580d06d081a23f206807478c488916219daa51.bps"
+            "size": 11835273
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.9",
           "output": {
@@ -976,8 +960,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.8/GhostGrey_ES.bps",
             "sha256": "af0c6c0586e89ef35695f5385ad5e46c101f588cdaad1d40ac1ee947f66c02ae",
-            "size": 11835273,
-            "path": "patches/af0c6c0586e89ef35695f5385ad5e46c101f588cdaad1d40ac1ee947f66c02ae.bps"
+            "size": 11835273
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.8",
           "output": {
@@ -1017,8 +1000,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.7/GhostGrey_ES.bps",
             "sha256": "7fa297b431a176fa797f6a8ea4fd9fce7852ccd3aa7a796ec293de78ad4abfff",
-            "size": 11836493,
-            "path": "patches/7fa297b431a176fa797f6a8ea4fd9fce7852ccd3aa7a796ec293de78ad4abfff.bps"
+            "size": 11836493
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.7",
           "output": {
@@ -1058,8 +1040,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.6/GhostGrey_ES.bps",
             "sha256": "e4059fa3981976528e5a4ee0b5c1ab42fdf53727b242f699d4ae8deae30eba9f",
-            "size": 11775566,
-            "path": "patches/e4059fa3981976528e5a4ee0b5c1ab42fdf53727b242f699d4ae8deae30eba9f.bps"
+            "size": 11775566
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.6",
           "output": {
@@ -1097,8 +1078,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.5/GhostGrey_ES.bps",
             "sha256": "ed4a4380eec75780bd4859c8a23431e906a5de745a79e9144fa90f1628faa321",
-            "size": 11766882,
-            "path": "patches/ed4a4380eec75780bd4859c8a23431e906a5de745a79e9144fa90f1628faa321.bps"
+            "size": 11766882
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.5",
           "output": {
@@ -1367,8 +1347,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.993/PokemonLazarus_es.bps",
             "sha256": "2a13a30d328ee1c5875070c78b9bd6a6327964e6e03b9691b08e782d8951bbb7",
-            "size": 14847526,
-            "path": "patches/2a13a30d328ee1c5875070c78b9bd6a6327964e6e03b9691b08e782d8951bbb7.bps"
+            "size": 14847526
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.993",
           "output": {
@@ -1408,8 +1387,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.992/PokemonLazarus_es.bps",
             "sha256": "d068b1f7870c0bb43644d65f7eebfb890623aa102643a72605a65730944c099a",
-            "size": 14844926,
-            "path": "patches/d068b1f7870c0bb43644d65f7eebfb890623aa102643a72605a65730944c099a.bps"
+            "size": 14844926
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.992",
           "output": {
@@ -1449,8 +1427,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.991/PokemonLazarus_es.bps",
             "sha256": "ad0ad0b2b50a1068e4317d576afd48b18a29edf13e363c6a5da7b8302c3084f5",
-            "size": 14844989,
-            "path": "patches/ad0ad0b2b50a1068e4317d576afd48b18a29edf13e363c6a5da7b8302c3084f5.bps"
+            "size": 14844989
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.991",
           "output": {
@@ -1490,8 +1467,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.99/PokemonLazarus_es.bps",
             "sha256": "caabbfff26855c4f4193582989b1e84565bd6f5c83f5978b59b121af988b5920",
-            "size": 14845025,
-            "path": "patches/caabbfff26855c4f4193582989b1e84565bd6f5c83f5978b59b121af988b5920.bps"
+            "size": 14845025
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.99",
           "output": {
@@ -1531,8 +1507,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.98/PokemonLazarus_es.bps",
             "sha256": "83276b5a08849fd51291e0041b74c57796259831e68211c91dc335b9a596faf4",
-            "size": 14840184,
-            "path": "patches/83276b5a08849fd51291e0041b74c57796259831e68211c91dc335b9a596faf4.bps"
+            "size": 14840184
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.98",
           "output": {
@@ -1572,8 +1547,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.97/PokemonLazarus_es.bps",
             "sha256": "95f6277994b806e8f4ac74e8c571d25e92ece07a3e27a46c16a0de067ec1b762",
-            "size": 14840254,
-            "path": "patches/95f6277994b806e8f4ac74e8c571d25e92ece07a3e27a46c16a0de067ec1b762.bps"
+            "size": 14840254
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.97",
           "output": {
@@ -1613,8 +1587,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.96/PokemonLazarus_es.bps",
             "sha256": "e20d2dacf0e02e8c457ba1b8f4d75b057345b8373d7a63094dcdf3a8bbf9dcc9",
-            "size": 14840121,
-            "path": "patches/e20d2dacf0e02e8c457ba1b8f4d75b057345b8373d7a63094dcdf3a8bbf9dcc9.bps"
+            "size": 14840121
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.96",
           "output": {
@@ -1654,8 +1627,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.95/PokemonLazarus_es.bps",
             "sha256": "e8fa21f0365402d61eecc05b1d880d68e2fd65514e633a551569e1c9121d4126",
-            "size": 14837822,
-            "path": "patches/e8fa21f0365402d61eecc05b1d880d68e2fd65514e633a551569e1c9121d4126.bps"
+            "size": 14837822
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.95",
           "output": {
@@ -1695,8 +1667,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.94/PokemonLazarus_es.bps",
             "sha256": "354b16a0ab55107d55461ced0a75ff0427be31db3242d7ecc1b5cf0fac6a09db",
-            "size": 14837792,
-            "path": "patches/354b16a0ab55107d55461ced0a75ff0427be31db3242d7ecc1b5cf0fac6a09db.bps"
+            "size": 14837792
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.94",
           "output": {
@@ -1736,8 +1707,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.93/PokemonLazarus_es.bps",
             "sha256": "c6c41b19e991183a5556725572d3cc6f32cb4f59618a6216f0a59fe30a59d396",
-            "size": 19959119,
-            "path": "patches/c6c41b19e991183a5556725572d3cc6f32cb4f59618a6216f0a59fe30a59d396.bps"
+            "size": 19959119
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.93",
           "output": {
@@ -1778,8 +1748,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.92/PokemonLazarus_es.bps",
             "sha256": "d9fc8785bc292bda39b5bb4b33311a0d1d70b9d9a20c081b9dd43bf526070dcb",
-            "size": 1776337,
-            "path": "patches/d9fc8785bc292bda39b5bb4b33311a0d1d70b9d9a20c081b9dd43bf526070dcb.bps"
+            "size": 1776337
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.92",
           "output": {
@@ -1820,8 +1789,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.91/PokemonLazarus_es.bps",
             "sha256": "75c34c23a7712c324fad4ad5178a58414cf6fd1856a61debd27f772353849a1a",
-            "size": 1774537,
-            "path": "patches/75c34c23a7712c324fad4ad5178a58414cf6fd1856a61debd27f772353849a1a.bps"
+            "size": 1774537
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.91",
           "output": {
@@ -1862,8 +1830,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.9/PokemonLazarus_es.bps",
             "sha256": "c0525228802dff65a35f7d11e0a933cea12b1625252c5d3deaa2782ad3357d1f",
-            "size": 1766378,
-            "path": "patches/c0525228802dff65a35f7d11e0a933cea12b1625252c5d3deaa2782ad3357d1f.bps"
+            "size": 1766378
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.9",
           "output": {
@@ -2039,8 +2006,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.99/RadicalRed_ES_v0.99.bps",
             "sha256": "d240e87ab6f3cb9110cea07fa19255743c0b1dda1238919146f9c1f0ee34cc32",
-            "size": 17227055,
-            "path": "patches/d240e87ab6f3cb9110cea07fa19255743c0b1dda1238919146f9c1f0ee34cc32.bps"
+            "size": 17227055
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.99",
           "output": {
@@ -2080,8 +2046,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.98/RadicalRed_ES_v0.98.bps",
             "sha256": "83d06938335440a35c35763d19cb09a27a8c3d6652de1fe3a01eb4ae24b9ed00",
-            "size": 17226796,
-            "path": "patches/83d06938335440a35c35763d19cb09a27a8c3d6652de1fe3a01eb4ae24b9ed00.bps"
+            "size": 17226796
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.98",
           "output": {
@@ -2121,8 +2086,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.97/RadicalRed_ES_v0.97.bps",
             "sha256": "43f9fb6ed33577d28fda9bb0a1a543abccb400f3629de625e81bae414249c3db",
-            "size": 17226776,
-            "path": "patches/43f9fb6ed33577d28fda9bb0a1a543abccb400f3629de625e81bae414249c3db.bps"
+            "size": 17226776
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.97",
           "output": {
@@ -2162,8 +2126,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.96/RadicalRed_ES_v0.96.bps",
             "sha256": "2bae14b5b785e64ae0fd8a804cfffc81cd70447b87c0e2aa89f3ff7ef68e801b",
-            "size": 17226881,
-            "path": "patches/2bae14b5b785e64ae0fd8a804cfffc81cd70447b87c0e2aa89f3ff7ef68e801b.bps"
+            "size": 17226881
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.96",
           "output": {
@@ -2203,8 +2166,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.95/RadicalRed_ES_v0.95.bps",
             "sha256": "5db9a913f59a68d90422e49dfc5baadd00d99486fcd29446c54b407ca0267294",
-            "size": 17226760,
-            "path": "patches/5db9a913f59a68d90422e49dfc5baadd00d99486fcd29446c54b407ca0267294.bps"
+            "size": 17226760
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.95",
           "output": {
@@ -2244,8 +2206,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.94/RadicalRed_ES_v0.94.bps",
             "sha256": "003de53868321653396e8337415b35fff1864d3fb01a437e3afae7ffcea08f89",
-            "size": 17226760,
-            "path": "patches/003de53868321653396e8337415b35fff1864d3fb01a437e3afae7ffcea08f89.bps"
+            "size": 17226760
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.94",
           "output": {
@@ -2285,8 +2246,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.93/RadicalRed_ES_v0.93.bps",
             "sha256": "e03633027936d07041148a1bd051d397ce176e00e5aa8bd5f4093d0c6153c592",
-            "size": 17814679,
-            "path": "patches/e03633027936d07041148a1bd051d397ce176e00e5aa8bd5f4093d0c6153c592.bps"
+            "size": 17814679
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.93",
           "output": {
@@ -2326,8 +2286,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.92/RadicalRed_ES_v0.92.bps",
             "sha256": "12973bf75ef6640a1d6bb1e6dbd454e1f0826316a8373a8e8ead9e054499d392",
-            "size": 17814685,
-            "path": "patches/12973bf75ef6640a1d6bb1e6dbd454e1f0826316a8373a8e8ead9e054499d392.bps"
+            "size": 17814685
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.92",
           "output": {
@@ -2367,8 +2326,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.91/RadicalRed_ES_v0.91.bps",
             "sha256": "a9a45640a159d1a3c5faafb5bbc77845e4ae4786b512a01c149b4aa10d2af279",
-            "size": 17814706,
-            "path": "patches/a9a45640a159d1a3c5faafb5bbc77845e4ae4786b512a01c149b4aa10d2af279.bps"
+            "size": 17814706
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.91",
           "output": {
@@ -2408,8 +2366,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.9/RadicalRed_ES_v0.9.bps",
             "sha256": "c8e5ba31e3cb676e104d9bd3f713954a68305dbcf9bee4cc193ff2ee1ffe23c4",
-            "size": 17814805,
-            "path": "patches/c8e5ba31e3cb676e104d9bd3f713954a68305dbcf9bee4cc193ff2ee1ffe23c4.bps"
+            "size": 17814805
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.9",
           "output": {
@@ -2449,8 +2406,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.8/RadicalRed_ES_v0.8.bps",
             "sha256": "085534f8d717343d040d2e349a9f4bcd72ee0a79c6ade2570c2344a4e7601ec2",
-            "size": 17814805,
-            "path": "patches/085534f8d717343d040d2e349a9f4bcd72ee0a79c6ade2570c2344a4e7601ec2.bps"
+            "size": 17814805
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.8",
           "output": {
@@ -2490,8 +2446,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.7/RadicalRed_ES_v0.7.bps",
             "sha256": "9e2401d71ba095b6b2874915b0fdb9ef6acdeebf1114ef0db0eec748596ddc0b",
-            "size": 17801890,
-            "path": "patches/9e2401d71ba095b6b2874915b0fdb9ef6acdeebf1114ef0db0eec748596ddc0b.bps"
+            "size": 17801890
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.7",
           "output": {
@@ -2531,8 +2486,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.6/RadicalRed_ES_v0.6.bps",
             "sha256": "5f2d0e225b975dd30fcf29c44c53ad3e7dbd86ffa8ce34ed1a160d47c08fafcf",
-            "size": 17802185,
-            "path": "patches/5f2d0e225b975dd30fcf29c44c53ad3e7dbd86ffa8ce34ed1a160d47c08fafcf.bps"
+            "size": 17802185
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.6",
           "output": {
@@ -2573,8 +2527,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.5/RadicalRed_ES_v0.5.bps",
             "sha256": "0572fbafe8c179ef4fbae6190ad11d9b11bafe70c46d73990c9cbdb3012a6a03",
-            "size": 1144221,
-            "path": "patches/0572fbafe8c179ef4fbae6190ad11d9b11bafe70c46d73990c9cbdb3012a6a03.bps"
+            "size": 1144221
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.5",
           "output": {
@@ -2615,8 +2568,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.4/RadicalRed_ES_v0.4.bps",
             "sha256": "0572fbafe8c179ef4fbae6190ad11d9b11bafe70c46d73990c9cbdb3012a6a03",
-            "size": 1144221,
-            "path": "patches/0572fbafe8c179ef4fbae6190ad11d9b11bafe70c46d73990c9cbdb3012a6a03.bps"
+            "size": 1144221
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.4",
           "output": {
@@ -2657,8 +2609,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.3/RadicalRed_ES_v0.3.bps",
             "sha256": "f328dbe6f59b884091d1dcb74ebab27392715e7eb36f9a11351551177df3e86c",
-            "size": 1135656,
-            "path": "patches/f328dbe6f59b884091d1dcb74ebab27392715e7eb36f9a11351551177df3e86c.bps"
+            "size": 1135656
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.3",
           "output": {
@@ -2699,8 +2650,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.2/RadicalRed_ES_v0.2.bps",
             "sha256": "0bff3981463587a2db938c95e0697976a7bd0358f6f1e44527573fc9c94c5b7f",
-            "size": 1134142,
-            "path": "patches/0bff3981463587a2db938c95e0697976a7bd0358f6f1e44527573fc9c94c5b7f.bps"
+            "size": 1134142
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.2",
           "output": {
@@ -2741,8 +2691,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.1/RadicalRed_ES_v0.1.bps",
             "sha256": "cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2",
-            "size": 1127804,
-            "path": "patches/cad7269bf648eabe8314293a18794138c77d8e8065bb0a33f0d13f28f56219b2.bps"
+            "size": 1127804
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.1",
           "output": {
@@ -3041,8 +2990,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.991/Unbound_ES_v0.991.bps",
             "sha256": "a8caf5e814a00ff58302fb045159a713b1a1b4bc78d339711791965b8b482713",
-            "size": 23779076,
-            "path": "patches/a8caf5e814a00ff58302fb045159a713b1a1b4bc78d339711791965b8b482713.bps"
+            "size": 23779076
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.991",
           "output": {
@@ -3082,8 +3030,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.99/Unbound_ES_v0.99.bps",
             "sha256": "b8f56fdf1106c81e08c88d754d44b2dc1970eeaa8f4e5ba98d615ebf06915a2a",
-            "size": 23426536,
-            "path": "patches/b8f56fdf1106c81e08c88d754d44b2dc1970eeaa8f4e5ba98d615ebf06915a2a.bps"
+            "size": 23426536
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.99",
           "output": {
@@ -3123,8 +3070,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.98/Unbound_ES_v0.98.bps",
             "sha256": "ab2bea5930b072e6d1334d66b22c4fbb83bf395e34c172dd723a0af55fb8ec9c",
-            "size": 23426399,
-            "path": "patches/ab2bea5930b072e6d1334d66b22c4fbb83bf395e34c172dd723a0af55fb8ec9c.bps"
+            "size": 23426399
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.98",
           "output": {
@@ -3164,8 +3110,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.97/Unbound_ES_v0.97.bps",
             "sha256": "5b39b6ad6e2b21dd69f68b4bb1c0160d614e950ef55e87d4bbf269c7d9172e25",
-            "size": 23426836,
-            "path": "patches/5b39b6ad6e2b21dd69f68b4bb1c0160d614e950ef55e87d4bbf269c7d9172e25.bps"
+            "size": 23426836
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.97",
           "output": {
@@ -3205,8 +3150,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.96/Unbound_ES_v0.96.bps",
             "sha256": "f475960c46aaf2b27d53e51838ad82581ee6dce1d619d126d39315fd13bcbd16",
-            "size": 23426836,
-            "path": "patches/f475960c46aaf2b27d53e51838ad82581ee6dce1d619d126d39315fd13bcbd16.bps"
+            "size": 23426836
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.96",
           "output": {
@@ -3246,8 +3190,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.95/Unbound_ES_v0.95.bps",
             "sha256": "48d2d133849eb7f5f2d7c328c0d32eeda673a1c660144dc485cff882b2cbda4f",
-            "size": 23425736,
-            "path": "patches/48d2d133849eb7f5f2d7c328c0d32eeda673a1c660144dc485cff882b2cbda4f.bps"
+            "size": 23425736
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.95",
           "output": {
@@ -3287,8 +3230,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.94/Unbound_ES_v0.94.bps",
             "sha256": "1f856b15f294edad7580086baea9e799d3d499412700d9713a9f46e8bed19847",
-            "size": 23425530,
-            "path": "patches/1f856b15f294edad7580086baea9e799d3d499412700d9713a9f46e8bed19847.bps"
+            "size": 23425530
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.94",
           "output": {
@@ -3328,8 +3270,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.93/Unbound_ES_v0.93.bps",
             "sha256": "920fee2b4e4e8cf2a225dc60466194515b10f3474ce4102a044bb0e778523a01",
-            "size": 24167950,
-            "path": "patches/920fee2b4e4e8cf2a225dc60466194515b10f3474ce4102a044bb0e778523a01.bps"
+            "size": 24167950
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.93",
           "output": {
@@ -3369,8 +3310,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.92/Unbound_ES_v0.92.bps",
             "sha256": "7406701c3b2356a5bbb40cfa7fa42cfee790235f6ccd2043522c0b92966b7c76",
-            "size": 24167875,
-            "path": "patches/7406701c3b2356a5bbb40cfa7fa42cfee790235f6ccd2043522c0b92966b7c76.bps"
+            "size": 24167875
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.92",
           "output": {
@@ -3410,8 +3350,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.91/Unbound_ES_v0.91.bps",
             "sha256": "bf1588d5e060eeb87d1fddddfc88aa628866baf02116edcefe2dc24e43484027",
-            "size": 24168164,
-            "path": "patches/bf1588d5e060eeb87d1fddddfc88aa628866baf02116edcefe2dc24e43484027.bps"
+            "size": 24168164
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.91",
           "output": {
@@ -3451,8 +3390,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.9/Unbound_ES_v0.9.bps",
             "sha256": "1e209ea1499a462d3853c6e8d7e54931d0d3c917256cacdabc6d8e9100aaa4ce",
-            "size": 24150903,
-            "path": "patches/1e209ea1499a462d3853c6e8d7e54931d0d3c917256cacdabc6d8e9100aaa4ce.bps"
+            "size": 24150903
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.9",
           "output": {
@@ -3492,8 +3430,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.8/Unbound_ES_v0.8.bps",
             "sha256": "5ef8c861b98c6cb9173ea4c1b6feb1bb362d57fa13bd746bc606e899aea9588d",
-            "size": 24164113,
-            "path": "patches/5ef8c861b98c6cb9173ea4c1b6feb1bb362d57fa13bd746bc606e899aea9588d.bps"
+            "size": 24164113
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.8",
           "output": {
@@ -3533,8 +3470,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.7/Unbound_ES_v0.7.bps",
             "sha256": "43436c58961a6b007a160e1246a915473e1ff88c82111134b42fd0255ec7dac5",
-            "size": 24189860,
-            "path": "patches/43436c58961a6b007a160e1246a915473e1ff88c82111134b42fd0255ec7dac5.bps"
+            "size": 24189860
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.7",
           "output": {
@@ -3574,8 +3510,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.6/Unbound_ES_v0.6.bps",
             "sha256": "1b4bbf49ae6782de29efb8530cd65e707a50fb169763083fa43483e29aa4e498",
-            "size": 24182015,
-            "path": "patches/1b4bbf49ae6782de29efb8530cd65e707a50fb169763083fa43483e29aa4e498.bps"
+            "size": 24182015
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.6",
           "output": {
@@ -3753,8 +3688,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.71/Pokemon-SoulGold-Castellano.bps",
             "sha256": "d368b626b77c9e7477e994951200d61cf563fc16760f6b471399eb3a754b26a9",
-            "size": 23774655,
-            "path": "patches/d368b626b77c9e7477e994951200d61cf563fc16760f6b471399eb3a754b26a9.bps"
+            "size": 23774655
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.71",
           "output": {
@@ -3794,8 +3728,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.7/Pokemon-SoulGold-Castellano.bps",
             "sha256": "7d51b057fc19ad8de34af22e7b4350f2bc7d459481ee857e7f21aee4bdcc50aa",
-            "size": 23774662,
-            "path": "patches/7d51b057fc19ad8de34af22e7b4350f2bc7d459481ee857e7f21aee4bdcc50aa.bps"
+            "size": 23774662
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.7",
           "output": {
@@ -3973,8 +3906,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.15/Odyssey_ES.bps",
             "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
-            "size": 8050603,
-            "path": "patches/9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b.bps"
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.15",
           "output": {
@@ -4014,8 +3946,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.14/Odyssey_ES.bps",
             "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
-            "size": 8050603,
-            "path": "patches/9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b.bps"
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.14",
           "output": {
@@ -4055,8 +3986,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.13/Odyssey_ES.bps",
             "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
-            "size": 8050603,
-            "path": "patches/9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b.bps"
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.13",
           "output": {
@@ -4096,8 +4026,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.12/Odyssey_ES.bps",
             "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
-            "size": 8050603,
-            "path": "patches/9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b.bps"
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.12",
           "output": {
@@ -4137,8 +4066,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.11/Odyssey_ES.bps",
             "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
-            "size": 8050603,
-            "path": "patches/9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b.bps"
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.11",
           "output": {
@@ -4178,8 +4106,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.1/Odyssey_ES.bps",
             "sha256": "9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b",
-            "size": 8050603,
-            "path": "patches/9f9a424895ceb7146d4c1aa4b0bf87044364c95fada586ea31309529e661d31b.bps"
+            "size": 8050603
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.1",
           "output": {

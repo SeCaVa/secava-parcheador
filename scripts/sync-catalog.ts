@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, unlink, stat } from 'node:fs/promises';
 import { catalogSchema } from '../src/core/catalog';
 import { digest, crcHex } from '../src/core/hash';
 import { inspectPatch } from '../src/core/patch';
@@ -10,6 +10,19 @@ for (const project of catalog.projects) for (const release of project.releases) 
   const prev = seen.get(`${k}:${v}`);
   if (prev && prev.crc !== release.output.hashes.crc32) throw new Error(`${k} de salida repetido con distinto CRC32: ${prev.id} y ${release.id}`);
   seen.set(`${k}:${v}`, { id: release.id, crc: release.output.hashes.crc32 });
+}
+// GitHub Pages admite como máximo 1 GB por sitio y los assets de las releases no permiten CORS:
+// la web solo aloja las últimas versiones de cada juego; las anteriores enlazan a su release.
+const VERSIONES_EN_WEB = 3;
+const LIMITE_WEB = 900 * 1024 * 1024;
+const enWeb = new Set<string>();
+for (const project of catalog.projects) {
+  const versiones: string[] = [];
+  for (const release of project.releases) {
+    const v = release.version.replace(/\s*\(.*\)$/, '');
+    if (!versiones.includes(v)) versiones.push(v);
+    if (versiones.indexOf(v) < VERSIONES_EN_WEB) enWeb.add(release.id);
+  }
 }
 await mkdir('public/patches', { recursive: true });
 await mkdir('.cache', { recursive: true });
@@ -29,13 +42,18 @@ for (const project of catalog.projects) for (const release of project.releases) 
   const h = inspectPatch(bytes);
   if (h.format !== release.format || h.targetSize !== release.output.size || crcHex(h.targetCrc) !== release.output.hashes.crc32 ||
     release.bases.some(b => b.size !== h.sourceSize || b.hashes.crc32 !== crcHex(h.sourceCrc))) throw new Error(`Cabecera incompatible con el catálogo: ${release.id}`);
+  await writeFile(cache, bytes);
+  if (!enWeb.has(release.id)) { delete release.patch.path; continue; }
   release.patch.path = `patches/${release.patch.sha256}.${release.format}`;
   await writeFile(`public/${release.patch.path}`, bytes);
-  await writeFile(cache, bytes);
 }
 await writeFile('public/catalog.json', JSON.stringify(catalog, null, 2));
 const retained = new Set(catalog.projects.flatMap(p=>p.releases.map(r=>r.patch.path?.split('/').at(-1))));
 for (const entry of await readdir('public/patches',{withFileTypes:true})) {
   if (entry.isFile() && /^[a-f0-9]{64}\.(bps|ups)$/.test(entry.name) && !retained.has(entry.name)) await unlink(`public/patches/${entry.name}`);
 }
+let ocupado = 0;
+for (const entry of await readdir('public/patches',{withFileTypes:true})) if (entry.isFile()) ocupado += (await stat(`public/patches/${entry.name}`)).size;
+if (ocupado > LIMITE_WEB) throw new Error(`public/patches ocupa ${Math.round(ocupado / 1048576)} MiB: supera el límite de ${LIMITE_WEB / 1048576} MiB para GitHub Pages. Baja VERSIONES_EN_WEB.`);
+console.log(`Parches alojados en la web: ${enWeb.size} (${Math.round(ocupado / 1048576)} MiB).`);
 console.log(`Catálogo validado: ${catalog.projects.length} proyectos, ${catalog.projects.reduce((n, p) => n + p.releases.length, 0)} versiones habilitadas.`);
