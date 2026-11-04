@@ -36,3 +36,4 @@
 .version-count b{color:var(--red)}
 @media(max-width:850px){.tally{grid-template-columns:1fr}}
 @media(max-width:650px){.tally{padding:10px;margin-bottom:24px}.tally-screen{padding:14px 12px 12px;border-width:5px}.tally-number{font-size:clamp(48px,17vw,84px)}}
+.tally-more{position:relative;margin:6px 0 0;font:italic 12px/1.5 ui-monospace,Consolas,monospace;color:#5f664f}

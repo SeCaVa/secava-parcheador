@@ -24,7 +24,8 @@ root.innerHTML = `
   <main><section class="intro"><div><p class="eyebrow"><span class="green-dot"></span> TERMINAL DE TRADUCCIÓN · ES-ES</p><h1>Tus aventuras.<br>Ahora, <em>en castellano.</em></h1><p>Tu ROM, el parche correcto y un nuevo idioma.<br class="desktop"> Todo desde el navegador. Así de sencillo.</p></div><div class="intro-note"><span class="mini-cartridge" aria-hidden="true">ES</span><span>Hecho con paciencia.<br><b>Para jugar en tu idioma.</b></span></div></section>
   <section class="tally" id="tally" aria-labelledby="tally-title" hidden><div class="tally-screen"><p class="eyebrow" id="tally-title"><span class="green-dot"></span> CONTADOR DE AVENTURAS TRADUCIDAS</p>
     <p class="tally-number"><span id="tally-total">0</span></p>
-    <p class="tally-legend"><span><b id="tally-sum">0</b> parcheos en total</span></p></div>
+    <p class="tally-legend"><span><b id="tally-sum">0</b> parcheos en total</span></p>
+    <p class="tally-more">Y muchos más si contamos Whack a Hack!, los canales de Telegram y algunos youtubers.</p></div>
     <ol class="tally-games" id="tally-games" aria-label="Por juego"></ol></section>
   <div class="workspace"><section id="terminal" class="device" aria-labelledby="terminal-title"><div class="device-top"><span class="lens" aria-hidden="true"></span><span class="led red" aria-hidden="true"></span><span class="led yellow" aria-hidden="true"></span><span class="led green" aria-hidden="true"></span><span class="device-model">SCV / TRANSLATION SYSTEM</span></div>
     <div class="device-body"><div class="screen-label"><h2 id="terminal-title">01 / CARGA TU ROM</h2><span>PROCESAMIENTO LOCAL</span></div>
