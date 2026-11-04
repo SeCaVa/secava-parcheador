@@ -3,6 +3,14 @@ import { catalogSchema } from '../src/core/catalog';
 import { digest, crcHex } from '../src/core/hash';
 import { inspectPatch } from '../src/core/patch';
 const catalog = catalogSchema.parse(JSON.parse(await readFile('catalog/projects.json', 'utf8')));
+// Un SHA de salida repetido con distinto CRC32 delata una entrada copiada sin actualizar.
+const seen = new Map<string, { id: string; crc: string }>();
+for (const project of catalog.projects) for (const release of project.releases) for (const k of ['sha1', 'sha256'] as const) {
+  const v = release.output.hashes[k]?.toLowerCase(); if (!v) continue;
+  const prev = seen.get(`${k}:${v}`);
+  if (prev && prev.crc !== release.output.hashes.crc32) throw new Error(`${k} de salida repetido con distinto CRC32: ${prev.id} y ${release.id}`);
+  seen.set(`${k}:${v}`, { id: release.id, crc: release.output.hashes.crc32 });
+}
 await mkdir('public/patches', { recursive: true });
 await mkdir('.cache', { recursive: true });
 for (const project of catalog.projects) for (const release of project.releases) {

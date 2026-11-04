@@ -44,8 +44,8 @@
             "size": 33554432,
             "hashes": {
               "crc32": "f1d7da64",
-              "sha1": "7cb7d3e2efb5c1c7b26ca93adff803c4ab6c80c1",
-              "sha256": "16389fbed849614cc6a9c99498ffa183fc985eb8ae7aaa4f529ccd4cbbe27493"
+              "sha1": "5d2b9035bc6e80b579967d8050581a8cefa3795b",
+              "sha256": "f554a0d685307f6b4dcb03699dba509b850ea227286fd6fa8be2d7051a5399c1"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
@@ -2795,7 +2795,8 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.994/Unbound_ES_v0.994.bps",
             "sha256": "2d384021139ab1ea8382a1d805f7c9fa5056588384eb181db8199d9d6225263b",
-            "size": 23779527
+            "size": 23779527,
+            "path": "patches/2d384021139ab1ea8382a1d805f7c9fa5056588384eb181db8199d9d6225263b.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.994",
           "output": {
@@ -2835,7 +2836,8 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.994/Unbound_ES_v0.994_sinZA.bps",
             "sha256": "2eab303d186a7cf497d5b7d5acb072fb5fe056da8a73600be6322ac168aa9411",
-            "size": 23426935
+            "size": 23426935,
+            "path": "patches/2eab303d186a7cf497d5b7d5acb072fb5fe056da8a73600be6322ac168aa9411.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.994",
           "output": {

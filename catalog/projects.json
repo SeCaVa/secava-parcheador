@@ -43,8 +43,8 @@
             "size": 33554432,
             "hashes": {
               "crc32": "f1d7da64",
-              "sha1": "7cb7d3e2efb5c1c7b26ca93adff803c4ab6c80c1",
-              "sha256": "16389fbed849614cc6a9c99498ffa183fc985eb8ae7aaa4f529ccd4cbbe27493"
+              "sha1": "5d2b9035bc6e80b579967d8050581a8cefa3795b",
+              "sha256": "f554a0d685307f6b4dcb03699dba509b850ea227286fd6fa8be2d7051a5399c1"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
