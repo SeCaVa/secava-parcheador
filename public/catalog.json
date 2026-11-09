@@ -14,6 +14,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
       "releases": [
         {
+          "id": "emerald-rogue-v0-67",
+          "version": "v0.67",
+          "publishedAt": "2026-11-09",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "emerald-rogue-base",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.67/emeraldrogue_ex_es.bps",
+            "sha256": "8f7c6f65a516600246307f93df016d174f5999f1c832779631adae2e8450753b",
+            "size": 22410222,
+            "path": "patches/8f7c6f65a516600246307f93df016d174f5999f1c832779631adae2e8450753b.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.67",
+          "output": {
+            "name": "emerald-rogue-es-v0.67.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "1ac1486c",
+              "sha1": "7fcb2b100e3572ca42697e63e54f966d1a66c9f5",
+              "sha256": "8fc574fd2ad42e2d0743a329bd15847c84e172e04d7e8ab4a7444aed7360e23c"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche oficial publicado por SeCaVa; integración local solicitada por el propio titular de la traducción. Antes de publicar, revisar los permisos de los componentes ajenos descritos en docs/LICENCIAS.md."
+          }
+        },
+        {
           "id": "emerald-rogue-v0-66",
           "version": "v0.66",
           "publishedAt": "2026-11-04",
@@ -117,8 +158,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/download/v0.64/emeraldrogue_ex_es.bps",
             "sha256": "493f4017403da901ea68ee438729baf66f3cfc30c9e36029791e416f584e0683",
-            "size": 22409720,
-            "path": "patches/493f4017403da901ea68ee438729baf66f3cfc30c9e36029791e416f584e0683.bps"
+            "size": 22409720
           },
           "releaseUrl": "https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.64",
           "output": {
@@ -4128,8 +4168,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.73/Pokemon-SoulGold-Castellano.bps",
             "sha256": "0f5dcaed3a5781ffc86d6be5d732a625b175dffc1c47ec3cfec3c030051ac477",
-            "size": 23768237,
-            "path": "patches/0f5dcaed3a5781ffc86d6be5d732a625b175dffc1c47ec3cfec3c030051ac477.bps"
+            "size": 23768237
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.73",
           "output": {
@@ -4427,8 +4466,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.17/Odyssey_ES.bps",
             "sha256": "4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4",
-            "size": 8050726,
-            "path": "patches/4dbb3f1e7f274ff9e637a6c0773711a86a17c8eec02f00a044c2ffa4d044b6b4.bps"
+            "size": 8050726
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.17",
           "output": {
