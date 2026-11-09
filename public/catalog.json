@@ -1243,6 +1243,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
+          "id": "lazarus-v0-997",
+          "version": "v0.997",
+          "publishedAt": "2026-11-09",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "lazarus-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/EmeraldRogue-Castellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.997/PokemonLazarus_es.bps",
+            "sha256": "6ae9723672bfc5c42f32763d40ab6e50e97f4d01722c7e455b89782931c5eb3f",
+            "size": 14848163,
+            "path": "patches/6ae9723672bfc5c42f32763d40ab6e50e97f4d01722c7e455b89782931c5eb3f.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.997",
+          "output": {
+            "name": "lazarus-es-v0.997.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "29a27684",
+              "sha1": "e656c581fbfff6c46d3690c42007ab7b5a910767",
+              "sha256": "7b47c8010cdc189a48831b6aa6e9701f3c9c36514d2f5366a2189a228dfde4da"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "lazarus-v0-996",
           "version": "v0.996",
           "publishedAt": "2026-11-04",
@@ -1346,8 +1387,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.994/PokemonLazarus_es.bps",
             "sha256": "0ec990dee4b0ee721143543b4df04f687f5498b788bbe644ee033eaa98a1550e",
-            "size": 14847538,
-            "path": "patches/0ec990dee4b0ee721143543b4df04f687f5498b788bbe644ee033eaa98a1550e.bps"
+            "size": 14847538
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.994",
           "output": {
@@ -3968,8 +4008,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.72/Pokemon-SoulGold-Castellano.bps",
             "sha256": "49878cc3db521a6c657e7399634ab51b2410c11ca7833ed6aeb324d06a4b8244",
-            "size": 23768193,
-            "path": "patches/49878cc3db521a6c657e7399634ab51b2410c11ca7833ed6aeb324d06a4b8244.bps"
+            "size": 23768193
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.72",
           "output": {
