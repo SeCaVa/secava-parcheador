@@ -453,6 +453,46 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v0-995",
+          "version": "v0.995",
+          "publishedAt": "2026-11-09",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.995/GhostGrey_ES.bps",
+            "sha256": "856bdc6d044738f74786b87efa4a3e576ce4fcfdac7ba773912e656e8efcce23",
+            "size": 11536976
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.995",
+          "output": {
+            "name": "ghost-grey-es-v0.995.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "69dc94bf",
+              "sha1": "2013df884323431cd45df694358417a511fe04d4",
+              "sha256": "6f82205f33e2ff61987c09d0193af6233c4af97d442bad17eb4be5a094fae340"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche de traducción publicado por SeCaVa; integración en su parcheador autorizada por el propio traductor."
+          }
+        },
+        {
           "id": "ghost-grey-v0-994",
           "version": "v0.994",
           "publishedAt": "2026-11-05",
