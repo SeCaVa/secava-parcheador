@@ -2965,6 +2965,88 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta.",
       "releases": [
         {
+          "id": "unbound-v0-999",
+          "version": "v0.999",
+          "publishedAt": "2026-11-10",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.999/Unbound_ES_v0.999.bps",
+            "sha256": "a03210efdeced7af2ec8241179b2edfb11157b96cd22c24a17f6748ba4f3d947",
+            "size": 23789861,
+            "path": "patches/a03210efdeced7af2ec8241179b2edfb11157b96cd22c24a17f6748ba4f3d947.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.999",
+          "output": {
+            "name": "unbound-es-v0.999.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "40d5ce1b",
+              "sha1": "4f8bf3e1dbde4b09f410ce743c86eaad0675dba5",
+              "sha256": "aa73ec24e114f194cb5e5f30a8542e1377f1ed58cdc9b05c3d94382268c08788"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta. Con ZA Megas (parche de fans de Alphapenguin42).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "unbound-v0-999-sinza",
+          "version": "v0.999 (sin ZA Megas)",
+          "publishedAt": "2026-11-10",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.999/Unbound_ES_v0.999_sinZA.bps",
+            "sha256": "d960d95d22c9c91895562e53397ae0f0a08c27b692eefced0107a8fb26f35f16",
+            "size": 23437229,
+            "path": "patches/d960d95d22c9c91895562e53397ae0f0a08c27b692eefced0107a8fb26f35f16.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.999",
+          "output": {
+            "name": "unbound-es-v0.999-sinza.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "0147e404",
+              "sha1": "7ed7477cda99e19b83a5c400f6b7381e2890b290",
+              "sha256": "cf9b44c5e9b1480b534f9dd1dfc80c660e1415b7d7c588674fe7e5ed94ef5d74"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Beta. Sin ZA Megas (Unbound oficial).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v0-998",
           "version": "v0.998",
           "publishedAt": "2026-11-09",
@@ -3150,8 +3232,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.996/Unbound_ES_v0.996.bps",
             "sha256": "6b8123c7b523c3cdb9ff00b0348b2331229d8c4ccece76f357d3ac9216d50737",
-            "size": 23785783,
-            "path": "patches/6b8123c7b523c3cdb9ff00b0348b2331229d8c4ccece76f357d3ac9216d50737.bps"
+            "size": 23785783
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.996",
           "output": {
@@ -3191,8 +3272,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v0.996/Unbound_ES_v0.996_sinZA.bps",
             "sha256": "e0b055795286ffdfc140096acf07d8025ca0d938d476bc30d356b04781a01bd8",
-            "size": 23433200,
-            "path": "patches/e0b055795286ffdfc140096acf07d8025ca0d938d476bc30d356b04781a01bd8.bps"
+            "size": 23433200
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v0.996",
           "output": {
