@@ -1467,8 +1467,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v0.995/PokemonLazarus_es.bps",
             "sha256": "b20a237b879704761880c298f133bd56113e0ce566410e290d46a26366ec610e",
-            "size": 14847666,
-            "path": "patches/b20a237b879704761880c298f133bd56113e0ce566410e290d46a26366ec610e.bps"
+            "size": 14847666
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v0.995",
           "output": {
@@ -2207,8 +2206,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.991/RadicalRed_ES_v0.991.bps",
             "sha256": "ed291939440afd34c29df291dd0724f5c40c78452b910085ef53d782a5b54828",
-            "size": 17227152,
-            "path": "patches/ed291939440afd34c29df291dd0724f5c40c78452b910085ef53d782a5b54828.bps"
+            "size": 17227152
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.991",
           "output": {
@@ -4186,6 +4184,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
+          "id": "soulgold-v0-77",
+          "version": "v0.77",
+          "publishedAt": "2026-11-10",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.77/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "19f07dd4629d35fa7b44b40356160e1d8dd7d6fbcf2e23437952e8fbccf596b7",
+            "size": 23779005,
+            "path": "patches/19f07dd4629d35fa7b44b40356160e1d8dd7d6fbcf2e23437952e8fbccf596b7.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.77",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.77.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "e6d3b112",
+              "sha1": "409c3cf2c0d53fb7255a953184d32cdaca3bf644",
+              "sha256": "871fe5feb60100b6b982e867544f1c59b4d5e03dca33e3a53d2b59e64eeb1b75"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "soulgold-v0-76",
           "version": "v0.76",
           "publishedAt": "2026-11-09",
@@ -4289,8 +4328,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.74/Pokemon-SoulGold-Castellano.bps",
             "sha256": "411d73c268005a05275852061a8646fd7fd76d3dbd2acd423eb2359bc0967de6",
-            "size": 23767917,
-            "path": "patches/411d73c268005a05275852061a8646fd7fd76d3dbd2acd423eb2359bc0967de6.bps"
+            "size": 23767917
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.74",
           "output": {
