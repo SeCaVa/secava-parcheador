@@ -493,6 +493,46 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v0-997",
+          "version": "v0.997",
+          "publishedAt": "2026-11-12",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.997/GhostGrey_ES.bps",
+            "sha256": "14d0a7d91a50dbb24e03f1cdbc7986c54df8c590c9621f7cdae938b187f91a59",
+            "size": 11540360
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.997",
+          "output": {
+            "name": "ghost-grey-es-v0.997.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "568081c4",
+              "sha1": "a9664afaca2bcc6bfeb68273ae3f11246328ab6b",
+              "sha256": "44553967ae13312d0e9b8a66f2ebdc8c06c0b3c85f2b04d956b8847e50281636"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche de traducción publicado por SeCaVa; integración en su parcheador autorizada por el propio traductor."
+          }
+        },
+        {
           "id": "ghost-grey-v0-996",
           "version": "v0.996",
           "publishedAt": "2026-11-10",
@@ -5019,6 +5059,46 @@
       "repository": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano",
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
       "releases": [
+        {
+          "id": "odyssey-v0-21",
+          "version": "v0.21",
+          "publishedAt": "2026-11-12",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.21/Odyssey_ES.bps",
+            "sha256": "9100ea83b37c7030b09b6e711c9b521315750f6b0e552400d2dcd0d3510d4c82",
+            "size": 8050987
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.21",
+          "output": {
+            "name": "odyssey-es-v0.21.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "3b62dd66",
+              "sha1": "ee23bc70af6ecd24ab9b7bf4c14d16cd88ef3bfd",
+              "sha256": "ec31ec43f9f9a6bf9d9e40b02cf7765f41397f7ef2bf0eb9a4927643fadeefb0"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "odyssey-v0-2",
           "version": "v0.2",
