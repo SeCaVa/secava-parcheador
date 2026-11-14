@@ -5886,6 +5886,118 @@
         }
       ],
       "pendingReleases": []
+    },
+    {
+      "id": "pokemon-4ever",
+      "number": 9,
+      "name": "Pokémon 4ever",
+      "description": "Hack alemán de Pokémon Oro: Johto con historia, personajes y Pokémon cambiados.",
+      "author": "HFD (Meowth Hacks)",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBC",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano",
+      "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+      "releases": [
+        {
+          "id": "pokemon-4ever-v0-12",
+          "version": "v0.12",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pokemon-4ever-vanilla",
+              "name": "Pokémon Gold Version",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada (SGB Enhanced)",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "6bde3c3e",
+                "sha1": "d8b8a3600a465308c9953dfa04f0081c05bdcb94"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokegold/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.12/Pokemon4ever_ES.bps",
+            "sha256": "ac454b6d108dcd9dd02121ed3419450fd02689705e4fc44895939a7b23aee246",
+            "size": 603586,
+            "path": "patches/ac454b6d108dcd9dd02121ed3419450fd02689705e4fc44895939a7b23aee246.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.12",
+          "output": {
+            "name": "pokemon-4ever-es-v0.12.gbc",
+            "size": 2097152,
+            "hashes": {
+              "crc32": "6424b592",
+              "sha1": "c2ac469233cfd8e9aeb5efa55205717d4ae5f396",
+              "sha256": "6e8d0b76ce498f7768d930cc1928599501e73789f72a54b44d29b0dbdc91e680"
+            }
+          },
+          "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        }
+      ],
+      "pendingReleases": []
+    },
+    {
+      "id": "pokemon-midnight",
+      "number": 10,
+      "name": "Pokémon Midnight",
+      "description": "Hack alemán de Pokémon Oro «Das Geheimnis der Alten» (El secreto ancestral): una región nueva con sus propios Pokémon.",
+      "author": "Autores originales alemanes",
+      "credits": "Traducción y adaptación: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBC",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano",
+      "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+      "releases": [
+        {
+          "id": "pokemon-midnight-v0-14",
+          "version": "v0.14",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pokemon-midnight-vanilla",
+              "name": "Pokémon Gold Version",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada (SGB Enhanced)",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "6bde3c3e",
+                "sha1": "d8b8a3600a465308c9953dfa04f0081c05bdcb94"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokegold/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.14/PokemonMidnight_ES.bps",
+            "sha256": "fa5ec33c239ec5448e09d2985d3f12d788f69f53c11e75521c27187fac2d5ed4",
+            "size": 416501,
+            "path": "patches/fa5ec33c239ec5448e09d2985d3f12d788f69f53c11e75521c27187fac2d5ed4.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.14",
+          "output": {
+            "name": "pokemon-midnight-es-v0.14.gbc",
+            "size": 4194304,
+            "hashes": {
+              "crc32": "9792f7ec",
+              "sha1": "8b8eef70919822cd5a59dfddf85bbfe75ebc0948",
+              "sha256": "1d4e91d57c3a67849a8b213150a507f0625915b3e6138c83f7e71591126ba3f2"
+            }
+          },
+          "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        }
+      ],
+      "pendingReleases": []
     }
   ]
 }
