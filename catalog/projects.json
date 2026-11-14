@@ -5955,6 +5955,46 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
+          "id": "pokemon-4ever-v0-13",
+          "version": "v0.13",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pokemon-4ever-vanilla",
+              "name": "Pokémon Gold Version",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada (SGB Enhanced)",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "6bde3c3e",
+                "sha1": "d8b8a3600a465308c9953dfa04f0081c05bdcb94"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokegold/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.13/Pokemon4ever_ES.bps",
+            "sha256": "69fe89b1793469009ca5f454e75148bdca425592504b1c115a5124727ca8c294",
+            "size": 603638
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.13",
+          "output": {
+            "name": "pokemon-4ever-es-v0.13.gbc",
+            "size": 2097152,
+            "hashes": {
+              "crc32": "05aa2d42",
+              "sha1": "332559fdfa6d2fd548e43168a984a1e5f303cf22",
+              "sha256": "e0cba64d43935731fd34000bc400b9bd6a302eda40696f93bd5b08cc8412f20c"
+            }
+          },
+          "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "pokemon-4ever-v0-12",
           "version": "v0.12",
           "publishedAt": "2026-11-14",
@@ -6009,6 +6049,46 @@
       "repository": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano",
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
+        {
+          "id": "pokemon-midnight-v0-15",
+          "version": "v0.15",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pokemon-midnight-vanilla",
+              "name": "Pokémon Gold Version",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada (SGB Enhanced)",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "6bde3c3e",
+                "sha1": "d8b8a3600a465308c9953dfa04f0081c05bdcb94"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokegold/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.15/PokemonMidnight_ES.bps",
+            "sha256": "30106dbcff3ff03db9895e5d8438ab37cf05ccf2460b1b2ac88f99419afb1ec6",
+            "size": 416573
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.15",
+          "output": {
+            "name": "pokemon-midnight-es-v0.15.gbc",
+            "size": 4194304,
+            "hashes": {
+              "crc32": "1d802d80",
+              "sha1": "7c4c2b77f551c8e28ce42761f67fd7e430294369",
+              "sha256": "e2d18a7a62c1cd305227233346ad266bde77dea2b7d695d158d055721904fe95"
+            }
+          },
+          "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "pokemon-midnight-v0-14",
           "version": "v0.14",
