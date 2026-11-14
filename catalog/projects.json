@@ -4845,6 +4845,46 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
+          "id": "soulgold-v0-85",
+          "version": "v0.85",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.85/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "2f5e2346c0a6cf48b2f7a03973ced44de5528e496ac7fea3b70e2cd5b005b66f",
+            "size": 23783823
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.85",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.85.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "2f3b335b",
+              "sha1": "04cc3fdd1e9072212e0b4d26f18c3ea8b95dc747",
+              "sha256": "815b93ffd83132ee7822261b862c30d2584a6bcf911f2e2651662725e913d464"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "soulgold-v0-84",
           "version": "v0.84",
           "publishedAt": "2026-11-14",
