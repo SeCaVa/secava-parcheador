@@ -6440,6 +6440,62 @@
         }
       ],
       "pendingReleases": []
+    },
+    {
+      "id": "hyper-emerald",
+      "number": 11,
+      "name": "Pokémon Hyper Emerald: Lost Artifacts",
+      "description": "El hack chino de Esmeralda con la Generación 9 completa, la Zona Cero de Paldea, Noroteo y la Máscara Turquesa, traducido al castellano.",
+      "author": "Autores chinos originales; parche en inglés y mejoras: Nn-Exe",
+      "credits": "Traducción al castellano: SeCaVa. Créditos completos en el repositorio oficial.",
+      "platform": "GBA",
+      "status": "experimental",
+      "repository": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion",
+      "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
+      "releases": [
+        {
+          "id": "hyper-emerald-v0-42",
+          "version": "v0.42",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "hyper-emerald-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.42/HyperEmerald_ES.bps",
+            "sha256": "65b7c4b7c09e7f1d0f3d4d254f6c736e58bdc8035d98ef5fd485f4eceead78ca",
+            "size": 15429091,
+            "path": "patches/65b7c4b7c09e7f1d0f3d4d254f6c736e58bdc8035d98ef5fd485f4eceead78ca.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.42",
+          "output": {
+            "name": "pokemon-hyper-emerald-es-v0.42.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "6248459e",
+              "sha1": "08ff37d4882ca487b7883c8a4356b25f11301577",
+              "sha256": "c4b609e2c8959e67417a5ac306e6e7df66377505b81ec44b1bdfda441b039c65"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        }
+      ],
+      "pendingReleases": []
     }
   ]
 }
