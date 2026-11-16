@@ -2342,6 +2342,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
       "releases": [
         {
+          "id": "radical-red-v0-997",
+          "version": "v0.997",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.997/RadicalRed_ES_v0.997.bps",
+            "sha256": "21fb5f80acb0b5d4f000aefce320e90794d34158d518fad6f3e8ad0478d28f23",
+            "size": 17227998,
+            "path": "patches/21fb5f80acb0b5d4f000aefce320e90794d34158d518fad6f3e8ad0478d28f23.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.997",
+          "output": {
+            "name": "radical-red-es-v0.997.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "8c70b8e5",
+              "sha1": "f9a8fd789e949df385b06bf4c712c9b1719191a7",
+              "sha256": "879a4036f32e1ae1db667d09c3b5474f4d25a6069cc2fa2d26de5c6d2f85a0bd"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "radical-red-v0-996",
           "version": "v0.996",
           "publishedAt": "2026-11-12",
@@ -2445,8 +2486,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.994/RadicalRed_ES_v0.994.bps",
             "sha256": "13374a23dee37bedd5fdd60272234d92749f3de02c5cf4c0ade52ddb12cfc8e5",
-            "size": 17227806,
-            "path": "patches/13374a23dee37bedd5fdd60272234d92749f3de02c5cf4c0ade52ddb12cfc8e5.bps"
+            "size": 17227806
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.994",
           "output": {
@@ -3323,6 +3363,88 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound.",
       "releases": [
         {
+          "id": "unbound-v1-04",
+          "version": "v1.04",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.04/Unbound_ES_v1.04.bps",
+            "sha256": "32c26a58ecf63aabe4c305035378e9e34cccac85ea6c3a59efb4d9e6d1b294b2",
+            "size": 23789801,
+            "path": "patches/32c26a58ecf63aabe4c305035378e9e34cccac85ea6c3a59efb4d9e6d1b294b2.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.04",
+          "output": {
+            "name": "unbound-es-v1.04.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "3609d531",
+              "sha1": "7884f65d069eeb423ae9e3b96f550ba026a58b1b",
+              "sha256": "7a0f37456d7f106f895672a093b00fa413ec3a054a5410184d959e2c6a602439"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Con ZA Megas (parche de fans de Alphapenguin42).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "unbound-v1-04-sinza",
+          "version": "v1.04 (sin ZA Megas)",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.04/Unbound_ES_v1.04_sinZA.bps",
+            "sha256": "4cc57e4d0d1ff4f75e9783774c557b145e5945193a238de2667108fbc9241386",
+            "size": 23437154,
+            "path": "patches/4cc57e4d0d1ff4f75e9783774c557b145e5945193a238de2667108fbc9241386.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.04",
+          "output": {
+            "name": "unbound-es-v1.04-sinza.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "571c4bed",
+              "sha1": "0e04a142be235dd8327554b53ac93c6e77daace9",
+              "sha256": "1dad6e523ca7b34f86c9bc0bd2ebd24fd2749a1e41419209d6d1a709c6a2d6c8"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Sin ZA Megas (Unbound oficial).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v1-03",
           "version": "v1.03",
           "publishedAt": "2026-11-12",
@@ -3508,8 +3630,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.01/Unbound_ES_v1.01.bps",
             "sha256": "091cd2531e16b0210d706228658460a7cbda0b4024219ce038e606e7d548a987",
-            "size": 23789889,
-            "path": "patches/091cd2531e16b0210d706228658460a7cbda0b4024219ce038e606e7d548a987.bps"
+            "size": 23789889
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.01",
           "output": {
@@ -3549,8 +3670,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.01/Unbound_ES_v1.01_sinZA.bps",
             "sha256": "fc14f1c296244550a14acf947032f3bc18d14abfcd73e00c49288e856bb51e85",
-            "size": 23437229,
-            "path": "patches/fc14f1c296244550a14acf947032f3bc18d14abfcd73e00c49288e856bb51e85.bps"
+            "size": 23437229
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.01",
           "output": {
@@ -4864,6 +4984,249 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
+          "id": "soulgold-v0-88",
+          "version": "v0.88",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.88/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "43a26b403f7c4535dce075004a3e76909711ce77e46287eb1d696ff13bb93fb2",
+            "size": 23783779,
+            "path": "patches/43a26b403f7c4535dce075004a3e76909711ce77e46287eb1d696ff13bb93fb2.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.88",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.88.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "149906fd",
+              "sha1": "61c092c7300a4545bc44f5da494ec60caa2233f5",
+              "sha256": "9a543a98ed8c2b5979236c6c61f6bfb460433146896e75c7bed73fbadd28b48a"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "soulgold-v0-87",
+          "version": "v0.87",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.87/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "771ec0278e70de7d28513bd8ae3c2908cd89baae345dc6d233a83f83c8f8a8ce",
+            "size": 23783789,
+            "path": "patches/771ec0278e70de7d28513bd8ae3c2908cd89baae345dc6d233a83f83c8f8a8ce.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.87",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.87.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "ad9ade93",
+              "sha1": "70ce02c1f8eb6bb14b7f5a6248f071a2d3c12a7b",
+              "sha256": "14c54bbe67e5d29e3b4a6a5054928ca55a99887c2802ac62841c30061fc4a9ca"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "soulgold-v0-86",
+          "version": "v0.86",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.86/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "809a1fcda2b209dee0cc4b712f65fec9bec5842d8ae6fd8f92bca3a8df0c06fd",
+            "size": 23783794,
+            "path": "patches/809a1fcda2b209dee0cc4b712f65fec9bec5842d8ae6fd8f92bca3a8df0c06fd.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.86",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.86.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "07784271",
+              "sha1": "7a1580241f26ef35bb8a61ae9cd32329ca846eef",
+              "sha256": "adf6b948952b1ece68619b9cb43840de58069ddab91b07c2da7ef51925e1ef86"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "soulgold-v0-85",
+          "version": "v0.85",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.85/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "2f5e2346c0a6cf48b2f7a03973ced44de5528e496ac7fea3b70e2cd5b005b66f",
+            "size": 23783823
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.85",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.85.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "2f3b335b",
+              "sha1": "04cc3fdd1e9072212e0b4d26f18c3ea8b95dc747",
+              "sha256": "815b93ffd83132ee7822261b862c30d2584a6bcf911f2e2651662725e913d464"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "soulgold-v0-84",
+          "version": "v0.84",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.84/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "1523f3f70afe81411aa0b81d17f81cff7c0e67929bfe6af096e994a03479fa5e",
+            "size": 23783888
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.84",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.84.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "a980cc43",
+              "sha1": "fc9a31233fd2a667865cc998964d149b36e41653",
+              "sha256": "851eee00fc753ec3a3ad24025e0bfd360f8694b76ce2b5ca57b2a7e9d7cb7792"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "soulgold-v0-83",
+          "version": "v0.83",
+          "publishedAt": "2026-11-13",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.83/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "b48cf1d9c35c1e58af242cb1ba3a51cd71e8293da2abe6adefddd06efefed7c6",
+            "size": 23783889
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.83",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.83.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "8f476145",
+              "sha1": "e7bb31273379dcd50a98d7316e4d385092d84e0d",
+              "sha256": "9d54b094a6e4e45adec1b6510c402e5672ec3b0855c77f40794b529b1fcbadfb"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "soulgold-v0-82",
           "version": "v0.82",
           "publishedAt": "2026-11-13",
@@ -4885,8 +5248,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.82/Pokemon-SoulGold-Castellano.bps",
             "sha256": "abc77bfef26e4163fd56e59969cbd21e106f6546bc401022825adea16e289fa5",
-            "size": 23783889,
-            "path": "patches/abc77bfef26e4163fd56e59969cbd21e106f6546bc401022825adea16e289fa5.bps"
+            "size": 23783889
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.82",
           "output": {
@@ -4926,8 +5288,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.81/Pokemon-SoulGold-Castellano.bps",
             "sha256": "35c6a84bae96ef6c2166089658791ac649d0b9371d6e46cf28a23d23a8ba5516",
-            "size": 23783843,
-            "path": "patches/35c6a84bae96ef6c2166089658791ac649d0b9371d6e46cf28a23d23a8ba5516.bps"
+            "size": 23783843
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.81",
           "output": {
@@ -4967,8 +5328,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.8/Pokemon-SoulGold-Castellano.bps",
             "sha256": "b68ea3f04dfa8d9648780d93fe5df83fca342ff03e992995eef6acfa1511417b",
-            "size": 23783843,
-            "path": "patches/b68ea3f04dfa8d9648780d93fe5df83fca342ff03e992995eef6acfa1511417b.bps"
+            "size": 23783843
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.8",
           "output": {
@@ -5900,6 +6260,47 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
+          "id": "pokemon-4ever-v0-13",
+          "version": "v0.13",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pokemon-4ever-vanilla",
+              "name": "Pokémon Gold Version",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada (SGB Enhanced)",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "6bde3c3e",
+                "sha1": "d8b8a3600a465308c9953dfa04f0081c05bdcb94"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokegold/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.13/Pokemon4ever_ES.bps",
+            "sha256": "69fe89b1793469009ca5f454e75148bdca425592504b1c115a5124727ca8c294",
+            "size": 603638,
+            "path": "patches/69fe89b1793469009ca5f454e75148bdca425592504b1c115a5124727ca8c294.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.13",
+          "output": {
+            "name": "pokemon-4ever-es-v0.13.gbc",
+            "size": 2097152,
+            "hashes": {
+              "crc32": "05aa2d42",
+              "sha1": "332559fdfa6d2fd548e43168a984a1e5f303cf22",
+              "sha256": "e0cba64d43935731fd34000bc400b9bd6a302eda40696f93bd5b08cc8412f20c"
+            }
+          },
+          "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "pokemon-4ever-v0-12",
           "version": "v0.12",
           "publishedAt": "2026-11-14",
@@ -5955,6 +6356,47 @@
       "repository": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano",
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
+        {
+          "id": "pokemon-midnight-v0-15",
+          "version": "v0.15",
+          "publishedAt": "2026-11-14",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "pokemon-midnight-vanilla",
+              "name": "Pokémon Gold Version",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada (SGB Enhanced)",
+              "size": 2097152,
+              "hashes": {
+                "crc32": "6bde3c3e",
+                "sha1": "d8b8a3600a465308c9953dfa04f0081c05bdcb94"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokegold/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.15/PokemonMidnight_ES.bps",
+            "sha256": "30106dbcff3ff03db9895e5d8438ab37cf05ccf2460b1b2ac88f99419afb1ec6",
+            "size": 416573,
+            "path": "patches/30106dbcff3ff03db9895e5d8438ab37cf05ccf2460b1b2ac88f99419afb1ec6.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.15",
+          "output": {
+            "name": "pokemon-midnight-es-v0.15.gbc",
+            "size": 4194304,
+            "hashes": {
+              "crc32": "1d802d80",
+              "sha1": "7c4c2b77f551c8e28ce42761f67fd7e430294369",
+              "sha256": "e2d18a7a62c1cd305227233346ad266bde77dea2b7d695d158d055721904fe95"
+            }
+          },
+          "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "pokemon-midnight-v0-14",
           "version": "v0.14",
