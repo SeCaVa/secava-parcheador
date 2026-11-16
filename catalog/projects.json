@@ -3350,6 +3350,86 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound.",
       "releases": [
         {
+          "id": "unbound-v1-05",
+          "version": "v1.05",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.05/Unbound_ES_v1.05.bps",
+            "sha256": "9dfbd7ec908e7273792c4c32c8f5f2f7857aee7c1c867b6907945c31623a362d",
+            "size": 23789857
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.05",
+          "output": {
+            "name": "unbound-es-v1.05.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "48811157",
+              "sha1": "7d2e75ccc5b80b459616a859f3b986552c118620",
+              "sha256": "34c5ace2fb1ff06c1d49d9d0a557f3320a5f6241183eab9502ba3c5a51b209a1"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Con ZA Megas (parche de fans de Alphapenguin42).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "unbound-v1-05-sinza",
+          "version": "v1.05 (sin ZA Megas)",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.05/Unbound_ES_v1.05_sinZA.bps",
+            "sha256": "171be208c246f9f34d1906157dfcf7beb2ecd8576cfd79932ddb123f6a313f4f",
+            "size": 23437210
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.05",
+          "output": {
+            "name": "unbound-es-v1.05-sinza.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "35eb71ba",
+              "sha1": "b4347252e93b041c71a6008ab8c7fcb2b8087536",
+              "sha256": "4f75ba12a00dfb578e54a958f10068998b50a8332c4e8087faae3152c4fde9ac"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Sin ZA Megas (Unbound oficial).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v1-04",
           "version": "v1.04",
           "publishedAt": "2026-11-14",
