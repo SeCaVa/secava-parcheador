@@ -6665,6 +6665,46 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
+          "id": "hyper-emerald-v0-43",
+          "version": "v0.43",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "hyper-emerald-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.43/HyperEmerald_ES.bps",
+            "sha256": "2575ad9e9f7300e7f837d5d3d651b069b8fd7dd54601bff8b63ab0e71a1f762a",
+            "size": 15429680
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.43",
+          "output": {
+            "name": "pokemon-hyper-emerald-es-v0.43.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "aba26e6e",
+              "sha1": "648b010b0a1442ba40090e00173d86c1c330d298",
+              "sha256": "d8f0430d4b65ff2f7d5120546d3574c7717ca3cbe75d2119d7da4fcbb6881abb"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "hyper-emerald-v0-42",
           "version": "v0.42",
           "publishedAt": "2026-11-14",
