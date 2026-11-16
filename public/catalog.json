@@ -2342,6 +2342,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
       "releases": [
         {
+          "id": "radical-red-v0-998",
+          "version": "v0.998",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.998/RadicalRed_ES_v0.998.bps",
+            "sha256": "e03477bf5d3138d94504cb9814b9b7b080f671207c7142112f193f2c646477db",
+            "size": 17227998,
+            "path": "patches/e03477bf5d3138d94504cb9814b9b7b080f671207c7142112f193f2c646477db.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.998",
+          "output": {
+            "name": "radical-red-es-v0.998.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "a7af1541",
+              "sha1": "3bd4c0968dfa760887c1e0388618f03c925c8a4b",
+              "sha256": "ab99d747c4d326d04a71b61ddd80f97d70f208e5b6094e82400d5e3d7ceb44d7"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "radical-red-v0-997",
           "version": "v0.997",
           "publishedAt": "2026-11-16",
@@ -2445,8 +2486,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.995/RadicalRed_ES_v0.995.bps",
             "sha256": "162ea4108b743d81b4562606812338d3c153dfc78e35728d71d67b715be30990",
-            "size": 17227859,
-            "path": "patches/162ea4108b743d81b4562606812338d3c153dfc78e35728d71d67b715be30990.bps"
+            "size": 17227859
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.995",
           "output": {
@@ -3363,6 +3403,88 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound.",
       "releases": [
         {
+          "id": "unbound-v1-05",
+          "version": "v1.05",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.05/Unbound_ES_v1.05.bps",
+            "sha256": "9dfbd7ec908e7273792c4c32c8f5f2f7857aee7c1c867b6907945c31623a362d",
+            "size": 23789857,
+            "path": "patches/9dfbd7ec908e7273792c4c32c8f5f2f7857aee7c1c867b6907945c31623a362d.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.05",
+          "output": {
+            "name": "unbound-es-v1.05.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "48811157",
+              "sha1": "7d2e75ccc5b80b459616a859f3b986552c118620",
+              "sha256": "34c5ace2fb1ff06c1d49d9d0a557f3320a5f6241183eab9502ba3c5a51b209a1"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Con ZA Megas (parche de fans de Alphapenguin42).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "unbound-v1-05-sinza",
+          "version": "v1.05 (sin ZA Megas)",
+          "publishedAt": "2026-11-16",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.05/Unbound_ES_v1.05_sinZA.bps",
+            "sha256": "171be208c246f9f34d1906157dfcf7beb2ecd8576cfd79932ddb123f6a313f4f",
+            "size": 23437210,
+            "path": "patches/171be208c246f9f34d1906157dfcf7beb2ecd8576cfd79932ddb123f6a313f4f.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.05",
+          "output": {
+            "name": "unbound-es-v1.05-sinza.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "35eb71ba",
+              "sha1": "b4347252e93b041c71a6008ab8c7fcb2b8087536",
+              "sha256": "4f75ba12a00dfb578e54a958f10068998b50a8332c4e8087faae3152c4fde9ac"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Sin ZA Megas (Unbound oficial).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v1-04",
           "version": "v1.04",
           "publishedAt": "2026-11-14",
@@ -3548,8 +3670,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.02/Unbound_ES_v1.02.bps",
             "sha256": "d2551ce0e1176a54c7c54f93a484dc85accf69861bedc3ebfb4e840701ab9ead",
-            "size": 23789876,
-            "path": "patches/d2551ce0e1176a54c7c54f93a484dc85accf69861bedc3ebfb4e840701ab9ead.bps"
+            "size": 23789876
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.02",
           "output": {
@@ -3589,8 +3710,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.02/Unbound_ES_v1.02_sinZA.bps",
             "sha256": "3bdfd5742a1290aa53016c1653222947f6780bf32cec6a464505975f1d573cc1",
-            "size": 23437221,
-            "path": "patches/3bdfd5742a1290aa53016c1653222947f6780bf32cec6a464505975f1d573cc1.bps"
+            "size": 23437221
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.02",
           "output": {
