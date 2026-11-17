@@ -498,6 +498,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
+          "id": "ghost-grey-v1-0",
+          "version": "v1.0",
+          "publishedAt": "2026-11-17",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "ghost-grey-base",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.0/GhostGrey_ES.bps",
+            "sha256": "b77c3f4c307fe4198ed83384e540f6781f8e9b8a46944c00f9d951ac356d74ee",
+            "size": 11640154,
+            "path": "patches/b77c3f4c307fe4198ed83384e540f6781f8e9b8a46944c00f9d951ac356d74ee.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.0",
+          "output": {
+            "name": "ghost-grey-es-v1.0.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "9e3f26c7",
+              "sha1": "55978ce8c0e3bb681e651d514af60efcf0259eca",
+              "sha256": "4bb944cd0baf0cc85b2b6fe6d15e0a9abf053f208f8b4e6f468223ae5bd4242d"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Parche de traducción publicado por SeCaVa; integración en su parcheador autorizada por el propio traductor."
+          }
+        },
+        {
           "id": "ghost-grey-v0-999",
           "version": "v0.999",
           "publishedAt": "2026-11-16",
@@ -601,8 +642,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v0.997/GhostGrey_ES.bps",
             "sha256": "14d0a7d91a50dbb24e03f1cdbc7986c54df8c590c9621f7cdae938b187f91a59",
-            "size": 11540360,
-            "path": "patches/14d0a7d91a50dbb24e03f1cdbc7986c54df8c590c9621f7cdae938b187f91a59.bps"
+            "size": 11540360
           },
           "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v0.997",
           "output": {
