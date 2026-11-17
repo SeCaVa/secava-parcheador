@@ -651,9 +651,10 @@ progress:not([value]) {
 .project-art {
   display:grid;
   place-content:center;
-  width:54px;
+  width:84px;
   height:56px;
   flex:none;
+  overflow:hidden;
   border:1px solid #b6cbb0;
   background-color:#dbe8cf;
   background-image:linear-gradient(45deg,#ffffff30 25%,transparent 25%,transparent 75%,#ffffff30 75%),linear-gradient(45deg,#ffffff30 25%,transparent 25%,transparent 75%,#ffffff30 75%);
@@ -1088,7 +1089,7 @@ footer>a:last-child {
     gap:10px
   }
   .project-art {
-    width:43px;
+    width:72px;
     height:48px
   }
   .project strong {
@@ -1214,7 +1215,7 @@ footer>a:last-child {
     min-height:89px
   }
   .project-art {
-    width:52px;
+    width:82px;
     height:55px
   }
   .project strong {

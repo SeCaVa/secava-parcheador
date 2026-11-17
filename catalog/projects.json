@@ -478,7 +478,8 @@
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No uses Esmeralda en castellano ni el hack ya parcheado.",
           "blockedReason": "El CRC32 interno del parche (793E49AC) difiere del publicado en la Release (607062F1). Pendiente de aclarar por el mantenedor."
         }
-      ]
+      ],
+      "image": "images/emerald-rogue.png"
     },
     {
       "id": "ghost-grey",
@@ -1405,7 +1406,8 @@
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
           "blockedReason": "El CRC32 interno del parche (8D06BEE3) difiere del publicado en la Release (4486BCE4). Pendiente de aclarar por el mantenedor."
         }
-      ]
+      ],
+      "image": "images/ghost-grey.png"
     },
     {
       "id": "pocket-mingzhu",
@@ -1461,7 +1463,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/pocket-mingzhu.png"
     },
     {
       "id": "lazarus",
@@ -2357,7 +2360,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/lazarus.png"
     },
     {
       "id": "radical-red",
@@ -3415,7 +3419,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/radical-red.png"
     },
     {
       "id": "unbound",
@@ -5270,7 +5275,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/unbound.png"
     },
     {
       "id": "soulgold",
@@ -6045,7 +6051,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/soulgold.png"
     },
     {
       "id": "odyssey",
@@ -6540,7 +6547,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/odyssey.png"
     },
     {
       "id": "pokemon-4ever",
@@ -6635,7 +6643,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/pokemon-4ever.png"
     },
     {
       "id": "pokemon-midnight",
@@ -6730,7 +6739,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/pokemon-midnight.png"
     },
     {
       "id": "hyper-emerald",
@@ -6905,7 +6915,8 @@
           }
         }
       ],
-      "pendingReleases": []
+      "pendingReleases": [],
+      "image": "images/hyper-emerald.png"
     }
   ]
 }

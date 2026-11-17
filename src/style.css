@@ -14,7 +14,7 @@
 .drop-zone>small{font-size:9px;letter-spacing:.2px}
 .project-meta i{margin:0 1px}
 .selection .credit,.selection>small{color:#5f664f}
-.project-art img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
+.project-art img{width:100%;height:100%;object-fit:contain;image-rendering:pixelated}
 .identity{font-size:11px;line-height:1.7;background:#dce6c8;border-left:3px solid #6b8960;padding:9px 11px;margin:0 0 14px;color:#3d5b3b}
 @media(max-width:380px){.screen-label{flex-wrap:wrap;gap:4px}.device-model{font-size:8px}.steps{gap:5px;font-size:8px}}
 /* Contador de aventuras traducidas: pantalla LCD grande con la misma paleta del dispositivo. */
