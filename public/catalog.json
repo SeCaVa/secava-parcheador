@@ -3443,6 +3443,88 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound.",
       "releases": [
         {
+          "id": "unbound-v1-07",
+          "version": "v1.07",
+          "publishedAt": "2026-11-17",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.07/Unbound_ES_v1.07.bps",
+            "sha256": "a4fbec99f5cc27190480a0ee20c899bde548ab796784488547cea8f8ea121d36",
+            "size": 23790062,
+            "path": "patches/a4fbec99f5cc27190480a0ee20c899bde548ab796784488547cea8f8ea121d36.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.07",
+          "output": {
+            "name": "unbound-es-v1.07.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "19a7e342",
+              "sha1": "87548cb98746c6e2640470e696f07e667dc42f83",
+              "sha256": "4677e3f5ea6875a8471a047016fc66edbae68273d57fde5056397d5d5649ced4"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Con ZA Megas (parche de fans de Alphapenguin42).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
+          "id": "unbound-v1-07-sinza",
+          "version": "v1.07 (sin ZA Megas)",
+          "publishedAt": "2026-11-17",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "unbound-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.07/Unbound_ES_v1.07_sinZA.bps",
+            "sha256": "71642b5a018cc068417e4a5426bf5f7a9c67f0886a4361162f44566fc920574c",
+            "size": 23437422,
+            "path": "patches/71642b5a018cc068417e4a5426bf5f7a9c67f0886a4361162f44566fc920574c.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.07",
+          "output": {
+            "name": "unbound-es-v1.07-sinza.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "f398226f",
+              "sha1": "13a87a036806c0ac1d0cf47043fc41317aa7c8ec",
+              "sha256": "59ed5e4b7e6f40fb2d8d1ac7db074ed744be0d31399f16cfa9d9756059791af7"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Sin ZA Megas (Unbound oficial).",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "unbound-v1-06",
           "version": "v1.06",
           "publishedAt": "2026-11-16",
@@ -3628,8 +3710,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.04/Unbound_ES_v1.04.bps",
             "sha256": "32c26a58ecf63aabe4c305035378e9e34cccac85ea6c3a59efb4d9e6d1b294b2",
-            "size": 23789801,
-            "path": "patches/32c26a58ecf63aabe4c305035378e9e34cccac85ea6c3a59efb4d9e6d1b294b2.bps"
+            "size": 23789801
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.04",
           "output": {
@@ -3669,8 +3750,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.04/Unbound_ES_v1.04_sinZA.bps",
             "sha256": "4cc57e4d0d1ff4f75e9783774c557b145e5945193a238de2667108fbc9241386",
-            "size": 23437154,
-            "path": "patches/4cc57e4d0d1ff4f75e9783774c557b145e5945193a238de2667108fbc9241386.bps"
+            "size": 23437154
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.04",
           "output": {
@@ -6693,6 +6773,47 @@
       "repository": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion",
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
+        {
+          "id": "hyper-emerald-v0-44",
+          "version": "v0.44",
+          "publishedAt": "2026-11-17",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "hyper-emerald-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.44/HyperEmerald_ES.bps",
+            "sha256": "4948598f3e8a9837dcdd3c6ca423cc1f346f40bcad54211b0cbf9ec1dae86c9e",
+            "size": 15429661,
+            "path": "patches/4948598f3e8a9837dcdd3c6ca423cc1f346f40bcad54211b0cbf9ec1dae86c9e.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.44",
+          "output": {
+            "name": "pokemon-hyper-emerald-es-v0.44.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "ec98bce0",
+              "sha1": "1d66666694022068de65b52726d710c97d9a0aa1",
+              "sha256": "ad6757ce8392fb1604c61da1040df9ac397e96fecb289b5724149d1d51fc4d0b"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "hyper-emerald-v0-43",
           "version": "v0.43",
