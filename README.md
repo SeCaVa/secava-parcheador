@@ -12,4 +12,4 @@
 | [Pokémon Odyssey](https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.21) | v0.21, v0.2, v0.19, v0.18, v0.17, v0.16; v0.15, v0.14, v0.13, v0.12, v0.11 y v0.1 actualizadas a v0.16 | BPS | Disponible · Versión de prueba |
 | [Pokémon 4ever](https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.13) | v0.13 y v0.12 | BPS | Disponible · Versión de prueba |
 | [Pokémon Midnight](https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.15) | v0.15 y v0.14 | BPS | Disponible · Versión de prueba |
-| [Pokémon Hyper Emerald: Lost Artifacts](https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.44) | v0.44, v0.43 y v0.42 | BPS | Disponible · Versión de prueba |
+| [Pokémon Hyper Emerald: Lost Artifacts](https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.45) | v0.45, v0.44, v0.43 y v0.42 | BPS | Disponible · Versión de prueba |
