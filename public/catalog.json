@@ -2571,8 +2571,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v0.996/RadicalRed_ES_v0.996.bps",
             "sha256": "eb5afaeb7d16d44f858920209cb76fa1f8e0b6edde59ab798cf5cf9b2af29571",
-            "size": 17227982,
-            "path": "patches/eb5afaeb7d16d44f858920209cb76fa1f8e0b6edde59ab798cf5cf9b2af29571.bps"
+            "size": 17227982
           },
           "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v0.996",
           "output": {
@@ -6171,6 +6170,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
       "releases": [
         {
+          "id": "odyssey-v0-22",
+          "version": "v0.22",
+          "publishedAt": "2026-11-17",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "odyssey-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.22/Odyssey_ES.bps",
+            "sha256": "e7943cc9537549f5ce18c5f1013a1a1ac0798c7969b995cb07c3865924371b45",
+            "size": 8051460,
+            "path": "patches/e7943cc9537549f5ce18c5f1013a1a1ac0798c7969b995cb07c3865924371b45.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.22",
+          "output": {
+            "name": "odyssey-es-v0.22.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "44a9857c",
+              "sha1": "6b0c36ed7ae3d92ca4b9d75725056041cafb7434",
+              "sha256": "10a6dd7a5e7758753f49881d3ec080591de804f79c6e02e73cb15744f805ae88"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "odyssey-v0-21",
           "version": "v0.21",
           "publishedAt": "2026-11-12",
@@ -6274,8 +6314,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.19/Odyssey_ES.bps",
             "sha256": "ad57dcfc90b5acba3d15f09071a9f3ced17d1ca1ce0d3c994e07d23542c673d3",
-            "size": 8050786,
-            "path": "patches/ad57dcfc90b5acba3d15f09071a9f3ced17d1ca1ce0d3c994e07d23542c673d3.bps"
+            "size": 8050786
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.19",
           "output": {
@@ -6866,6 +6905,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
+          "id": "hyper-emerald-v0-46",
+          "version": "v0.46",
+          "publishedAt": "2026-11-17",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "hyper-emerald-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.46/HyperEmerald_ES.bps",
+            "sha256": "91d50aeefe3c06b38b048c82ef4aba315281c0523d7d26947c132fe24b2d8a3a",
+            "size": 15467158,
+            "path": "patches/91d50aeefe3c06b38b048c82ef4aba315281c0523d7d26947c132fe24b2d8a3a.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.46",
+          "output": {
+            "name": "pokemon-hyper-emerald-es-v0.46.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "8f93c830",
+              "sha1": "7bfc62a57f344e8f1ed603e9299fb0f7bb6185c2",
+              "sha256": "648673b799842e6f1b48f9b038d94500400ebb423e993baa0b670078d24607f2"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "hyper-emerald-v0-45",
           "version": "v0.45",
           "publishedAt": "2026-11-17",
@@ -6969,8 +7049,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.43/HyperEmerald_ES.bps",
             "sha256": "2575ad9e9f7300e7f837d5d3d651b069b8fd7dd54601bff8b63ab0e71a1f762a",
-            "size": 15429680,
-            "path": "patches/2575ad9e9f7300e7f837d5d3d651b069b8fd7dd54601bff8b63ab0e71a1f762a.bps"
+            "size": 15429680
           },
           "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.43",
           "output": {
