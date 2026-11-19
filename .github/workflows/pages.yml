@@ -51,8 +51,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         # Relative URLs support both repository Pages and custom domains.
-      - run: npx playwright install --with-deps chromium firefox webkit
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
         if: steps.decision.outputs.deploy == 'true'
+      - name: Instalar navegadores de prueba (con reintentos)
+        if: steps.decision.outputs.deploy == 'true'
+        timeout-minutes: 16
+        run: |
+          for intento in 1 2 3; do
+            timeout 300 npx playwright install --with-deps chromium firefox webkit && exit 0
+            echo "Intento $intento fallido o colgado; reintentando…"
+          done
+          exit 1
       - run: npm run test:browser
         if: steps.decision.outputs.deploy == 'true'
       - uses: actions/upload-artifact@v4

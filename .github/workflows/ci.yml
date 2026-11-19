@@ -15,5 +15,16 @@ jobs:
       - run: npm run demo
       - run: npm test
       - run: npm run build
-      - run: npx playwright install --with-deps chromium firefox webkit
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - name: Instalar navegadores de prueba (con reintentos)
+        timeout-minutes: 16
+        run: |
+          for intento in 1 2 3; do
+            timeout 300 npx playwright install --with-deps chromium firefox webkit && exit 0
+            echo "Intento $intento fallido o colgado; reintentando…"
+          done
+          exit 1
       - run: npm run test:browser
