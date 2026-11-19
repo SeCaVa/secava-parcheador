@@ -58,11 +58,15 @@ jobs:
         if: steps.decision.outputs.deploy == 'true'
       - name: Instalar navegadores de prueba (con reintentos)
         if: steps.decision.outputs.deploy == 'true'
-        timeout-minutes: 16
+        timeout-minutes: 25
         run: |
           for intento in 1 2 3; do
-            timeout 300 npx playwright install --with-deps chromium firefox webkit && exit 0
-            echo "Intento $intento fallido o colgado; reintentando…"
+            timeout 420 npx playwright install --with-deps chromium firefox webkit && exit 0
+            echo "Intento $intento fallido o colgado; limpiando apt y reintentando…"
+            # Cortar apt a medias deja el cerrojo de dpkg puesto: se libera antes de repetir.
+            sudo pkill -9 -f 'apt|dpkg' || true
+            sudo rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock /var/lib/apt/lists/lock /var/cache/apt/archives/lock
+            sudo dpkg --configure -a || true
           done
           exit 1
       - run: npm run test:browser
