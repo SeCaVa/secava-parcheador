@@ -2547,6 +2547,47 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
       "releases": [
         {
+          "id": "radical-red-v1-01",
+          "version": "v1.01",
+          "publishedAt": "2026-11-19",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.01/RadicalRed_ES_v1.01.bps",
+            "sha256": "bbc12d49b03137608933a361fbf12444a18d7348c754cc168b5156d6382c90c6",
+            "size": 17228117,
+            "path": "patches/bbc12d49b03137608933a361fbf12444a18d7348c754cc168b5156d6382c90c6.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.01",
+          "output": {
+            "name": "radical-red-es-v1.01.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "1a2efd42",
+              "sha1": "3485080de504e7a45392e725d511e72f498dfdba",
+              "sha256": "5d6206eb21ca144ab59a5762b8443b9204923ae5b1172f08efb95f369c04a534"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "radical-red-v1-0",
           "version": "v1.0",
           "publishedAt": "2026-11-19",
