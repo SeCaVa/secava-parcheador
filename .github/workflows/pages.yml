@@ -15,6 +15,13 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Imagen oficial con los navegadores y sus dependencias ya instalados: no usa apt,
+    # cuyo espejo en GitHub ha llegado a tardar más de 6 minutos en bajar 52 MB.
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.1-noble
+      options: --ipc=host
+    env:
+      HOME: /root
     outputs:
       deploy: ${{ steps.decision.outputs.deploy }}
     steps:
@@ -51,24 +58,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         # Relative URLs support both repository Pages and custom domains.
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
-        if: steps.decision.outputs.deploy == 'true'
-      - name: Instalar navegadores de prueba (con reintentos)
-        if: steps.decision.outputs.deploy == 'true'
-        timeout-minutes: 25
-        run: |
-          for intento in 1 2 3; do
-            timeout 420 npx playwright install --with-deps chromium firefox webkit && exit 0
-            echo "Intento $intento fallido o colgado; limpiando apt y reintentando…"
-            # Cortar apt a medias deja el cerrojo de dpkg puesto: se libera antes de repetir.
-            sudo pkill -9 -f 'apt|dpkg' || true
-            sudo rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock /var/lib/apt/lists/lock /var/cache/apt/archives/lock
-            sudo dpkg --configure -a || true
-          done
-          exit 1
       - run: npm run test:browser
         if: steps.decision.outputs.deploy == 'true'
       - uses: actions/upload-artifact@v4
