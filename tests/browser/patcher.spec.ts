@@ -40,7 +40,9 @@ for (const format of ['bps','ups']) test(`identificación automática y descarga
   expect(download.suggestedFilename()).toBe('secava-prueba.bin');
   const path = info.outputPath('resultado.bin'); await download.saveAs(path);
   expect(new Uint8Array(await readFile(path))).toEqual(demoTarget);
-  expect(requests.every(r => new URL(r.url).origin === 'http://127.0.0.1:4173' && r.method === 'GET' && r.data === null)).toBe(true);
+  // El contador de aventuras (GET de solo lectura, simulado en demo.ts) puede salir antes o después de enganchar el oyente.
+  const ajenas = requests.filter(r => !(new URL(r.url).origin === 'http://127.0.0.1:4173' || r.url.startsWith('https://traducciones.secava.eu/api/article?')) || r.method !== 'GET' || r.data !== null);
+  expect(ajenas).toEqual([]);
   await page.screenshot({path: info.outputPath('resultado.png'),fullPage:true});
 });
 test('selección manual usa la misma verificación', async ({ page }) => {
