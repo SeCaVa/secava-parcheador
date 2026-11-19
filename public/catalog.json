@@ -2464,8 +2464,49 @@
       "platform": "GBA",
       "status": "experimental",
       "repository": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano",
-      "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1. Beta.",
+      "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
       "releases": [
+        {
+          "id": "radical-red-v1-0",
+          "version": "v1.0",
+          "publishedAt": "2026-11-19",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "radical-red-vanilla",
+              "name": "Pokémon FireRed",
+              "region": "USA · Inglés",
+              "revision": "1.0",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "dd88761c",
+                "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc"
+              },
+              "evidence": "https://github.com/SeCaVa/GhostGrey-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokefirered/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.0/RadicalRed_ES_v1.0.bps",
+            "sha256": "1ee28bf7c3d9c9b6e1d08437863e515380a7dc5ca7c17c825f71a7ba822bd36b",
+            "size": 17227926,
+            "path": "patches/1ee28bf7c3d9c9b6e1d08437863e515380a7dc5ca7c17c825f71a7ba822bd36b.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.0",
+          "output": {
+            "name": "radical-red-es-v1.0.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "f1ab7a8f",
+              "sha1": "f3f5407dcce3d3271c9d693836bf21e2e30bcfaa",
+              "sha256": "ac549fe4c8371079734ad66e01445ca17422c50ef6e0fda2888c064739569bf0"
+            }
+          },
+          "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
         {
           "id": "radical-red-v0-999",
           "version": "v0.999",
