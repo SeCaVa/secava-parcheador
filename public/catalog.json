@@ -6231,6 +6231,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
+          "id": "soulgold-v0-91",
+          "version": "v0.91",
+          "publishedAt": "2026-11-20",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "soulgold-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.91/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "53e36d2df1f5b55528d8ded3fcf27a3210bbd805545af2cb1148d0e7d898eb34",
+            "size": 23784153,
+            "path": "patches/53e36d2df1f5b55528d8ded3fcf27a3210bbd805545af2cb1148d0e7d898eb34.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.91",
+          "output": {
+            "name": "pokemon-soulgold-es-v0.91.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "cc39864d",
+              "sha1": "acd5cbdeef55acb069f6dccd2f1d4736d7ede414",
+              "sha256": "b770782af5b53817092ccf0afc5a684c17552b2368b05cad7cd85a2a5483c9f7"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "soulgold-v0-9",
           "version": "v0.9",
           "publishedAt": "2026-11-19",
@@ -6334,8 +6375,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.88/Pokemon-SoulGold-Castellano.bps",
             "sha256": "43a26b403f7c4535dce075004a3e76909711ce77e46287eb1d696ff13bb93fb2",
-            "size": 23783779,
-            "path": "patches/43a26b403f7c4535dce075004a3e76909711ce77e46287eb1d696ff13bb93fb2.bps"
+            "size": 23783779
           },
           "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.88",
           "output": {
@@ -7865,6 +7905,47 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
+          "id": "hyper-emerald-v0-5",
+          "version": "v0.5",
+          "publishedAt": "2026-11-20",
+          "format": "bps",
+          "bases": [
+            {
+              "id": "hyper-emerald-vanilla",
+              "name": "Pokémon Emerald",
+              "region": "USA / Europe · Inglés",
+              "revision": "Base original documentada",
+              "size": 16777216,
+              "hashes": {
+                "crc32": "1f1c08fb",
+                "sha1": "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+              },
+              "evidence": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/blob/main/README.md ; SHA-1: https://github.com/pret/pokeemerald/blob/master/README.md"
+            }
+          ],
+          "patch": {
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.5/HyperEmerald_ES.bps",
+            "sha256": "e16e8349584348f5c2fcb675485b80447a2716788683851e441bdb0e696ce2c0",
+            "size": 15467171,
+            "path": "patches/e16e8349584348f5c2fcb675485b80447a2716788683851e441bdb0e696ce2c0.bps"
+          },
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.5",
+          "output": {
+            "name": "pokemon-hyper-emerald-es-v0.5.gba",
+            "size": 33554432,
+            "hashes": {
+              "crc32": "f468f0cf",
+              "sha1": "59839906303c271880743748f67ef12ec241144e",
+              "sha256": "d589a39cda1e5e17e816c61aa2ff54ca9c7bd4c9d4e87d9cbb7a86f5f8fe3ec3"
+            }
+          },
+          "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
+          "redistribution": {
+            "allowed": true,
+            "evidence": "Integración de los parches oficiales autorizada por SeCaVa para su parcheador web."
+          }
+        },
+        {
           "id": "hyper-emerald-v0-49",
           "version": "v0.49",
           "publishedAt": "2026-11-19",
@@ -7968,8 +8049,7 @@
           "patch": {
             "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.47/HyperEmerald_ES.bps",
             "sha256": "805837ae0bd1e108e487e8fd01c744c8943ba266745a1fb3a1f9ed7967163ebb",
-            "size": 15467156,
-            "path": "patches/805837ae0bd1e108e487e8fd01c744c8943ba266745a1fb3a1f9ed7967163ebb.bps"
+            "size": 15467156
           },
           "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.47",
           "output": {
