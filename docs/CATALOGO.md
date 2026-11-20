@@ -19,6 +19,10 @@ Una versión en `releases` declara:
 
 `patch.path` lo genera el build, nunca se escribe una URL externa para el navegador. Las versiones no verificadas van en `pendingReleases`, con `blockedReason`, y sin declaración de redistribución. Una ficha sin versiones habilitadas incluye `pendingReason`.
 
+## Regla: el parcheador solo ofrece la última versión
+
+Cada juego muestra **únicamente su última versión publicada** (para evitar confusiones). Al añadir una versión nueva, **quita las anteriores** de `releases` en `catalog/projects.json` y actualiza la fila del `README.md`. Si una versión lleva varios parches (Unbound: con ZA Megas y `_sinZA`), ambos pertenecen a la última versión y se quedan los dos. Las releases y los .bps antiguos de GitHub no se tocan. `npm run catalog` lo impone: descarta de la salida todo lo que no sea la versión más reciente de cada proyecto, aunque quede en el JSON o llegue por importación automática.
+
 ## Procedimiento manual
 
 1. Publica el parche BPS/UPS correcto en tu Release y documenta exactamente la base necesaria.
@@ -29,7 +33,7 @@ Una versión en `releases` declara:
 6. Ejecuta `npm test`, `npm run build` y las pruebas de navegador disponibles. Revisa la ficha en la vista previa.
 7. Publica los cambios en el repositorio del parcheador mediante tu proceso habitual. La aplicación no edita ni publica repositorios por sí sola.
 
-No cambies un hash esperado simplemente para silenciar una divergencia. Confirma primero la versión real y corrige la documentación oficial o el asset que corresponda. Se pueden mantener varias versiones por proyecto con bases diferentes; ninguna hereda compatibilidad automáticamente.
+No cambies un hash esperado simplemente para silenciar una divergencia. Confirma primero la versión real y corrige la documentación oficial o el asset que corresponda. Ninguna versión hereda compatibilidad de otra: cada entrada declara sus propias bases.
 
 ## Importación automática desde Releases
 

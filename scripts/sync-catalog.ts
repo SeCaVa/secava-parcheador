@@ -11,9 +11,15 @@ for (const project of catalog.projects) for (const release of project.releases) 
   if (prev && prev.crc !== release.output.hashes.crc32) throw new Error(`${k} de salida repetido con distinto CRC32: ${prev.id} y ${release.id}`);
   seen.set(`${k}:${v}`, { id: release.id, crc: release.output.hashes.crc32 });
 }
-// GitHub Pages admite como máximo 1 GB por sitio y los assets de las releases no permiten CORS:
-// la web solo aloja las últimas versiones de cada juego; las anteriores enlazan a su release.
-const VERSIONES_EN_WEB = 3;
+// REGLA: el parcheador solo ofrece la última versión de cada juego (evita confusiones). Las anteriores siguen en sus releases de GitHub.
+// Una «versión» puede tener varios parches (p. ej. Unbound: con y sin ZA Megas); todos son de la misma versión.
+for (const project of catalog.projects) {
+  if (!project.releases.length) continue;
+  const clave = (v: string) => v.replace(/\s*\(.*\)$/, '');
+  const ultima = clave(project.releases[0].version);
+  project.releases = project.releases.filter(r => clave(r.version) === ultima);
+}
+const VERSIONES_EN_WEB = 1;
 const LIMITE_WEB = 900 * 1024 * 1024;
 const enWeb = new Set<string>();
 for (const project of catalog.projects) {

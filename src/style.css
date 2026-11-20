@@ -37,3 +37,8 @@
 @media(max-width:850px){.tally{grid-template-columns:1fr}}
 @media(max-width:650px){.tally{padding:10px;margin-bottom:24px}.tally-screen{padding:14px 12px 12px;border-width:5px}.tally-number{font-size:clamp(48px,17vw,84px)}}
 .tally-more{position:relative;margin:6px 0 0;font:italic 12px/1.5 ui-monospace,Consolas,monospace;color:#5f664f}
+/* Portadas más grandes en la lista de proyectos (proporción 3:2 original). */
+.project-art{width:132px;height:88px}
+.project{min-height:116px}
+@media(max-width:850px){.project-art{width:112px;height:75px}}
+@media(max-width:480px){.project-art{width:92px;height:62px}.project{min-height:0}}
