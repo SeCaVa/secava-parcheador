@@ -683,8 +683,8 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
-          "id": "hyper-emerald-v0-5",
-          "version": "v0.5",
+          "id": "hyper-emerald-v0-51",
+          "version": "v0.51",
           "publishedAt": "2026-11-20",
           "format": "bps",
           "bases": [
@@ -702,18 +702,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.5/HyperEmerald_ES.bps",
-            "sha256": "e16e8349584348f5c2fcb675485b80447a2716788683851e441bdb0e696ce2c0",
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.51/HyperEmerald_ES.bps",
+            "sha256": "07caea8801d31d5564af75227b9ddcfb0463ad66e4163130db5ee1a62d60ff85",
             "size": 15467171
           },
-          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.5",
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.51",
           "output": {
-            "name": "pokemon-hyper-emerald-es-v0.5.gba",
+            "name": "pokemon-hyper-emerald-es-v0.51.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "f468f0cf",
-              "sha1": "59839906303c271880743748f67ef12ec241144e",
-              "sha256": "d589a39cda1e5e17e816c61aa2ff54ca9c7bd4c9d4e87d9cbb7a86f5f8fe3ec3"
+              "crc32": "9918f6bb",
+              "sha1": "67ba2c1b6ea1e5c661a4ae73404b84084af05b56",
+              "sha256": "47b51ec9de084bdc002171c9678d29b35234f696d9cc1251fa106870149bb6cd"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
