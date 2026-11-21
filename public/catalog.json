@@ -259,9 +259,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
-          "id": "lazarus-v1-03",
-          "version": "v1.03",
-          "publishedAt": "2026-11-19",
+          "id": "lazarus-v1-04",
+          "version": "v1.04",
+          "publishedAt": "2026-11-21",
           "format": "bps",
           "bases": [
             {
@@ -278,19 +278,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.03/PokemonLazarus_es.bps",
-            "sha256": "2fe901d8b8dc33b6ba2be27a19df18af7faa63719cda4176753d917a79fdf5cd",
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.04/PokemonLazarus_es.bps",
+            "sha256": "2edfc6ef35e131daf9346e6d4c6fa3569bb92948359b7ff179b6f6d86f478e40",
             "size": 15443423,
-            "path": "patches/2fe901d8b8dc33b6ba2be27a19df18af7faa63719cda4176753d917a79fdf5cd.bps"
+            "path": "patches/2edfc6ef35e131daf9346e6d4c6fa3569bb92948359b7ff179b6f6d86f478e40.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.03",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.04",
           "output": {
-            "name": "lazarus-es-v1.03.gba",
+            "name": "lazarus-es-v1.04.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "2c85d8a6",
-              "sha1": "b900bddb4dfa2473cc5ed4c5896542410765b7b6",
-              "sha256": "28cb91fbba51b214b33d2edc012a3372e53dc2ffbe6c2184755fdbb7f46062f0"
+              "crc32": "e93ac38a",
+              "sha1": "4b327928c3573957ea399ac5eea7b05d71e53e84",
+              "sha256": "23a432b3939bdcae7f4a39dd8c6ed17aaeafabe2b9ce62ccb4aeef581a40c1b4"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
