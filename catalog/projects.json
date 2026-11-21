@@ -463,9 +463,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
-          "id": "soulgold-v0-91",
-          "version": "v0.91",
-          "publishedAt": "2026-11-20",
+          "id": "soulgold-v0-92",
+          "version": "v0.92",
+          "publishedAt": "2026-11-21",
           "format": "bps",
           "bases": [
             {
@@ -482,18 +482,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.91/Pokemon-SoulGold-Castellano.bps",
-            "sha256": "53e36d2df1f5b55528d8ded3fcf27a3210bbd805545af2cb1148d0e7d898eb34",
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.92/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "62082f94c45c22cbc25c53640ccb317e1e9fc1cbb701f7a8e8052cc429ea738d",
             "size": 23784153
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.91",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.92",
           "output": {
-            "name": "pokemon-soulgold-es-v0.91.gba",
+            "name": "pokemon-soulgold-es-v0.92.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "cc39864d",
-              "sha1": "acd5cbdeef55acb069f6dccd2f1d4736d7ede414",
-              "sha256": "b770782af5b53817092ccf0afc5a684c17552b2368b05cad7cd85a2a5483c9f7"
+              "crc32": "0b46f33d",
+              "sha1": "6a0a786878456cc9b5f2593384cd17d3deed9dc6",
+              "sha256": "5ffbdc5c2c826829c47efb20683a37a8230fca8d0381924b5cf9aa9dfe344ca0"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
