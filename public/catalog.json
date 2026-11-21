@@ -316,9 +316,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
       "releases": [
         {
-          "id": "radical-red-v1-01",
-          "version": "v1.01",
-          "publishedAt": "2026-11-19",
+          "id": "radical-red-v1-02",
+          "version": "v1.02",
+          "publishedAt": "2026-11-21",
           "format": "bps",
           "bases": [
             {
@@ -335,19 +335,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.01/RadicalRed_ES_v1.01.bps",
-            "sha256": "bbc12d49b03137608933a361fbf12444a18d7348c754cc168b5156d6382c90c6",
-            "size": 17228117,
-            "path": "patches/bbc12d49b03137608933a361fbf12444a18d7348c754cc168b5156d6382c90c6.bps"
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.02/RadicalRed_ES_v1.02.bps",
+            "sha256": "0b4f2e8fefae763d5bff8c8a389ae77267610b5f8ba4e198f2c55aadd19783c5",
+            "size": 17228133,
+            "path": "patches/0b4f2e8fefae763d5bff8c8a389ae77267610b5f8ba4e198f2c55aadd19783c5.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.01",
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.02",
           "output": {
-            "name": "radical-red-es-v1.01.gba",
+            "name": "radical-red-es-v1.02.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "1a2efd42",
-              "sha1": "3485080de504e7a45392e725d511e72f498dfdba",
-              "sha256": "5d6206eb21ca144ab59a5762b8443b9204923ae5b1172f08efb95f369c04a534"
+              "crc32": "1747c116",
+              "sha1": "71cbb5e7f7c0c09c7895075ee9c619648d67f0ae",
+              "sha256": "1fdeb4e0b535ecb0fd9bf6f143bdd083bfbbae63872a42ab5b343b67b6915f8d"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
@@ -695,8 +695,8 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
-          "id": "hyper-emerald-v0-5",
-          "version": "v0.5",
+          "id": "hyper-emerald-v0-51",
+          "version": "v0.51",
           "publishedAt": "2026-11-20",
           "format": "bps",
           "bases": [
@@ -714,19 +714,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.5/HyperEmerald_ES.bps",
-            "sha256": "e16e8349584348f5c2fcb675485b80447a2716788683851e441bdb0e696ce2c0",
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.51/HyperEmerald_ES.bps",
+            "sha256": "07caea8801d31d5564af75227b9ddcfb0463ad66e4163130db5ee1a62d60ff85",
             "size": 15467171,
-            "path": "patches/e16e8349584348f5c2fcb675485b80447a2716788683851e441bdb0e696ce2c0.bps"
+            "path": "patches/07caea8801d31d5564af75227b9ddcfb0463ad66e4163130db5ee1a62d60ff85.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.5",
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.51",
           "output": {
-            "name": "pokemon-hyper-emerald-es-v0.5.gba",
+            "name": "pokemon-hyper-emerald-es-v0.51.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "f468f0cf",
-              "sha1": "59839906303c271880743748f67ef12ec241144e",
-              "sha256": "d589a39cda1e5e17e816c61aa2ff54ca9c7bd4c9d4e87d9cbb7a86f5f8fe3ec3"
+              "crc32": "9918f6bb",
+              "sha1": "67ba2c1b6ea1e5c661a4ae73404b84084af05b56",
+              "sha256": "47b51ec9de084bdc002171c9678d29b35234f696d9cc1251fa106870149bb6cd"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
