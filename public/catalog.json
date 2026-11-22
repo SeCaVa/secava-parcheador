@@ -528,9 +528,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
       "releases": [
         {
-          "id": "odyssey-v0-24",
-          "version": "v0.24",
-          "publishedAt": "2026-11-21",
+          "id": "odyssey-v0-25",
+          "version": "v0.25",
+          "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
             {
@@ -547,19 +547,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.24/Odyssey_ES.bps",
-            "sha256": "4ae6134f44e3406fb443230329746ab8148447a10821b68938ed7a7117fe83e8",
-            "size": 8051470,
-            "path": "patches/4ae6134f44e3406fb443230329746ab8148447a10821b68938ed7a7117fe83e8.bps"
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.25/Odyssey_ES.bps",
+            "sha256": "2b5df9e30ab5131dcee137f69c0fcede5fc4d5662f7e2943735b53688b530512",
+            "size": 8052611,
+            "path": "patches/2b5df9e30ab5131dcee137f69c0fcede5fc4d5662f7e2943735b53688b530512.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.24",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.25",
           "output": {
-            "name": "odyssey-es-v0.24.gba",
+            "name": "odyssey-es-v0.25.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "31018809",
-              "sha1": "136ef59e7975c13fe2968c582b357ccb73e43e26",
-              "sha256": "b8216e9519caa378d23eccd31b4d47e5350e01091e21ca521ea6ec3ad1135287"
+              "crc32": "0d12fbea",
+              "sha1": "6708192045b1a6ca117c18d3d604f8ac2d8eed8e",
+              "sha256": "2f7cf6d34bc17edfacfa4a5ccac9a900477e1a3ce1c4820452e628c728526933"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
