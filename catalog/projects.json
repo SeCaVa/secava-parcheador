@@ -615,9 +615,9 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
-          "id": "pokemon-4ever-v0-13",
-          "version": "v0.13",
-          "publishedAt": "2026-11-14",
+          "id": "pokemon-4ever-v0-14",
+          "version": "v0.14",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -634,18 +634,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.13/Pokemon4ever_ES.bps",
-            "sha256": "69fe89b1793469009ca5f454e75148bdca425592504b1c115a5124727ca8c294",
-            "size": 603638
+            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.14/Pokemon4ever_ES.bps",
+            "sha256": "779b34a9e70aaead98df9aaeef55b75d3089a6a8f4ad3c773fb1ab7f512f828d",
+            "size": 603641
           },
-          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.13",
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.14",
           "output": {
-            "name": "pokemon-4ever-es-v0.13.gbc",
+            "name": "pokemon-4ever-es-v0.14.gbc",
             "size": 2097152,
             "hashes": {
-              "crc32": "05aa2d42",
-              "sha1": "332559fdfa6d2fd548e43168a984a1e5f303cf22",
-              "sha256": "e0cba64d43935731fd34000bc400b9bd6a302eda40696f93bd5b08cc8412f20c"
+              "crc32": "81a8ccbe",
+              "sha1": "45bb3904145f773c4d0b70345c037ff029a7f9ce",
+              "sha256": "95d5af283cc9891adedd0396ba04f77b20fa423dd47398e1cdf026bf3b56ab53"
             }
           },
           "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
@@ -671,9 +671,9 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
-          "id": "pokemon-midnight-v0-15",
-          "version": "v0.15",
-          "publishedAt": "2026-11-14",
+          "id": "pokemon-midnight-v0-16",
+          "version": "v0.16",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -690,18 +690,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.15/PokemonMidnight_ES.bps",
-            "sha256": "30106dbcff3ff03db9895e5d8438ab37cf05ccf2460b1b2ac88f99419afb1ec6",
-            "size": 416573
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.16/PokemonMidnight_ES.bps",
+            "sha256": "299546e0ad72289c345822f8ec1ead07ecd073a46fba0da84a721fd7ae2f2856",
+            "size": 416560
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.15",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.16",
           "output": {
-            "name": "pokemon-midnight-es-v0.15.gbc",
+            "name": "pokemon-midnight-es-v0.16.gbc",
             "size": 4194304,
             "hashes": {
-              "crc32": "1d802d80",
-              "sha1": "7c4c2b77f551c8e28ce42761f67fd7e430294369",
-              "sha256": "e2d18a7a62c1cd305227233346ad266bde77dea2b7d695d158d055721904fe95"
+              "crc32": "ff0555e9",
+              "sha1": "7f08561c9791339c6facb6ab544e02a1f6426c97",
+              "sha256": "60d2a7fe22ac4db164cbaf02dd676e0a2c734fd7130515ade5a1bace89418031"
             }
           },
           "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
