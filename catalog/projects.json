@@ -503,9 +503,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
-          "id": "soulgold-v0-92",
-          "version": "v0.92",
-          "publishedAt": "2026-11-21",
+          "id": "soulgold-v0-94",
+          "version": "v0.94",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -522,18 +522,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.92/Pokemon-SoulGold-Castellano.bps",
-            "sha256": "62082f94c45c22cbc25c53640ccb317e1e9fc1cbb701f7a8e8052cc429ea738d",
-            "size": 23784153
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.94/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "57ef193bf76ae67cae0d9fd5197fa27d440b914498ada372e7801e01820ddbde",
+            "size": 23784276
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.92",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.94",
           "output": {
-            "name": "pokemon-soulgold-es-v0.92.gba",
+            "name": "pokemon-soulgold-es-v0.94.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "0b46f33d",
-              "sha1": "6a0a786878456cc9b5f2593384cd17d3deed9dc6",
-              "sha256": "5ffbdc5c2c826829c47efb20683a37a8230fca8d0381924b5cf9aa9dfe344ca0"
+              "crc32": "e9afda8f",
+              "sha1": "c0cef0520a40ed8a3565d313308e958aa8bbf1cc",
+              "sha256": "01b43a58b1394d70e5e6a5bfa96fda2922578ababc8f39ff7721e0d8c8cd51d3"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
