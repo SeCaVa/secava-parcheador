@@ -108,9 +108,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
-          "id": "ghost-grey-v1-03",
-          "version": "v1.03",
-          "publishedAt": "2026-11-21",
+          "id": "ghost-grey-v1-04",
+          "version": "v1.04",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -127,19 +127,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.03/GhostGrey_ES.bps",
-            "sha256": "dd756523fb5d512f1fbe7acf4863883998d0321dbc965d3e88637add4a2b1400",
-            "size": 11640390,
-            "path": "patches/dd756523fb5d512f1fbe7acf4863883998d0321dbc965d3e88637add4a2b1400.bps"
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.04/GhostGrey_ES.bps",
+            "sha256": "6e19e7081a1e68fd87d98da793373bfcf7af455893a8eeb825a65f294d22d1a3",
+            "size": 11644708,
+            "path": "patches/6e19e7081a1e68fd87d98da793373bfcf7af455893a8eeb825a65f294d22d1a3.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.03",
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.04",
           "output": {
-            "name": "ghost-grey-es-v1.03.gba",
+            "name": "ghost-grey-es-v1.04.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "c0fd1048",
-              "sha1": "5751317b58b96b8251ef0ca7bf518b3e9151d7e9",
-              "sha256": "c9eadaa11e4072bd4a32dbc0b85dc51e75122ce086e2275f9e318b4c53fb5bdc"
+              "crc32": "29f1c39f",
+              "sha1": "912b295c359d7f3065410d9c6ff49fc5b18c585d",
+              "sha256": "ee0a6c661f2b610894d5664c51a67e25b8970d410660307cf093e20bf81bed82"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",

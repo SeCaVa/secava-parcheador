@@ -3,7 +3,7 @@
 | Traducción | Versión | Formato | Estado |
 |---|---|---|---|
 | [Pokémon Emerald Rogue EX](https://github.com/SeCaVa/EmeraldRogue-Castellano/releases/tag/v0.67) | v0.67 | BPS y UPS | Disponible |
-| [Pokémon Ghost Grey](https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.03) | v1.03 | BPS | Disponible |
+| [Pokémon Ghost Grey](https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.04) | v1.04 | BPS | Disponible |
 | [Pokémon Pocket Mingzhu II](https://github.com/SeCaVa/Mingzhu-Koudai-Guaishou-2-Pokemon-Digimon-Castellano/releases/tag/v0.7) | v0.7 | BPS | Disponible |
 | [Pokémon Lazarus](https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.03) | v1.03 | BPS | Disponible |
 | [Pokémon Radical Red](https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.04) | v1.04 | BPS | Disponible |
