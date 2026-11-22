@@ -671,8 +671,8 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
-          "id": "pokemon-midnight-v0-16",
-          "version": "v0.16",
+          "id": "pokemon-midnight-v0-17",
+          "version": "v0.17",
           "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
@@ -690,18 +690,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.16/PokemonMidnight_ES.bps",
-            "sha256": "299546e0ad72289c345822f8ec1ead07ecd073a46fba0da84a721fd7ae2f2856",
-            "size": 416560
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.17/PokemonMidnight_ES.bps",
+            "sha256": "08b6b219332a8fe441480355a6756413a62f698c12dd22053b928e326ab92dd4",
+            "size": 416564
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.16",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.17",
           "output": {
-            "name": "pokemon-midnight-es-v0.16.gbc",
+            "name": "pokemon-midnight-es-v0.17.gbc",
             "size": 4194304,
             "hashes": {
-              "crc32": "ff0555e9",
-              "sha1": "7f08561c9791339c6facb6ab544e02a1f6426c97",
-              "sha256": "60d2a7fe22ac4db164cbaf02dd676e0a2c734fd7130515ade5a1bace89418031"
+              "crc32": "64f4e13d",
+              "sha1": "45433f7740344618695e07bb8a971c53bfe53b3e",
+              "sha256": "c2bc115a83df0f7fb85ab5fa64528a7c2864c6c1cedbe1af3939632c57b62dd5"
             }
           },
           "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
