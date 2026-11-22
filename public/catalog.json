@@ -316,9 +316,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
       "releases": [
         {
-          "id": "radical-red-v1-03",
-          "version": "v1.03",
-          "publishedAt": "2026-11-21",
+          "id": "radical-red-v1-04",
+          "version": "v1.04",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -335,19 +335,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.03/RadicalRed_ES_v1.03.bps",
-            "sha256": "ea2930af6378c1cff3411e5a31288fe53f1bcf90dfa5c9c1c023ae9a65a5f0c9",
-            "size": 17228164,
-            "path": "patches/ea2930af6378c1cff3411e5a31288fe53f1bcf90dfa5c9c1c023ae9a65a5f0c9.bps"
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.04/RadicalRed_ES_v1.04.bps",
+            "sha256": "32b3fab5321c442b2f4134020b1d325691cefb61bd9a4f475d3a56cba20fb4a0",
+            "size": 17228370,
+            "path": "patches/32b3fab5321c442b2f4134020b1d325691cefb61bd9a4f475d3a56cba20fb4a0.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.03",
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.04",
           "output": {
-            "name": "radical-red-es-v1.03.gba",
+            "name": "radical-red-es-v1.04.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "cf2cca5f",
-              "sha1": "f735459ef382931430f774261d81287025e86170",
-              "sha256": "3e9d4275dbbab7f237d55327268a3795c4113b732e46165ec5a6a2f9bbe39914"
+              "crc32": "9cbb3548",
+              "sha1": "4ac78847b22d1a889b60b6ade25cbbf1cc4a8d26",
+              "sha256": "6d79fe951f8786dbeac8bf9d6fc64d0fb22519131097fd0d02f60d74a7407fed"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
@@ -585,9 +585,9 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
-          "id": "pokemon-4ever-v0-13",
-          "version": "v0.13",
-          "publishedAt": "2026-11-14",
+          "id": "pokemon-4ever-v0-14",
+          "version": "v0.14",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -604,19 +604,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.13/Pokemon4ever_ES.bps",
-            "sha256": "69fe89b1793469009ca5f454e75148bdca425592504b1c115a5124727ca8c294",
-            "size": 603638,
-            "path": "patches/69fe89b1793469009ca5f454e75148bdca425592504b1c115a5124727ca8c294.bps"
+            "url": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/download/v0.14/Pokemon4ever_ES.bps",
+            "sha256": "779b34a9e70aaead98df9aaeef55b75d3089a6a8f4ad3c773fb1ab7f512f828d",
+            "size": 603641,
+            "path": "patches/779b34a9e70aaead98df9aaeef55b75d3089a6a8f4ad3c773fb1ab7f512f828d.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.13",
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon4ever-TraduccionCastellano/releases/tag/v0.14",
           "output": {
-            "name": "pokemon-4ever-es-v0.13.gbc",
+            "name": "pokemon-4ever-es-v0.14.gbc",
             "size": 2097152,
             "hashes": {
-              "crc32": "05aa2d42",
-              "sha1": "332559fdfa6d2fd548e43168a984a1e5f303cf22",
-              "sha256": "e0cba64d43935731fd34000bc400b9bd6a302eda40696f93bd5b08cc8412f20c"
+              "crc32": "81a8ccbe",
+              "sha1": "45bb3904145f773c4d0b70345c037ff029a7f9ce",
+              "sha256": "95d5af283cc9891adedd0396ba04f77b20fa423dd47398e1cdf026bf3b56ab53"
             }
           },
           "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
@@ -642,9 +642,9 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
-          "id": "pokemon-midnight-v0-15",
-          "version": "v0.15",
-          "publishedAt": "2026-11-14",
+          "id": "pokemon-midnight-v0-17",
+          "version": "v0.17",
+          "publishedAt": "2026-11-22",
           "format": "bps",
           "bases": [
             {
@@ -661,19 +661,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.15/PokemonMidnight_ES.bps",
-            "sha256": "30106dbcff3ff03db9895e5d8438ab37cf05ccf2460b1b2ac88f99419afb1ec6",
-            "size": 416573,
-            "path": "patches/30106dbcff3ff03db9895e5d8438ab37cf05ccf2460b1b2ac88f99419afb1ec6.bps"
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.17/PokemonMidnight_ES.bps",
+            "sha256": "08b6b219332a8fe441480355a6756413a62f698c12dd22053b928e326ab92dd4",
+            "size": 416564,
+            "path": "patches/08b6b219332a8fe441480355a6756413a62f698c12dd22053b928e326ab92dd4.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.15",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.17",
           "output": {
-            "name": "pokemon-midnight-es-v0.15.gbc",
+            "name": "pokemon-midnight-es-v0.17.gbc",
             "size": 4194304,
             "hashes": {
-              "crc32": "1d802d80",
-              "sha1": "7c4c2b77f551c8e28ce42761f67fd7e430294369",
-              "sha256": "e2d18a7a62c1cd305227233346ad266bde77dea2b7d695d158d055721904fe95"
+              "crc32": "64f4e13d",
+              "sha1": "45433f7740344618695e07bb8a971c53bfe53b3e",
+              "sha256": "c2bc115a83df0f7fb85ab5fa64528a7c2864c6c1cedbe1af3939632c57b62dd5"
             }
           },
           "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
