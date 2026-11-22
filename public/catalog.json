@@ -259,9 +259,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
-          "id": "lazarus-v1-04",
-          "version": "v1.04",
-          "publishedAt": "2026-11-21",
+          "id": "lazarus-v1-05",
+          "version": "v1.05",
+          "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
             {
@@ -278,19 +278,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.04/PokemonLazarus_es.bps",
-            "sha256": "2edfc6ef35e131daf9346e6d4c6fa3569bb92948359b7ff179b6f6d86f478e40",
-            "size": 15443423,
-            "path": "patches/2edfc6ef35e131daf9346e6d4c6fa3569bb92948359b7ff179b6f6d86f478e40.bps"
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.05/PokemonLazarus_es.bps",
+            "sha256": "5b9ee31ca8ad31056137e720db4d21a39acdb47f6813614780965820f96ef867",
+            "size": 15443711,
+            "path": "patches/5b9ee31ca8ad31056137e720db4d21a39acdb47f6813614780965820f96ef867.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.04",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.05",
           "output": {
-            "name": "lazarus-es-v1.04.gba",
+            "name": "lazarus-es-v1.05.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "e93ac38a",
-              "sha1": "4b327928c3573957ea399ac5eea7b05d71e53e84",
-              "sha256": "23a432b3939bdcae7f4a39dd8c6ed17aaeafabe2b9ce62ccb4aeef581a40c1b4"
+              "crc32": "29c008d8",
+              "sha1": "59230cac392aacfb4174fffb878c41dab1ee3d81",
+              "sha256": "1cc1bb746eedbe589a1f647bcfd709c0fb4ed446fc47ff423aea3012ed6d16fc"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
@@ -393,18 +393,18 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.20/Unbound_ES_v1.20.bps",
-            "sha256": "accb0938507ac04d4d17c5bac8866ee52f05815fa0aee73bfe4d53784c3fcdc0",
-            "size": 23793983,
-            "path": "patches/accb0938507ac04d4d17c5bac8866ee52f05815fa0aee73bfe4d53784c3fcdc0.bps"
+            "sha256": "5dad052350e6176e799ae3f7972d3a331e21f73a4c6b6a687a4a6e675ce0f709",
+            "size": 23807593,
+            "path": "patches/5dad052350e6176e799ae3f7972d3a331e21f73a4c6b6a687a4a6e675ce0f709.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.20",
           "output": {
             "name": "unbound-es-v1.20.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "4223f4f4",
-              "sha1": "73c177610df85521bccc34bf8a2a1dfd41e79382",
-              "sha256": "ed9a5c3eaa23fda68b7c14ec684e90bada491f31ed416f9ca3e02ced6b82bbd9"
+              "crc32": "aff41013",
+              "sha1": "41e04d7022f87f7b5aa94d663987dc3731581957",
+              "sha256": "015fc84a2ac7c69c7748b5e5edf22118f59a8dd20d840ecc4e6501d15b43c56a"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Con ZA Megas (parche de fans de Alphapenguin42).",
@@ -434,18 +434,18 @@
           ],
           "patch": {
             "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.20/Unbound_ES_v1.20_sinZA.bps",
-            "sha256": "cbd956d4b382e7da0fc50a3cc23cf99a6a929acd84dc72fd77ae8d6f82fd4d12",
-            "size": 23441427,
-            "path": "patches/cbd956d4b382e7da0fc50a3cc23cf99a6a929acd84dc72fd77ae8d6f82fd4d12.bps"
+            "sha256": "9959f9bbf0140a1184a54516a702c0c05d93527cf1602302083456c79c3d51f1",
+            "size": 23454720,
+            "path": "patches/9959f9bbf0140a1184a54516a702c0c05d93527cf1602302083456c79c3d51f1.bps"
           },
           "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.20",
           "output": {
             "name": "unbound-es-v1.20-sinza.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "eaf4fad2",
-              "sha1": "1943fd394d0f2b1b1cfa4163d04968bace7d8935",
-              "sha256": "7deeac512789310cddad13001a15f500b2e8b5c77d5df842782ff740ace816f2"
+              "crc32": "591b07ba",
+              "sha1": "85855eebe83d9fa411e4bcadc0d630de76e8a207",
+              "sha256": "d1b59c5686eae4d867a1a5e27bf7b639ce661ffc36058b3c332c963745955a69"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Sin ZA Megas (Unbound oficial).",
