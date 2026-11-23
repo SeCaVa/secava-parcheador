@@ -259,8 +259,8 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
-          "id": "lazarus-v1-05",
-          "version": "v1.05",
+          "id": "lazarus-v1-06",
+          "version": "v1.06",
           "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
@@ -278,19 +278,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.05/PokemonLazarus_es.bps",
-            "sha256": "5b9ee31ca8ad31056137e720db4d21a39acdb47f6813614780965820f96ef867",
-            "size": 15443711,
-            "path": "patches/5b9ee31ca8ad31056137e720db4d21a39acdb47f6813614780965820f96ef867.bps"
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.06/PokemonLazarus_es.bps",
+            "sha256": "fa3faa64a690554a9b7290f7321c3ec8ff9c191bd78f4cdfafdd15b2d10368c3",
+            "size": 15443709,
+            "path": "patches/fa3faa64a690554a9b7290f7321c3ec8ff9c191bd78f4cdfafdd15b2d10368c3.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.05",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.06",
           "output": {
-            "name": "lazarus-es-v1.05.gba",
+            "name": "lazarus-es-v1.06.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "29c008d8",
-              "sha1": "59230cac392aacfb4174fffb878c41dab1ee3d81",
-              "sha256": "1cc1bb746eedbe589a1f647bcfd709c0fb4ed446fc47ff423aea3012ed6d16fc"
+              "crc32": "aaefd574",
+              "sha1": "b4fe2a1a361cd2d0ee9112863544be5d4ce9ddaf",
+              "sha256": "6701ada0958e7256db6686d42d2d3dec374a4e627f5573d9e6d6c4794c119fa4"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
@@ -642,9 +642,9 @@
       "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
       "releases": [
         {
-          "id": "pokemon-midnight-v0-17",
-          "version": "v0.17",
-          "publishedAt": "2026-11-22",
+          "id": "pokemon-midnight-v0-18",
+          "version": "v0.18",
+          "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
             {
@@ -661,19 +661,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.17/PokemonMidnight_ES.bps",
-            "sha256": "08b6b219332a8fe441480355a6756413a62f698c12dd22053b928e326ab92dd4",
+            "url": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/download/v0.18/PokemonMidnight_ES.bps",
+            "sha256": "7c39dc8ee2816ca9abea481535542b0723a1d4d8b7f85cbc5542aa2d2cb9e633",
             "size": 416564,
-            "path": "patches/08b6b219332a8fe441480355a6756413a62f698c12dd22053b928e326ab92dd4.bps"
+            "path": "patches/7c39dc8ee2816ca9abea481535542b0723a1d4d8b7f85cbc5542aa2d2cb9e633.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.17",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonMidnight-TraduccionCastellano/releases/tag/v0.18",
           "output": {
-            "name": "pokemon-midnight-es-v0.17.gbc",
+            "name": "pokemon-midnight-es-v0.18.gbc",
             "size": 4194304,
             "hashes": {
-              "crc32": "64f4e13d",
-              "sha1": "45433f7740344618695e07bb8a971c53bfe53b3e",
-              "sha256": "c2bc115a83df0f7fb85ab5fa64528a7c2864c6c1cedbe1af3939632c57b62dd5"
+              "crc32": "8f501051",
+              "sha1": "cf120b18c7c5918c2e2f389f4c17094d0b34496c",
+              "sha256": "f6720106d780a999dfc0c9eb76ada9815e81bef2d088b143b423c2064f830f0b"
             }
           },
           "instructions": "Se aplica directamente a Pokémon Gold en inglés (CRC32 6BDE3C3E). No hace falta el hack alemán. Versión de prueba.",
