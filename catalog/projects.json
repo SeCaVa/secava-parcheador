@@ -559,8 +559,8 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
       "releases": [
         {
-          "id": "odyssey-v0-25",
-          "version": "v0.25",
+          "id": "odyssey-v0-26",
+          "version": "v0.26",
           "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
@@ -578,18 +578,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.25/Odyssey_ES.bps",
-            "sha256": "2b5df9e30ab5131dcee137f69c0fcede5fc4d5662f7e2943735b53688b530512",
-            "size": 8052611
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.26/Odyssey_ES.bps",
+            "sha256": "948a787109c023d36705a704278dd1baa389a56196e4387d0ef5241e518bf72e",
+            "size": 8052568
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.25",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.26",
           "output": {
-            "name": "odyssey-es-v0.25.gba",
+            "name": "odyssey-es-v0.26.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "0d12fbea",
-              "sha1": "6708192045b1a6ca117c18d3d604f8ac2d8eed8e",
-              "sha256": "2f7cf6d34bc17edfacfa4a5ccac9a900477e1a3ce1c4820452e628c728526933"
+              "crc32": "0f4aa510",
+              "sha1": "3a12f79e3b5b129abd85cf09713dfd2dbc6cccd5",
+              "sha256": "44616a11719cb491d5bf6809c0f15ba563b1e921db59eb1d21461ccda5b3b549"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
