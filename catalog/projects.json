@@ -727,9 +727,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
-          "id": "hyper-emerald-v0-53",
-          "version": "v0.53",
-          "publishedAt": "2026-11-22",
+          "id": "hyper-emerald-v0-54",
+          "version": "v0.54",
+          "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
             {
@@ -746,18 +746,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.53/HyperEmerald_ES.bps",
-            "sha256": "9a81f67880f996cd73cd6c2d6ce1d0e4a7b7c9656b796b69d5b785bb1f7bcabe",
-            "size": 15472218
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.54/HyperEmerald_ES.bps",
+            "sha256": "268b249f491316e3582c569d19e6425c60166271d1db12e7cebf52b8175149ca",
+            "size": 15472441
           },
-          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.53",
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.54",
           "output": {
-            "name": "pokemon-hyper-emerald-es-v0.53.gba",
+            "name": "pokemon-hyper-emerald-es-v0.54.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "6a103c24",
-              "sha1": "939bff4673a8241115d2376288bc0337017c9437",
-              "sha256": "1bc30302f508d5fe1cb5ba896b8d5ba19ed005830053b0fa8ccd967140f51167"
+              "crc32": "f0fa5612",
+              "sha1": "d8cdf0f9a5496230142536f83a3d81d0637ce4ed",
+              "sha256": "0246a0b9bb61dcf066ac30e7ed3e96f69bc586c6cfc79a27e88330283b8b8b7e"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
