@@ -316,9 +316,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
       "releases": [
         {
-          "id": "radical-red-v1-04",
-          "version": "v1.04",
-          "publishedAt": "2026-11-22",
+          "id": "radical-red-v1-05",
+          "version": "v1.05",
+          "publishedAt": "2026-11-23",
           "format": "bps",
           "bases": [
             {
@@ -335,19 +335,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.04/RadicalRed_ES_v1.04.bps",
-            "sha256": "32b3fab5321c442b2f4134020b1d325691cefb61bd9a4f475d3a56cba20fb4a0",
-            "size": 17228370,
-            "path": "patches/32b3fab5321c442b2f4134020b1d325691cefb61bd9a4f475d3a56cba20fb4a0.bps"
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.05/RadicalRed_ES_v1.05.bps",
+            "sha256": "07955a212c39266daefc839d20fcdd2745dd750e8a7d54133524ca6ef7502e1d",
+            "size": 17228391,
+            "path": "patches/07955a212c39266daefc839d20fcdd2745dd750e8a7d54133524ca6ef7502e1d.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.04",
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.05",
           "output": {
-            "name": "radical-red-es-v1.04.gba",
+            "name": "radical-red-es-v1.05.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "9cbb3548",
-              "sha1": "4ac78847b22d1a889b60b6ade25cbbf1cc4a8d26",
-              "sha256": "6d79fe951f8786dbeac8bf9d6fc64d0fb22519131097fd0d02f60d74a7407fed"
+              "crc32": "c9332e9f",
+              "sha1": "650e4e6a3002f78111ad3845dc56ab063d1e6413",
+              "sha256": "b0b647377b5b4e0040b7c137c17dbc4f4f9d5ace777f894ea9c6ee351aa7a4e8"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
