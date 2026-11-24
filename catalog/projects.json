@@ -447,8 +447,8 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound.",
       "releases": [
         {
-          "id": "unbound-v1-24",
-          "version": "v1.24",
+          "id": "unbound-v1-25",
+          "version": "v1.25",
           "publishedAt": "2026-11-24",
           "format": "bps",
           "bases": [
@@ -466,18 +466,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.24/Unbound_ES_v1.24.bps",
-            "sha256": "b7231daa5146c7716e641482bb5d68ec9b308c4da5926b3624c9cb629adee27e",
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.25/Unbound_ES_v1.25.bps",
+            "sha256": "dbd8826df78cebb4336dec97749dd4f845822cb65ee109f31b2ef0caab346892",
             "size": 23810892
           },
-          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.24",
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.25",
           "output": {
-            "name": "unbound-es-v1.24.gba",
+            "name": "unbound-es-v1.25.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "a33af2bc",
-              "sha1": "112d99bece744f76890c3ae1f50655b8ccd22481",
-              "sha256": "933fecfe62cdd096d67387e425186f83482ca9645db899e9787970a35d0a978d"
+              "crc32": "e0aa28a0",
+              "sha1": "4f9d1c691828f62c227f9678eed92fe9d2c82905",
+              "sha256": "60d3491d148ce30ec1638d3feeb3bd57596d32a3db55c7266ca5ffc8ee41f2c9"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Con ZA Megas (parche de fans de Alphapenguin42).",
@@ -487,8 +487,8 @@
           }
         },
         {
-          "id": "unbound-v1-24-sinza",
-          "version": "v1.24 (sin ZA Megas)",
+          "id": "unbound-v1-25-sinza",
+          "version": "v1.25 (sin ZA Megas)",
           "publishedAt": "2026-11-24",
           "format": "bps",
           "bases": [
@@ -506,18 +506,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.24/Unbound_ES_v1.24_sinZA.bps",
-            "sha256": "b4076e76b6d35e4c136dbd4785549f69ebce2e0586b72d2aade20aad648b11af",
+            "url": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/download/v1.25/Unbound_ES_v1.25_sinZA.bps",
+            "sha256": "7f78bd38faa7020727744e6fe56646f4468515faaab15535e67ee07d2cd0ed21",
             "size": 23457432
           },
-          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.24",
+          "releaseUrl": "https://github.com/SeCaVa/Unbound-TraduccionCastellano/releases/tag/v1.25",
           "output": {
-            "name": "unbound-es-v1.24-sinza.gba",
+            "name": "unbound-es-v1.25-sinza.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "0fa486c5",
-              "sha1": "d1c8ebf6068fac7dac9062bf9eda9c934f76206b",
-              "sha256": "415bbb87ef77fd9bd0d47842ebb7c912e9e2d7116034a0a4dd55abce1e8913a2"
+              "crc32": "fc35fe2e",
+              "sha1": "e7573638cd25aa455b933090775de42338a0dcd7",
+              "sha256": "2aa197e3a4f6bfc738d28d746e39bcb7a6ede428528a72af6437126005fd7036"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta el parche oficial de Unbound. Sin ZA Megas (Unbound oficial).",
