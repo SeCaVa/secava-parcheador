@@ -106,9 +106,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
-          "id": "ghost-grey-v1-05",
-          "version": "v1.05",
-          "publishedAt": "2026-11-23",
+          "id": "ghost-grey-v1-06",
+          "version": "v1.06",
+          "publishedAt": "2026-11-24",
           "format": "bps",
           "bases": [
             {
@@ -125,18 +125,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.05/GhostGrey_ES.bps",
-            "sha256": "1eeb557c9c46e0bfe9a9939875df9a305eec9d12e012c6d5f72d35a93b2a299e",
-            "size": 11644683
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.06/GhostGrey_ES.bps",
+            "sha256": "078150a473cc07e2f45305da835189876273b6ab3eaecc76f6f4537374ec0a48",
+            "size": 11644675
           },
-          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.05",
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.06",
           "output": {
-            "name": "ghost-grey-es-v1.05.gba",
+            "name": "ghost-grey-es-v1.06.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "80d11b32",
-              "sha1": "0e5ef0e2c4c732631e7c49e6ed8c463749f3acdf",
-              "sha256": "51686fc5ffd7906d70fc28b6362e5acf274af2167467bd54c3dd0531e251d6b2"
+              "crc32": "07ddae99",
+              "sha1": "a7fceeab960c0eb3991d4ddc43724e70ca1af79f",
+              "sha256": "3ea7ee0c28a8a6c760f6ffd51201c454cbfc05a739102249970a5454b50b9893"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
