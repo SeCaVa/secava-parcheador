@@ -559,9 +559,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
       "releases": [
         {
-          "id": "odyssey-v0-26",
-          "version": "v0.26",
-          "publishedAt": "2026-11-23",
+          "id": "odyssey-v0-27",
+          "version": "v0.27",
+          "publishedAt": "2026-11-24",
           "format": "bps",
           "bases": [
             {
@@ -578,18 +578,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.26/Odyssey_ES.bps",
-            "sha256": "948a787109c023d36705a704278dd1baa389a56196e4387d0ef5241e518bf72e",
-            "size": 8052568
+            "url": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/download/v0.27/Odyssey_ES.bps",
+            "sha256": "f7029e48bc625a7b27233fa7b6ef1ebd983a780bfd5b1c5871ff2af8356d12e4",
+            "size": 8052577
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.26",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonOdyssey-TraduccionCastellano/releases/tag/v0.27",
           "output": {
-            "name": "odyssey-es-v0.26.gba",
+            "name": "odyssey-es-v0.27.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "0f4aa510",
-              "sha1": "3a12f79e3b5b129abd85cf09713dfd2dbc6cccd5",
-              "sha256": "44616a11719cb491d5bf6809c0f15ba563b1e921db59eb1d21461ccda5b3b549"
+              "crc32": "ddfdf07b",
+              "sha1": "25ed47728886250d753f1cde59e81a572cf4c9f7",
+              "sha256": "c4b6e5498a09217d50cc2755048e02c4b5ee4da866b4ff876f8c1a64549cf096"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Incluye Odyssey 4.1.1 y la traducción v0.16. Conserva una copia de tu partida y carga el guardado normal del juego al actualizar.",
