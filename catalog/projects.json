@@ -463,8 +463,8 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
-          "id": "soulgold-v0-98",
-          "version": "v0.98",
+          "id": "soulgold-v0-99",
+          "version": "v0.99",
           "publishedAt": "2026-11-24",
           "format": "bps",
           "bases": [
@@ -482,18 +482,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.98/Pokemon-SoulGold-Castellano.bps",
-            "sha256": "26fd86b4ce68c59582700e5801579010fab91cd8ea973d644e42805f5c6986f2",
-            "size": 23782831
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.99/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "9a3eeb61a6ae4045e74a9d76ab8bee996d09c80f4635fcd7f4ee1b02ea8f076c",
+            "size": 23782775
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.98",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.99",
           "output": {
-            "name": "pokemon-soulgold-es-v0.98.gba",
+            "name": "pokemon-soulgold-es-v0.99.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "e81cc0a6",
-              "sha1": "17dcfc7d2f1a35f69c7d24cd191140e96bf37b8a",
-              "sha256": "d7f6250b38ce7e6820746ef45994a503ae5b277e58807ffb03dd0afdd58b0185"
+              "crc32": "719757da",
+              "sha1": "326b1cb20db3a44132c1e474c721564b27c4d948",
+              "sha256": "05df674b8b3b8162b2eaadfed5cfd43d808b7d1ab234967b7903bd0370229c50"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
