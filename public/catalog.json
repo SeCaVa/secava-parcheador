@@ -471,8 +471,8 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
       "releases": [
         {
-          "id": "soulgold-v0-99",
-          "version": "v0.99",
+          "id": "soulgold-v0-991",
+          "version": "v0.991",
           "publishedAt": "2026-11-25",
           "format": "bps",
           "bases": [
@@ -490,19 +490,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.99/Pokemon-SoulGold-Castellano.bps",
-            "sha256": "9a3eeb61a6ae4045e74a9d76ab8bee996d09c80f4635fcd7f4ee1b02ea8f076c",
-            "size": 23782775,
-            "path": "patches/9a3eeb61a6ae4045e74a9d76ab8bee996d09c80f4635fcd7f4ee1b02ea8f076c.bps"
+            "url": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/download/v0.991/Pokemon-SoulGold-Castellano.bps",
+            "sha256": "02f6d2259b475b0331942b467bef11a24a84cd11de35adf8a40463cbd777a3fc",
+            "size": 23782889,
+            "path": "patches/02f6d2259b475b0331942b467bef11a24a84cd11de35adf8a40463cbd777a3fc.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.99",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonSoulGold-TraduccionCastellano/releases/tag/v0.991",
           "output": {
-            "name": "pokemon-soulgold-es-v0.99.gba",
+            "name": "pokemon-soulgold-es-v0.991.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "719757da",
-              "sha1": "326b1cb20db3a44132c1e474c721564b27c4d948",
-              "sha256": "05df674b8b3b8162b2eaadfed5cfd43d808b7d1ab234967b7903bd0370229c50"
+              "crc32": "edaf90c0",
+              "sha1": "ae2c7e2e37d834ab69bb261cc2890a4661ee4bfd",
+              "sha256": "69361880b0703114022076825f2d84be879707f56f2b27dcbc74b238dd2d55ab"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el parche de SoulGold en inglés. Versión de prueba, sobre la 1.2.1 del hack. Empieza partida nueva.",
