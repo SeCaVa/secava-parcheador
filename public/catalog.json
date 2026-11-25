@@ -259,9 +259,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
-          "id": "lazarus-v1-07",
-          "version": "v1.07",
-          "publishedAt": "2026-11-24",
+          "id": "lazarus-v1-08",
+          "version": "v1.08",
+          "publishedAt": "2026-11-25",
           "format": "bps",
           "bases": [
             {
@@ -278,19 +278,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.07/PokemonLazarus_es.bps",
-            "sha256": "4f52411c65738762526bea618ad3930d83c746d6b43525de8fdacabc08c416a8",
-            "size": 15443689,
-            "path": "patches/4f52411c65738762526bea618ad3930d83c746d6b43525de8fdacabc08c416a8.bps"
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.08/PokemonLazarus_es.bps",
+            "sha256": "d60e3a3af9cd78ea6019ef4aca13d7f99ca764436e4267661779c59efb357879",
+            "size": 15443960,
+            "path": "patches/d60e3a3af9cd78ea6019ef4aca13d7f99ca764436e4267661779c59efb357879.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.07",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.08",
           "output": {
-            "name": "lazarus-es-v1.07.gba",
+            "name": "lazarus-es-v1.08.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "34de6126",
-              "sha1": "15f783d58b1b55dd2d477f008c80698dfe513fd2",
-              "sha256": "49b3856444d6c59f8dd82c7d9e29e149f8d2b8780810080adc00e44183265a2e"
+              "crc32": "698ace06",
+              "sha1": "1959c901a7c362938817a67c3c92b254030ccb60",
+              "sha256": "2647d4665e274a1d44f249e0b981ebed37a12ee988cfe7f95d1b876197d1b654"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
