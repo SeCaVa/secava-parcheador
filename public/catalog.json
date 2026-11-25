@@ -699,9 +699,9 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
       "releases": [
         {
-          "id": "hyper-emerald-v0-55",
-          "version": "v0.55",
-          "publishedAt": "2026-11-24",
+          "id": "hyper-emerald-v0-56",
+          "version": "v0.56",
+          "publishedAt": "2026-11-25",
           "format": "bps",
           "bases": [
             {
@@ -718,19 +718,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.55/HyperEmerald_ES.bps",
-            "sha256": "52dd5607685ea79a078524462fd01362b5e8f26ed4789a9d99082186726c45a7",
-            "size": 15472444,
-            "path": "patches/52dd5607685ea79a078524462fd01362b5e8f26ed4789a9d99082186726c45a7.bps"
+            "url": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/download/v0.56/HyperEmerald_ES.bps",
+            "sha256": "be8a474ae940eeb3211f8e2ebc21e1f1ec22076456f5db52a5c02cd8a779b1e9",
+            "size": 15472617,
+            "path": "patches/be8a474ae940eeb3211f8e2ebc21e1f1ec22076456f5db52a5c02cd8a779b1e9.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.55",
+          "releaseUrl": "https://github.com/SeCaVa/Pokemon-Hyper-Emerald-Traduccion/releases/tag/v0.56",
           "output": {
-            "name": "pokemon-hyper-emerald-es-v0.55.gba",
+            "name": "pokemon-hyper-emerald-es-v0.56.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "dc74050d",
-              "sha1": "b86b029c2e08f8c7795b7fc56ce45b48b385e171",
-              "sha256": "f97d706b76146065fc78247e4ebb52e263e6c7a1a433c201a45c0c0ceb9cf660"
+              "crc32": "6c80f6e1",
+              "sha1": "149fa1069474d649284ac6b9793820e6ee9bde39",
+              "sha256": "fb4a48d436ec30894bee466f64b4ea542028591535312510377896e30d6a9163"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). No hace falta el hack chino ni el parche en inglés, porque ya los incluye. Versión de prueba.",
