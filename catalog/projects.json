@@ -255,8 +255,8 @@
       "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
       "releases": [
         {
-          "id": "lazarus-v1-08",
-          "version": "v1.08",
+          "id": "lazarus-v1-09",
+          "version": "v1.09",
           "publishedAt": "2026-11-25",
           "format": "bps",
           "bases": [
@@ -274,18 +274,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.08/PokemonLazarus_es.bps",
-            "sha256": "d60e3a3af9cd78ea6019ef4aca13d7f99ca764436e4267661779c59efb357879",
+            "url": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/download/v1.09/PokemonLazarus_es.bps",
+            "sha256": "ffd3ab2d4a5a28e0e7537d92f26d2c43b6ba4314eb213064ea33420783a1fe74",
             "size": 15443960
           },
-          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.08",
+          "releaseUrl": "https://github.com/SeCaVa/PokemonLazarus-Traduccion/releases/tag/v1.09",
           "output": {
-            "name": "lazarus-es-v1.08.gba",
+            "name": "lazarus-es-v1.09.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "698ace06",
-              "sha1": "1959c901a7c362938817a67c3c92b254030ccb60",
-              "sha256": "2647d4665e274a1d44f249e0b981ebed37a12ee988cfe7f95d1b876197d1b654"
+              "crc32": "c53d5973",
+              "sha1": "7ff08e49bbf7f2624dd3623444d2e2258e0b8902",
+              "sha256": "3bbf38fc90d598cbc08ed54d96a93b1e1027566fdb0c161a7b8fcbd3cc51e65c"
             }
           },
           "instructions": "Se aplica directamente a Emerald en inglés (CRC32 1F1C08FB). Ya no hace falta el parche oficial de Lazarus v2.",
