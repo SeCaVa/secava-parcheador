@@ -311,9 +311,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
       "releases": [
         {
-          "id": "radical-red-v1-06",
-          "version": "v1.06",
-          "publishedAt": "2026-11-24",
+          "id": "radical-red-v1-07",
+          "version": "v1.07",
+          "publishedAt": "2026-11-26",
           "format": "bps",
           "bases": [
             {
@@ -330,18 +330,18 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.06/RadicalRed_ES_v1.06.bps",
-            "sha256": "0679a2b85ad4b5c06afb1a629d9a3753c6d1c34868d2ce47536c34c330c5454a",
-            "size": 17228417
+            "url": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/download/v1.07/RadicalRed_ES_v1.07.bps",
+            "sha256": "e5fac0b973f4435902e17a437fbfa24b1e37f6c6259d7868b9ed5a38259d0c44",
+            "size": 17228799
           },
-          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.06",
+          "releaseUrl": "https://github.com/SeCaVa/RadicalRed-TraduccionCastellano/releases/tag/v1.07",
           "output": {
-            "name": "radical-red-es-v1.06.gba",
+            "name": "radical-red-es-v1.07.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "542cc049",
-              "sha1": "ba1dbbe5134e7ad3708bceff329f05dd5ea9918d",
-              "sha256": "3e17354ecd52dbbe76e4d1c1f47d5b983e0f6fd43d93ffe5ebbeaf0b227fda39"
+              "crc32": "7a6d249e",
+              "sha1": "cf520be0ba6f8f08b4f0dd82a87c7cc78c459793",
+              "sha256": "961b06c600885d8835ae6c6f011899559d1f364e17e94f4f0931c2e28561326d"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). Ya no hace falta el parche de Radical Red 4.1.",
