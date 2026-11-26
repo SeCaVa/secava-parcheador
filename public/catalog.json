@@ -108,9 +108,9 @@
       "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
       "releases": [
         {
-          "id": "ghost-grey-v1-07",
-          "version": "v1.07",
-          "publishedAt": "2026-11-25",
+          "id": "ghost-grey-v1-08",
+          "version": "v1.08",
+          "publishedAt": "2026-11-26",
           "format": "bps",
           "bases": [
             {
@@ -127,19 +127,19 @@
             }
           ],
           "patch": {
-            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.07/GhostGrey_ES.bps",
-            "sha256": "94a4a63b89d64b59c4eda36ffd74bbbaf79d80bf9e2c462bd3b8a76df50b1b17",
+            "url": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/download/v1.08/GhostGrey_ES.bps",
+            "sha256": "0b060bbe7c0e7aa44ae51fa6d3b8017e23842b70a072083795ecf367cfbadced",
             "size": 11644674,
-            "path": "patches/94a4a63b89d64b59c4eda36ffd74bbbaf79d80bf9e2c462bd3b8a76df50b1b17.bps"
+            "path": "patches/0b060bbe7c0e7aa44ae51fa6d3b8017e23842b70a072083795ecf367cfbadced.bps"
           },
-          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.07",
+          "releaseUrl": "https://github.com/SeCaVa/GhostGrey-Traduccion/releases/tag/v1.08",
           "output": {
-            "name": "ghost-grey-es-v1.07.gba",
+            "name": "ghost-grey-es-v1.08.gba",
             "size": 33554432,
             "hashes": {
-              "crc32": "469e8ba1",
-              "sha1": "7ae16bd216a5d58b7d9b431d9747100e36030eca",
-              "sha256": "7cdb25f9c82c24ad07622ac584f9983b03aac0c61c0b05e732479ce194599342"
+              "crc32": "61efda86",
+              "sha1": "7ce693176ed526e98a143c4eca9361b95e62a571",
+              "sha256": "b02c318f753b53225592acb99a9d2ee4faabe587dc2ad235dcdf6a6a661e41fb"
             }
           },
           "instructions": "Se aplica directamente a FireRed USA revisión 1.0 (CRC32 DD88761C). No hace falta aplicar el hack en inglés.",
